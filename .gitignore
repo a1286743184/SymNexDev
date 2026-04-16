@@ -1,0 +1,46 @@
+# Gradle
+gradle-home/
+
+# JDK
+jdk-17/
+
+# Android SDK
+Android/Sdk/
+
+# Pub cache
+pub-cache/
+
+# Scrcpy
+scrcpy/
+
+# Obsidian notes (personal)
+ref/
+
+# Flutter binaries and caches (keep source)
+flutter/bin/
+flutter/buildtools/
+flutter/dev/bots/
+flutter/dev/customer_testing/
+flutter/dev/devicelab/
+flutter/docs/
+flutter/.dart_tool/
+flutter/.idea/
+flutter/out/
+
+# Flutter engine (too large, source-only)
+flutter/engine/src/
+
+# Platform specific
+**/*.class
+**/*.jar
+**/*.so
+**/*.dll
+**/*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
