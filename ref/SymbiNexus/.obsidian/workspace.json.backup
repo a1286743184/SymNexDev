@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-经纬矩阵系统/01-看板模块/01-今日聚焦.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-今日聚焦"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f09b9711ec8ec7c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "207e31f50805ef7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed5abd5e127d94a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fc6b625bceb0fb87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "00d432118aa66aa7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "acba3bc6b69e4a21",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.50379180908203
+  },
+  "right": {
+    "id": "1d91498f495f2256",
+    "type": "split",
+    "children": [
+      {
+        "id": "b58874689afbf10a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bc737f712bde5e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/逻辑填空.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "逻辑填空 的反向链接列表"
+            }
+          },
+          {
+            "id": "3045fcd930443df4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/逻辑填空.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "逻辑填空 的出链列表"
+            }
+          },
+          {
+            "id": "d13d6921801080e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-模板系统/09-专用模板/记账模板.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "记账模板 的大纲"
+            }
+          },
+          {
+            "id": "1657e0bfc1e811f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "08ff1a91f3d0d1df",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01-经纬矩阵系统/01-看板模块/01-今日聚焦.md"
+              },
+              "icon": "lucide-info",
+              "title": "01-今日聚焦的笔记属性"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "quickadd:QuickAdd": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "01-经纬矩阵系统/01-看板模块/01-今日聚焦.md",
+    "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md",
+    "06-财务系统/01-账单数据/2025/10/20251008144553-小卖部-餐饮消费.md",
+    "01-经纬矩阵系统/08-捕获/权限测试.md",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/Test_20251008122107.md",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/Test_20251008122108.md",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/~syncthing~Test_20251008122108.md.tmp",
+    "01-经纬矩阵系统/02-周委托模块/~syncthing~周度委托列表25W41.md.tmp",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/~syncthing~Test_20251008122107.md.tmp",
+    "01-经纬矩阵系统/08-科技树系统/01-OB_LifeOS_Build/00-通用模块库/MobileInputModule.js",
+    "01-经纬矩阵系统/08-科技树系统/01-OB_LifeOS_Build/00-通用模块库",
+    "01-经纬矩阵系统/08-科技树系统/01-OB_LifeOS_Build",
+    "01-经纬矩阵系统/08-科技树系统",
+    "08-科技树系统/01-OB_LifeOS_Build/00-通用模块库/MobileInputModule.js",
+    "01-经纬矩阵系统/08-捕获/功能配置/01-今日聚焦-6.js",
+    "01-经纬矩阵系统/08-捕获/功能配置/01-今日聚焦-5.sync-conflict-20251007-131535-BIYBTDD.js",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/Test_20251007130655.md",
+    "06-财务系统/01-账单数据/2025/10/20251007111026-京东外卖-餐饮消费.md",
+    "01-经纬矩阵系统/08-捕获/99-TestNFile/Test_20251007095130.md",
+    "01-经纬矩阵系统/08-捕获/02-INBOX 1.md",
+    "01-经纬矩阵系统/04-规律性事项模块/规律性事项列表.md",
+    "03-成就系统/🏆成就馆.md",
+    "02-复盘系统/02-周复盘/周航行报告25W40.md",
+    "01-经纬矩阵系统/02-周委托模块/99-周委托归档/周度委托列表25W40.md",
+    "02-复盘系统/02-周复盘/周航行报告25W39.md",
+    "02-复盘系统/02-周复盘/未命名.md",
+    "02-复盘系统/02-日复盘/足迹25-10-06.md",
+    "02-复盘系统/02-日复盘/足迹25-10-04.md",
+    "02-复盘系统/02-日复盘/足迹25-10-05.md",
+    "07-项目系统/01-公务员考试/01-行测/01-刷题复盘/01-言语理解/逻辑填空-“潜”与“显”.md",
+    "01-经纬矩阵系统/08-捕获/功能配置/GLM4_API_KEY.md",
+    "01-经纬矩阵系统/02-周委托模块/周度委托列表25W41.md",
+    "01-经纬矩阵系统/08-捕获/02-SPARKLES.md",
+    "01-经纬矩阵系统/08-捕获/全新AI捕获实现说明.md",
+    "05-生活坐标系统/04-美食档案/待尝清单.md",
+    "06-财务系统/01-账单数据/2025/10/20251006205448-米线店-餐饮消费.md",
+    "99_附件/Pasted image 20251002172816.png",
+    "99-附件/足迹25-09-25-1.jpg",
+    "99_附件/委托导航25W39-1.jpg",
+    "99-附件/足迹25-09-22-1.png",
+    "足迹25-09-22-1.png",
+    "99-附件/足迹25-09-23-1.jpg",
+    "日志_拾阶而上25-09-23-1.jpg",
+    "Pasted image 20250923103802.png",
+    "Pasted image 20250920131940.png"
+  ]
+}

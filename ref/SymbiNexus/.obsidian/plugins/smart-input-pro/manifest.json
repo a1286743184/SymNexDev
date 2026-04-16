@@ -1,0 +1,15 @@
+{
+  "id": "smart-input-pro",
+  "name": "Smart Input Pro",
+  "version": "2.1.1",
+  "minAppVersion": "0.12.0",
+  "description": "智能录入专业版 - 支持语音录入、AI智能分类、内容优化，自动存储到指定目录。完美适配移动端和桌面端。",
+  "author": "LifeOS",
+  "authorUrl": "https://github.com/lifeos",
+  "fundingUrl": "https://github.com/sponsors/lifeos",
+  "isDesktopOnly": false,
+  "css": [
+    "styles.css"
+  ],
+  "main": "main.js"
+}

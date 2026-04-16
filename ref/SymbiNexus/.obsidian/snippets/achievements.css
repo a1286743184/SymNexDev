@@ -1,0 +1,106 @@
+/* ================================== */
+/* ====== 成就系统游戏化样式 (V5) ====== */
+/* ================================== */
+
+/* * V5 版本更新 (基于 V3):
+ * - 进一步减小所有辉光的模糊半径，使效果更收敛、精致。
+ * - 将【稀有】和【普通】等级的字体同样设置为加粗，统一视觉风格。
+ * - 使用前提：本样式需配合去除成就名下划线的 Markdown 写法。
+*/
+
+/* --- 传说 (Legendary) --- */
+.achievement-legendary {
+    background: transparent !important;
+    color: #ff9900 !important;
+    font-weight: 700 !important; /* 加粗 */
+    padding: 0;
+    /* [修改] 模糊半径从 4px 进一步减为 3px */
+    text-shadow: 0 0 3px rgba(255, 153, 0, 0.5); 
+}
+
+/* --- 史诗 (Epic) --- */
+.achievement-epic {
+    background: transparent !important;
+    color: #a335ee !important;
+    font-weight: 600 !important; /* 加粗 */
+    padding: 0;
+    /* [修改] 模糊半径从 3px 进一步减为 2px */
+    text-shadow: 0 0 2px rgba(163, 53, 238, 0.5);
+}
+
+/* --- 稀有 (Rare) --- */
+.achievement-rare {
+    background: transparent !important;
+    color: #0070dd !important;
+    /* [修改] 从 500 改为 600，变为加粗显示 */
+    font-weight: 600 !important;
+    padding: 0;
+    /* [修改] 模糊半径从 3px 进一步减为 2px */
+    text-shadow: 0 0 2px rgba(0, 112, 221, 0.5);
+}
+
+/* --- 普通 (Common) --- */
+.achievement-common {
+    background: transparent !important;
+    color: #28a745 !important;
+    /* [修改] 从 normal 改为 600，变为加粗显示 */
+    font-weight: 600 !important;
+    padding: 0;
+    /* [修改] 模糊半径从 3px 进一步减为 2px，并降低透明度 */
+    text-shadow: 0 0 2px rgba(40, 167, 69, 0.35);
+}
+
+
+/* ================================== */
+/* ====== 时间日志分类标签样式 ====== */
+/* ================================== */
+
+/* --- 升级 (Survival) --- */
+.timelog-shengji {
+    background-color: #e85a0c !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 2px 8px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+}
+
+/* --- 生存 (Upgrade) --- */
+.timelog-shengcun {
+    background-color: #806c5e !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 2px 8px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+}
+
+/* --- 愉悦 (Earning) --- */
+.timelog-yuyue {
+    background-color: #c084fc !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 2px 8px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+}
+
+/* --- 赚钱 (Pleasure) --- */
+.timelog-zhuanqian {
+    background-color: #2588eb !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 2px 8px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+}
+
+/* --- 黑洞 (Black Hole) --- */
+.timelog-heidong {
+    background-color: #2f2f2f !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 2px 8px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+}

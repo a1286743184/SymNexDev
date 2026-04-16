@@ -1,0 +1,1515 @@
+/* Smart Input Pro Plugin Styles */
+
+:root {
+  /* --- SIP-UI Design Tokens (Soft Purple Theme) --- */
+  --sip-primary: #baa8fe;
+  --sip-primary-hover: #a894fc;
+  --sip-primary-muted: rgba(186, 168, 254, 0.15);
+  --sip-primary-subtle: rgba(186, 168, 254, 0.25);
+  --sip-primary-tint-1: rgba(186, 168, 254, 0.05);
+  --sip-primary-tint-2: rgba(186, 168, 254, 0.1);
+  
+  /* 智能录入界面专属扩展令牌 */
+  --sip-primary-surface: #f5f3ff;
+  --sip-primary-surface-hover: #ede9fe;
+  --sip-primary-text: #8b5cf6;
+  --sip-primary-glow: rgba(186, 168, 254, 0.12);
+  --sip-primary-glow-focus: rgba(186, 168, 254, 0.35);
+
+  /* 以下保持不变 */
+  --sip-secondary: #2563EB;
+  
+  --sip-secondary: #2563EB;
+  --sip-success: #10B981;
+  --sip-warning: #F59E0B;
+  --sip-danger: #EF4444;
+
+  --sip-text-normal: var(--text-normal);
+  --sip-text-muted: var(--text-muted);
+  --sip-text-on-accent: #ffffff;
+  --sip-text-tertiary: var(--text-faint);
+  
+  --sip-bg-primary: var(--background-primary);
+  --sip-bg-secondary: var(--background-secondary);
+  --sip-bg-hover: var(--background-modifier-hover);
+  --sip-bg-input: var(--background-modifier-form-field);
+  --sip-bg-card: var(--background-primary);
+  --sip-bg-elevated: var(--background-secondary);
+  
+  --sip-border: var(--background-modifier-border);
+  --sip-border-hover: var(--background-modifier-border-hover);
+  
+  --sip-spacing-xs: 4px;
+  --sip-spacing-sm: 8px;
+  --sip-spacing-md: 12px;
+  --sip-spacing-lg: 16px;
+  --sip-spacing-xl: 24px;
+  
+  --sip-radius-sm: 4px;
+  --sip-radius-md: 6px;
+  --sip-radius-lg: 8px;
+  --sip-radius-xl: 12px;
+  --sip-radius-full: 999px;
+  
+  --sip-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --sip-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --sip-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --sip-shadow-focus: 0 0 0 2px rgba(139, 92, 246, 0.3);
+  
+  --sip-transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --sip-transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --sip-title-1-size: 22px;
+  --sip-title-1-weight: 700;
+  --sip-title-1-letter: -0.01em;
+  --sip-title-1-line: 1.2;
+
+  --sip-title-2-size: 14px;
+  --sip-title-2-weight: 700;
+  --sip-title-2-letter: 0.05em;
+  --sip-title-2-line: 1.2;
+  --sip-title-2-color: var(--sip-text-muted);
+  --sip-title-2-marker-w: 4px;
+  --sip-title-2-marker-h: 14px;
+  --sip-title-2-marker-radius: 3px;
+
+  --sip-title-3-size: 13px;
+  --sip-title-3-weight: 600;
+  --sip-title-3-color: var(--sip-text-normal);
+
+  --sip-title-3-strong-size: 14px;
+  --sip-title-3-strong-weight: 600;
+  --sip-title-3-strong-color: var(--sip-text-normal);
+
+  --sip-title-3-caps-size: 12px;
+  --sip-title-3-caps-weight: 600;
+  --sip-title-3-caps-letter: 0.05em;
+  --sip-title-3-caps-color: var(--sip-text-muted);
+}
+
+/* ==========================================================================
+   Dashboard Layout
+   ========================================================================== */
+
+.sip-console {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 40px;
+}
+
+/* Navigation Banner */
+.sip-nav-banner {
+  position: relative;
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-primary);
+  border-radius: var(--sip-radius-xl);
+  padding: 24px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all var(--sip-transition-fast);
+  user-select: none;
+}
+
+.sip-nav-banner:hover {
+    box-shadow: var(--sip-shadow-md);
+}
+
+.sip-nav-banner-icon {
+    width: 48px; 
+    height: 48px;
+    margin-bottom: 12px;
+    background: var(--sip-bg-secondary);
+    color: var(--sip-primary);
+    border-radius: 12px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.sip-nav-banner-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sip-nav-banner-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: var(--sip-text-normal);
+}
+
+.sip-nav-banner-desc {
+    font-size: 14px;
+    color: var(--sip-text-muted);
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+/* Navigation Arrows */
+.sip-nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background: var(--sip-bg-elevated);
+    border: 1px solid var(--sip-border);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    opacity: 1; /* Always visible */
+    transition: all 0.2s ease;
+    color: var(--sip-text-muted);
+    z-index: 10;
+}
+
+.sip-nav-arrow.hidden {
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+}
+
+.sip-nav-arrow:hover {
+    background: var(--sip-primary);
+    color: white;
+    border-color: var(--sip-primary);
+}
+
+.sip-nav-arrow.prev { left: 16px; }
+.sip-nav-arrow.next { right: 16px; }
+
+@media (max-width: 768px) {
+    .sip-nav-arrow { display: none; }
+}
+
+/* KPI Grid */
+.sip-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0 0 32px 0;
+}
+
+.sip-kpi {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--sip-transition-fast), box-shadow var(--sip-transition-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.sip-kpi::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--sip-primary);
+  opacity: 0;
+  transition: opacity var(--sip-transition-fast);
+}
+
+.sip-kpi:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sip-shadow-md);
+  border-color: var(--sip-primary-subtle);
+}
+
+.sip-kpi:hover::after {
+  opacity: 1;
+}
+
+.sip-kpi-label {
+  font-size: 12px;
+  color: var(--sip-text-muted);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.sip-kpi-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--sip-text-normal);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.sip-kpi-sub {
+  font-size: 12px;
+  color: var(--sip-text-tertiary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Section & Tile Grid */
+.sip-section {
+  margin-top: 32px;
+}
+
+.sip-section-title,
+.sip-title-2 {
+  font-size: var(--sip-title-2-size);
+  font-weight: var(--sip-title-2-weight);
+  color: var(--sip-text-normal);
+  margin: 0 0 16px 0;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: var(--sip-title-2-line);
+  position: relative;
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sip-section-title::before {
+  content: "";
+  width: var(--sip-title-2-marker-w);
+  height: var(--sip-title-2-marker-h);
+  border-radius: var(--sip-title-2-marker-radius);
+  background: var(--sip-primary);
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.sip-strategy-card .sip-section-title,
+.sip-strategy-card .sip-title-2,
+.sip-card-header .sip-section-title,
+.sip-card-header .sip-title-2 {
+  padding-left: 0;
+}
+
+.sip-strategy-card .sip-section-title::before,
+.sip-strategy-card .sip-title-2::before,
+.sip-card-header .sip-section-title::before,
+.sip-card-header .sip-title-2::before {
+  position: relative;
+  left: auto;
+}
+
+.sip-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.sip-tile {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-primary);
+  border-radius: var(--sip-radius-xl);
+  padding: 24px;
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.sip-tile::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--sip-primary);
+  opacity: 1;
+}
+
+.sip-tile:hover {
+  box-shadow: var(--sip-shadow-md);
+  transform: translateY(-4px);
+}
+
+.sip-tile-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--sip-bg-secondary);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sip-primary);
+  margin-bottom: 16px;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-tile:hover .sip-tile-icon {
+  background: var(--sip-primary);
+  color: white;
+  transform: scale(1.1);
+}
+
+.sip-tile-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--sip-text-normal);
+  margin: 0 0 8px 0;
+}
+
+.sip-tile-desc {
+  font-size: 13px;
+  color: var(--sip-text-muted);
+  margin: 0 0 20px 0;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.sip-tile-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.sip-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid var(--sip-border);
+  background: var(--sip-bg-elevated);
+  color: var(--sip-text-normal);
+  border-radius: var(--sip-radius-md);
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  line-height: 1;
+}
+
+.sip-btn:hover {
+  background: var(--sip-bg-hover);
+  border-color: var(--sip-border-hover);
+  transform: translateY(-1px);
+}
+
+.sip-btn.primary {
+  border-color: var(--sip-primary);
+  background: var(--sip-primary);
+  color: white;
+}
+
+.sip-btn.primary:hover {
+  background: var(--sip-primary-hover);
+  border-color: var(--sip-primary-hover);
+  box-shadow: 0 2px 4px rgba(139, 92, 246, 0.2);
+}
+
+.sip-btn.ghost {
+  border-color: transparent;
+  background: transparent;
+  color: var(--sip-text-muted);
+}
+
+.sip-btn.ghost:hover {
+  background: var(--sip-bg-hover);
+  color: var(--sip-text-normal);
+}
+
+/* ==========================================================================
+   Internal Pages (Refined)
+   ========================================================================== */
+
+.sip-settings-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+/* Modern Card Layouts */
+.sip-card {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-primary-subtle);
+  border-radius: var(--sip-radius-xl);
+  padding: 0;
+  margin-bottom: 24px;
+  box-shadow: var(--sip-shadow-sm);
+  overflow: visible;
+}
+
+.sip-resource-card {
+  /* Reset styles for nested cards inside resource details */
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-border);
+  box-shadow: none;
+  border-radius: var(--sip-radius-lg);
+  margin-bottom: 0;
+}
+
+.sip-card-header {
+  padding: 20px 24px;
+  margin: 0;
+  border-bottom: 1px solid var(--sip-border);
+  background: transparent; /* Remove background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sip-card-header h3 {
+  margin: 0 0 16px 0;
+}
+
+
+.sip-card-header p {
+  font-size: 13px;
+  color: var(--sip-text-muted);
+  margin: 4px 0 0 0;
+}
+
+.sip-card-body {
+  padding: 16px 24px 24px 24px;
+}
+
+/* Grid Layouts Helper */
+.sip-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.sip-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+.sip-col-span-2 {
+  grid-column: span 2;
+}
+
+/* Vertical Stack Layout for Forms (replaces grid in resource details) */
+.sip-form-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sip-form-stack .sip-form-group {
+  margin-bottom: 0;
+}
+
+/* Enhanced Form Controls */
+.sip-form-group {
+  margin-bottom: 12px;
+}
+
+.sip-form-group label,
+.setting-item-name,
+.sip-title-3 {
+  display: block;
+  font-size: 14px; /* Unify size */
+  font-weight: 600; /* Unify weight */
+  color: var(--sip-text-normal);
+  margin-bottom: 6px;
+  background: transparent !important; /* Force transparent background */
+}
+
+/* New Bordered Group Class */
+.sip-bordered-group {
+  /* 视觉调整：基础色跟随二级标题 (text-normal) */
+  /* 修改此处的 20% 即可调整深浅：数值越大越明显 (100%为实色，0%为完全透明) */
+  --sip-border-opacity: 10%;
+  border: 1px solid color-mix(in srgb, var(--text-normal) var(--sip-border-opacity), transparent);
+  
+  border-radius: var(--sip-radius-lg);
+  padding: 12px 16px;
+  background: transparent !important; /* Force transparent background */
+}
+/* Ensure settings inside bordered group don't have extra borders or backgrounds */
+.sip-bordered-group .setting-item {
+    border: none;
+    padding: 0;
+    background: transparent !important;
+}
+/* Ensure toggles inside bordered group are aligned properly */
+.sip-bordered-group .setting-item-control {
+    padding-right: 0;
+}
+
+.sip-form-desc {
+  font-size: 12px;
+  color: var(--sip-text-muted);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.sip-input, 
+.sip-select,
+.setting-item-control input,
+.setting-item-control select {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--sip-bg-input);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-md);
+  font-size: 14px;
+  color: var(--sip-text-normal);
+  transition: all var(--sip-transition-fast);
+  box-sizing: border-box;
+  min-height: 40px;
+}
+
+.sip-input:focus, 
+.sip-select:focus,
+.setting-item-control input:focus,
+.setting-item-control select:focus {
+  border-color: var(--sip-primary);
+  box-shadow: 0 0 0 3px var(--sip-primary-subtle);
+  outline: none;
+}
+
+/* Model Strategy Cards */
+.sip-strategy-card {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-primary-subtle);
+  border-radius: var(--sip-radius-xl);
+  /* padding: 24px;  Removed padding to use sip-card-body */
+  position: relative;
+  transition: all var(--sip-transition-fast);
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; Removed gap to use sip-card-body */
+  box-shadow: var(--sip-shadow-sm);
+  overflow: hidden;
+}
+
+.sip-strategy-card.active {
+  /* Match standard card style exactly - no special active style */
+  border-color: var(--sip-primary-subtle);
+  background: var(--sip-bg-card);
+  box-shadow: var(--sip-shadow-sm);
+}
+
+.sip-strategy-card.inactive {
+  opacity: 0.6;
+  filter: grayscale(100%);
+  background: var(--sip-bg-elevated);
+  border-color: var(--sip-border);
+}
+
+.sip-strategy-header {
+  /* Use sip-card-header styles via class composition in JS, 
+     but keep specific flex layout here if needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Changed from flex-start to center for better alignment */
+}
+
+.sip-strategy-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sip-strategy-badge.primary {
+  background: var(--sip-primary);
+  color: white;
+}
+
+.sip-strategy-badge.backup {
+  background: var(--sip-secondary);
+  color: white;
+}
+
+.sip-strategy-badge.off {
+  background: var(--sip-bg-input);
+  color: var(--sip-text-muted);
+  border: 1px solid var(--sip-border);
+}
+
+/* Resource List */
+.sip-resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sip-resource-item {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  overflow: hidden;
+  transition: all var(--sip-transition-fast);
+  position: relative;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Removed purple line ::before pseudo-element */
+
+.sip-resource-item:hover {
+  border-color: var(--sip-primary);
+  box-shadow: 0 4px 12px -2px rgba(139, 92, 246, 0.15);
+  transform: translateY(-1px);
+  z-index: 1;
+}
+
+.sip-resource-summary {
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: var(--sip-bg-card);
+  border-bottom: 1px solid transparent;
+}
+
+.sip-resource-summary:hover {
+  background: var(--sip-bg-hover);
+}
+
+.sip-resource-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sip-resource-icon {
+  width: 32px;
+  height: 32px;
+  background: var(--sip-bg-input);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--sip-text-muted);
+  font-size: 12px;
+}
+
+.sip-resource-name {
+  font-weight: 600;
+  color: var(--sip-text-normal);
+  font-size: 14px;
+}
+
+.sip-resource-meta {
+  font-size: 12px;
+  color: var(--sip-text-muted);
+}
+
+.sip-resource-details {
+  padding: 16px;
+  border-top: 1px solid var(--sip-border);
+  background: var(--sip-bg-primary);
+  display: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sip-resource-panel {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-md);
+  padding: 16px;
+  box-shadow: var(--sip-shadow-sm);
+}
+
+.sip-resource-card {
+  background: var(--sip-bg-card);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+}
+
+.sip-resource-card .sip-card-header {
+  border-bottom: 1px solid var(--sip-border);
+}
+
+.sip-resource-card .sip-prompt-editor {
+  background: var(--sip-bg-input);
+}
+
+.sip-resource-card .sip-prompt-textarea,
+.sip-resource-card .sip-prompt-textarea--compact {
+  background: var(--sip-bg-input);
+  border: 1px solid var(--sip-border);
+}
+
+.sip-resource-item.open .sip-resource-details {
+  display: block;
+  animation: slideDown 0.2s ease-out;
+}
+
+.sip-resource-item.open {
+  border-color: var(--sip-primary);
+  box-shadow: var(--sip-shadow-lg);
+  margin-bottom: 16px;
+  margin-top: 8px;
+  z-index: 2;
+}
+
+.sip-section-header-small {
+  margin-bottom: 8px;
+}
+
+.sip-section-header-small span {
+  display: block;
+  font-size: var(--sip-title-3-size);
+  font-weight: var(--sip-title-3-weight);
+  color: var(--sip-title-3-color);
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Prompt Editor Refinement */
+.sip-prompt-editor {
+  margin: 0;
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  overflow: hidden;
+}
+
+.sip-prompt-editor__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--sip-border);
+  padding-bottom: 12px;
+}
+
+/* Hide padding if no header */
+.sip-prompt-editor.no-header .sip-prompt-editor__header {
+  display: none;
+}
+
+.sip-prompt-editor.no-header .sip-prompt-textarea {
+  border-radius: var(--sip-radius-md);
+  border: 1px solid var(--sip-border);
+}
+
+.sip-prompt-editor__titleText,
+.sip-title-3--strong {
+  font-size: 14px; /* Unify with other titles */
+  font-weight: 600;
+  color: var(--sip-text-normal);
+}
+
+.sip-prompt-editor__subtitle {
+  font-size: 12px;
+  color: var(--sip-text-muted);
+  margin-top: 2px;
+}
+
+.sip-prompt-textarea--compact {
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-md);
+  padding: 12px;
+  font-family: var(--font-monospace);
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--sip-bg-input);
+  color: var(--sip-text-normal);
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-prompt-textarea--compact:focus {
+  border-color: var(--sip-primary);
+  box-shadow: 0 0 0 2px var(--sip-primary-subtle);
+}
+
+/* Variable Hints */
+.sip-var-hints {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sip-var-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--sip-bg-elevated);
+  border: 1px solid var(--sip-border);
+  font-size: 11px;
+  color: var(--sip-text-muted);
+  font-family: var(--font-monospace);
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-var-badge:hover {
+  border-color: var(--sip-primary);
+  color: var(--sip-primary);
+  background: var(--sip-primary-tint-1);
+}
+
+/* --- Fixes for User Feedback --- */
+
+/* Fix 4: Global Pipeline full width */
+.sip-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Fix Prompt Editor width */
+.sip-prompt-textarea,
+.sip-prompt-textarea--compact {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Fix 2: Resource Pool UI Refinement */
+.sip-resource-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sip-btn-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--sip-radius-md);
+  color: var(--sip-text-muted);
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-btn-icon:hover, .sip-btn-icon.active {
+  background: var(--sip-bg-hover);
+  color: var(--sip-text-normal);
+}
+
+.sip-btn-icon.delete:hover {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--sip-danger);
+}
+
+.sip-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--sip-bg-input);
+  padding: 8px 12px;
+  border-radius: var(--sip-radius-md);
+  border: 1px solid var(--sip-border);
+}
+
+/* Module Layout */
+.sip-module-layout {
+  display: flex;
+  gap: 0; /* No gap between sidebar and detail */
+  align-items: flex-start;
+  height: 100%; /* Ensure full height */
+}
+
+.sip-module-sidebar {
+  width: 100px; /* Reduced width from 140px */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 600px; /* Optional: limit height and scroll if many modules */
+  overflow-y: auto;
+  padding-right: 8px; /* Space for scrollbar */
+}
+
+.sip-module-detail {
+  flex-grow: 1;
+  min-width: 0; /* Prevent overflow */
+}
+
+/* Sidebar Item Styling */
+.sip-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 0 var(--sip-radius-md) var(--sip-radius-md) 0;
+  cursor: pointer;
+  color: var(--sip-text-muted);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all var(--sip-transition-fast);
+  user-select: none;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  background: transparent !important; /* Force transparent background */
+}
+
+.sip-sidebar-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 14px; /* Same as h2 marker */
+  border-radius: 3px;
+  background: var(--sip-primary);
+  opacity: 0;
+  transition: opacity var(--sip-transition-fast);
+}
+
+.sip-sidebar-item:hover {
+  background: var(--sip-bg-hover) !important;
+  color: var(--sip-text-normal);
+}
+
+.sip-sidebar-item.active {
+  background: rgba(139, 92, 246, 0.15) !important; /* Darker tinted background */
+  color: var(--sip-primary);
+  font-weight: 600;
+}
+
+.sip-sidebar-item.active::before {
+  opacity: 1;
+}
+
+.sip-sidebar-item .sip-tab-icon {
+  display: none; /* Hide icons */
+}
+
+/* Fix 3: Mobile Layout - Override for small screens */
+@media (max-width: 768px) {
+  /* 0. Banner Center Fix for Mobile */
+  .sip-nav-banner {
+    padding: 20px 16px;
+  }
+  
+  .sip-nav-banner-icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sip-nav-banner-title,
+  .sip-nav-banner-desc {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sip-nav-banner-desc {
+    max-width: 100%;
+  }
+
+  /* 1. Global Grid Stack: Force vertical layout for all grids */
+  .sip-grid-2, 
+  .sip-grid-3,
+  .sip-tile-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  /* Ensure cards take full width */
+  .sip-kpi-grid {
+    grid-template-columns: 1fr 1fr; /* KPIs can still be 2x2 on mobile */
+  }
+  
+  /* Arrow visible on mobile */
+  .sip-nav-arrow { display: flex; }
+  
+  /* 2. Transform Sidebar to Horizontal Scrollable Pills */
+  .sip-module-layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .sip-module-sidebar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 4px; /* Space for potential scrollbar interaction */
+    border-bottom: none;
+    margin-bottom: 0;
+    max-height: none;
+    padding-right: 0;
+    gap: 8px; /* Spacing between pills */
+    
+    /* Hide scrollbars for cleaner look */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  .sip-module-sidebar::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  
+  .sip-module-detail {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .sip-sidebar-item {
+    flex: 0 0 auto; /* Prevent shrinking */
+    width: auto;    /* Auto width based on content */
+    padding: 6px 16px;
+    background: var(--sip-bg-input);
+    border: 1px solid var(--sip-border);
+    border-radius: 999px; /* Pill shape */
+    margin: 0;
+    justify-content: center;
+    white-space: nowrap; /* Prevent text wrapping */
+    font-size: 13px;
+  }
+  
+  /* Remove desktop marker */
+  .sip-sidebar-item::before {
+    display: none;
+  }
+  
+  /* Active State for Pills */
+  .sip-sidebar-item.active {
+    background: var(--sip-primary) !important;
+    color: white;
+    border-color: var(--sip-primary);
+    font-weight: 600;
+  }
+  
+  .sip-sidebar-item:hover {
+    background: var(--sip-bg-hover);
+  }
+
+  /* Adjust internal padding for mobile */
+  .sip-card-body, .sip-card-header {
+    padding: 16px;
+  }
+}
+
+
+/* Fix for Account Card Styling */
+.sip-account-card {
+  position: relative;
+  background: var(--sip-bg-input);
+  padding: 16px;
+  border-radius: var(--sip-radius-md);
+  border: 1px solid var(--sip-border);
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-account-card:hover {
+  border-color: var(--sip-border-hover);
+  box-shadow: var(--sip-shadow-sm);
+}
+
+.sip-account-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sip-account-card .sip-btn-icon.delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+/* Unified Switch Style */
+.checkbox-container {
+    background-color: var(--background-modifier-border);
+}
+
+.checkbox-container.is-enabled {
+    background-color: #b3a0fd !important;
+    box-shadow: none !important; 
+}
+
+.checkbox-container:after {
+    background-color: white !important; 
+}
+
+/* ==========================================================================
+   Smart Input Modal (Refined SIP-UI)
+   ========================================================================== */
+
+/* 1. Modal Root Reset & Remove Default Animations */
+.smart-input-modal-root {
+  animation: none !important;
+  transition: none !important;
+}
+
+.smart-input-modal-root .modal-bg {
+  animation: none !important;
+  transition: none !important;
+}
+
+.smart-input-modal-root .modal {
+  padding: 0;
+  border-radius: 24px;
+  border: none !important; 
+  background-color: var(--background-primary) !important; 
+  box-shadow: 0 10px 40px -10px var(--sip-primary-subtle), 0 0 0 1px var(--sip-primary-tint-2) !important; 
+  overflow: hidden;
+  max-width: 600px;
+  width: 90%;
+  animation: none !important;
+  transition: none !important;
+}
+
+.smart-input-modal-root .modal-close-button {
+  display: none !important; 
+}
+
+/* 2. Content Container */
+.smart-input-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+/* 3. Header */
+.smart-input-title-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--sip-primary-muted) !important; 
+}
+
+.smart-input-title-icon {
+  color: var(--sip-primary) !important; 
+  display: flex;
+  align-items: center;
+}
+
+.smart-input-title-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.smart-input-title-text {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--sip-text-normal);
+  letter-spacing: -0.02em;
+}
+
+/* 4. Integrated Input Container */
+.smart-input-textarea-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--sip-primary-subtle) !important; 
+  border-radius: 16px; 
+  background: var(--background-primary); 
+  transition: all var(--sip-transition-fast);
+  padding: 4px;
+  position: relative;
+  box-shadow: 0 0 15px var(--sip-primary-glow) !important; 
+  min-height: 160px; 
+}
+
+.smart-input-textarea-container:focus-within {
+  border-color: var(--sip-primary) !important;
+  box-shadow: 0 0 20px var(--sip-primary-glow-focus) !important; 
+}
+
+/* Textarea */
+.smart-input-textarea {
+  width: 100%;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  resize: none;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100px;
+  color: var(--sip-text-normal);
+  flex-grow: 1;
+}
+
+.smart-input-textarea:focus {
+  outline: none !important;
+}
+
+/* 5. Toolbar (Inside Input Container) */
+.smart-input-quick-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px; 
+  margin-top: auto;
+  border-top: none;
+}
+
+/* Left: Provider Selector (Pill Style) */
+.sip-quick-toggle.sip-provider-toggle {
+  position: relative !important; 
+  height: 32px !important; 
+  box-sizing: border-box !important;
+  background: var(--sip-primary-surface) !important; 
+  color: var(--sip-primary-text) !important; 
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 16px !important; 
+  border-radius: 10px;
+  font-size: 14px; 
+  font-weight: normal !important; 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-quick-toggle.sip-provider-toggle:hover {
+  background: var(--sip-primary-surface-hover) !important;
+}
+
+/* Overlay native select */
+.sip-quick-select-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10; 
+}
+
+/* Right: Action Toggles */
+.sip-quick-toggles {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sip-quick-toggle {
+  height: 32px !important; 
+  box-sizing: border-box !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 12px !important; 
+  color: var(--sip-text-muted) !important;
+  font-size: 14px; 
+  font-weight: normal !important; 
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-quick-toggle:hover {
+  color: var(--sip-text-normal) !important;
+  background: rgba(0,0,0,0.05) !important;
+}
+
+/* Active State */
+.sip-quick-toggle.is-active {
+  background-color: var(--sip-primary-surface) !important; 
+  color: var(--sip-primary-text) !important; 
+  font-weight: normal !important; 
+}
+
+/* Icons */
+.sip-quick-toggle .sip-icon {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2px;
+}
+
+/* 6. Footer Button */
+.smart-input-action-row {
+  display: flex;
+  margin-top: 8px; 
+}
+
+.sip-btn-confirm {
+  width: 100%;
+  padding: 16px !important; 
+  background-color: var(--sip-primary) !important; 
+  color: white !important;
+  border: none !important;
+  border-radius: 16px !important; 
+  font-size: 16px !important;
+  font-weight: 600 !important; 
+  cursor: pointer !important;
+  transition: all var(--sip-transition-fast);
+  box-shadow: none !important;
+}
+
+.sip-btn-confirm:hover {
+  background-color: var(--sip-primary-hover) !important; 
+  opacity: 1 !important;
+}
+
+/* Mobile Responsiveness - Strict Mode */
+@media (max-width: 480px) {
+  /* 1. Modal Positioning & Reset */
+  .smart-input-modal-root .modal {
+      position: fixed !important;
+      top: 170px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important; 
+      margin: 0 !important;
+      max-height: 80vh !important;
+      width: 90% !important;
+      background: var(--background-primary) !important;
+      border-radius: 24px !important; 
+  }
+
+  .smart-input-modal {
+    padding: 16px !important; 
+    gap: 12px !important; 
+  }
+  
+  /* 2. Typography Hierarchy */
+  .smart-input-title-container {
+    padding-bottom: 12px !important;
+    gap: 8px !important;
+  }
+
+  .smart-input-title-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .smart-input-title-text {
+    font-size: 18px !important; 
+    font-weight: 600 !important;
+  }
+  
+  .smart-input-textarea-container {
+    border-radius: 16px !important;
+  }
+
+  .smart-input-textarea {
+    min-height: 100px !important;
+    padding: 12px !important;
+    font-size: 15px !important; 
+    line-height: 1.5 !important;
+  }
+  
+  /* 3. Toolbar Layout */
+  .smart-input-quick-controls {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 6px 4px !important; 
+    gap: 0 !important; 
+    width: 100% !important;
+    overflow: hidden !important; 
+  }
+  
+  .sip-quick-toggles {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 4px !important; 
+    flex-shrink: 0 !important;
+  }
+
+  /* 4. Small Buttons */
+  .sip-quick-toggle, 
+  .sip-quick-toggle.sip-provider-toggle {
+    height: 30px !important; 
+    padding: 0 4px !important; 
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: var(--sip-text-muted) !important;
+    font-size: 11px !important; 
+    font-weight: normal !important; 
+    border-radius: 6px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+    gap: 2px !important; 
+  }
+  
+  /* Provider Specifics */
+  .sip-quick-toggle.sip-provider-toggle {
+    justify-content: flex-start !important;
+    flex-shrink: 1 !important; 
+    min-width: unset !important; 
+    max-width: 65px !important; 
+    padding-left: 4px !important; 
+  }
+  
+  .sip-quick-toggle.sip-provider-toggle .sip-btn-text {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Text & Icon Standardization */
+  .sip-btn-text {
+    display: inline-block !important;
+    font-size: 11px !important; 
+    line-height: 1 !important;
+    font-weight: normal !important;
+  }
+  
+  .sip-quick-toggle .sip-icon {
+    width: 14px !important; 
+    height: 14px !important;
+    margin: 0 !important; 
+    flex-shrink: 0 !important;
+  }
+
+  /* 5. Active State */
+  .sip-quick-toggle.is-active,
+  .sip-quick-toggle:last-child.is-active {
+    background-color: var(--sip-primary-surface) !important;
+    color: var(--sip-primary-text) !important;
+    font-weight: normal !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Hover reset for mobile touch */
+  .sip-quick-toggle:hover {
+     background: transparent !important;
+     color: var(--sip-text-muted) !important;
+  }
+  
+  .sip-quick-toggle.is-active:hover {
+     background-color: var(--sip-primary-surface) !important;
+     color: var(--sip-primary-text) !important;
+  }
+
+  /* 6. Confirm Button */
+  .sip-btn-confirm {
+    background-color: var(--sip-primary) !important;
+    color: white !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin-top: 4px !important;
+    padding: 12px !important;
+    font-size: 16px !important; 
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+  }
+  
+  .sip-btn-confirm:hover, 
+  .sip-btn-confirm:active {
+    background-color: var(--sip-primary) !important; 
+    opacity: 0.9 !important;
+  }
+}

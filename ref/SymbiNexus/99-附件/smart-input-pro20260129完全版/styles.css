@@ -1,0 +1,433 @@
+/* Smart Input Pro 插件样式 */
+
+/* 输入类型选择按钮 */
+.input-type-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.input-btn {
+  padding: 8px 16px;
+  border: 2px solid var(--interactive-accent);
+  background: transparent;
+  color: var(--text-muted);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-btn:hover {
+  background: var(--interactive-accent-hover);
+  color: var(--text-on-accent);
+}
+
+.input-btn.active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+/* 输入容器 */
+.input-container {
+  min-height: 500px; /* 调整容器高度以适应更大的输入框 */
+}
+
+/* 文本输入区域 */
+.smart-input-textarea {
+  width: 100%;
+  /* 桌面端：仅四行高度 */
+  min-height: calc(1.5em * 4 + 6px);
+  padding: 12px;
+  border: 2px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-text);
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+  margin-bottom: 8px; /* 压缩与下方元素的间距 */
+  white-space: pre-wrap; /* 自动换行 */
+  overflow-wrap: break-word; /* 长单词换行 */
+  word-wrap: break-word; /* 兼容旧版本浏览器 */
+  overflow-y: auto;
+}
+
+.smart-input-textarea:focus {
+  outline: none;
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+.smart-input-textarea::placeholder {
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
+
+/* 语音录入区域 */
+.voice-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.voice-status {
+  font-size: 16px;
+  color: var(--text-normal);
+  margin-bottom: 20px;
+  padding: 10px;
+  background: var(--background-secondary);
+  border-radius: 6px;
+  border-left: 4px solid var(--interactive-accent);
+}
+
+.voice-record-btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  min-width: 150px;
+  transition: all 0.3s ease;
+}
+
+.voice-record-btn:hover {
+  transform: scale(1.05);
+}
+
+.voice-result {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: 2px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-text);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.voice-result:focus {
+  outline: none;
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+/* 按钮容器 */
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button-container button:not(.mod-cta) {
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+}
+
+.button-container button:not(.mod-cta):hover {
+  background: var(--background-modifier-hover);
+}
+
+/* 模态框样式优化（作用域化）*/
+.smart-input-modal-root .modal {
+  max-width: 900px; 
+  width: 90vw;
+}
+
+.smart-input-modal-root .modal-content {
+  padding: 20px;
+}
+
+.smart-input-modal-root .modal-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-normal);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .smart-input-modal-root .modal {
+    width: 95vw;
+    max-width: none;
+  }
+  
+  .input-type-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-btn {
+    width: 200px;
+  }
+  
+  .button-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .button-container button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.smart-input-modal-root .modal-content {
+  animation: fadeIn 0.3s ease;
+}
+
+/* 状态指示器 */
+.status-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-indicator.recording {
+  background: #ff4757;
+  animation: pulse 1s infinite;
+}
+
+.status-indicator.processing {
+  background: #ffa502;
+  animation: spin 1s linear infinite;
+}
+
+.status-indicator.success {
+  background: #2ed573;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 设置页面样式 */
+.setting-item-description {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.setting-item-control input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* 深色主题适配 */
+.theme-dark .smart-input-textarea,
+.theme-dark .voice-result {
+  background: var(--background-primary-alt);
+  border-color: var(--background-modifier-border-hover);
+}
+
+.theme-dark .voice-status {
+  background: var(--background-primary-alt);
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .input-btn {
+    border-width: 3px;
+  }
+  
+  .smart-input-textarea,
+  .voice-result {
+    border-width: 3px;
+  }
+}
+
+/* 减少动画模式 */
+@media (prefers-reduced-motion: reduce) {
+  .smart-input-modal-root .modal-content {
+    animation: none;
+  }
+  
+  .voice-record-btn:hover {
+    transform: none;
+  }
+  
+  .status-indicator.recording,
+  .status-indicator.processing {
+    animation: none;
+  }
+}
+/* 隐藏右上角关闭按钮，并移除其所占的顶部空间 */
+.smart-input-modal-root .modal-close-button {
+  display: none !important;
+}
+.smart-input-modal-root .modal-content {
+  padding: 6px 16px 10px !important; /* 全面压缩上下内边距 */
+}
+
+/* 标题紧贴上沿，减少上方空白 */
+.smart-input-title {
+  margin-top: 4 !important;
+  margin-bottom: 4px; /* 标题与正文更紧凑 */
+  padding-top: 4;
+  font-size: 12px; /* 适度减小标题字号以减少占用高度 */
+  line-height: 1.2;
+}
+
+/* Modal 内容容器：减少顶部内边距，以避免过大的上间距 */
+.smart-input-modal {
+  padding-top: 0 !important; /* 进一步减少顶部间距 */
+}
+
+/* 移动端优化：缩小文本域高度，保持按钮在可视区域内 */
+@media (max-width: 600px) {
+  .smart-input-textarea {
+    /* 移动端：三行高度 */
+    min-height: calc(1.5em * 3 + 6px);
+    margin-bottom: 6px;
+  }
+  /* 移动端：确认按钮整行显示，并固定在底部避免键盘遮挡 */
+  .sip-btn-confirm {
+    width: 100%;
+    min-width: unset;
+    display: block;
+    position: sticky;
+    bottom: 6px; /* 更紧凑的底部间距 */
+    z-index: 1000;
+  }
+  /* 移动端按钮容器调整 */
+  .button-container {
+    position: sticky;
+    bottom: 0;
+    background: var(--background-primary);
+    padding: 6px 0; /* 压缩容器内边距 */
+    margin-top: 6px; /* 减小与上方文本域的间距 */
+  }
+}
+
+/* 插件作用域下进一步压缩按钮容器的间距与间隔（避免影响其他弹窗）*/
+.smart-input-modal .button-container {
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* 确认/取消按钮样式 */
+/* 确认按钮样式 - 修正主题色显示 */
+.sip-btn-confirm {
+  padding: 10px 16px;
+  background: var(--interactive-accent) !important; /* 强制使用主题色 */
+  color: var(--text-on-accent) !important;
+  border: none;
+  border-radius: 8px; /* 与文本域圆角一致 */
+  cursor: pointer;
+  min-width: 160px; /* 桌面端加宽便于点击 */
+}
+
+.sip-btn-confirm:hover {
+  background: var(--interactive-accent-hover) !important;
+}
+
+/* 取消按钮已移除：保留占位以避免样式冲突（如需恢复可按需定义） */
+
+/* 核心布局优化：确保输入法弹出时按钮可见（仅作用于本插件）*/
+.smart-input-modal-root .modal-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.smart-input-textarea {
+    flex-grow: 1;
+}
+
+.smart-input-button-container {
+    flex-shrink: 0;
+}
+
+/* 输入框下方左侧的倒计时提示（外部元素） */
+.smart-input-modal-root .smart-input-countdown-hint {
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--text-muted);
+  margin-top: 2px;
+  text-align: left;
+}
+
+/* 新增：暂停自动提交按钮（我先想想）样式 */
+.sip-btn-pause {
+  padding: 8px 12px;
+  background: var(--background-modifier-cover);
+  color: var(--text-muted);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  cursor: pointer;
+  /* 移动端优化：确保按钮可见和可点击 */
+  min-width: 80px;
+  min-height: 36px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.sip-btn-pause:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* 按钮容器样式优化 */
+.smart-input-button-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+  margin-top: 8px !important;
+  width: 100% !important;
+}
+
+/* 移动端特定样式 */
+@media (max-width: 768px) {
+  .sip-btn-pause {
+    min-width: 70px;
+    min-height: 32px;
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+  
+  .smart-input-button-container {
+    gap: 6px !important;
+  }
+}

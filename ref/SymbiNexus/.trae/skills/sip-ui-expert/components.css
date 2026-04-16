@@ -1,0 +1,1071 @@
+/**
+ * SIP-UI Design System v2.0 - Component Library
+ * ==============================================
+ * 组件蓝图库 - 所有 UI 组件的样式定义
+ * 
+ * 使用规范：
+ * 1. 所有组件必须使用 tokens.css 中的变量
+ * 2. 组件类名前缀统一为 .sip-
+ * 3. 状态类使用 BEM 修饰符 (--modifier)
+ * 4. 禁止在组件中硬编码任何值
+ * 5. 所有组件必须包裹在 .sip-ui-root 容器内使用
+ * 
+ * 版本: 2.0.0
+ */
+
+/* ========================================
+   作用域隔离命名空间
+   所有 SIP-UI 组件必须在 .sip-ui-root 下使用
+   ======================================== */
+.sip-ui-root {
+
+/* ========================================
+   1. 布局组件 (Layout Components)
+   ======================================== */
+
+/* --- 容器 (Container) --- */
+.sip-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--sip-space-6);
+}
+
+.sip-container--narrow {
+  max-width: 800px;
+}
+
+.sip-container--wide {
+  max-width: 1400px;
+}
+
+/* --- 网格系统 (Grid System) --- */
+.sip-grid {
+  display: grid;
+  gap: var(--sip-gap-lg);
+}
+
+.sip-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sip-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.sip-grid--4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.sip-grid--auto {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* --- Flex 布局助手 --- */
+.sip-flex {
+  display: flex;
+}
+
+.sip-flex--col {
+  flex-direction: column;
+}
+
+.sip-flex--wrap {
+  flex-wrap: wrap;
+}
+
+.sip-flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.sip-flex--between {
+  justify-content: space-between;
+}
+
+.sip-flex--gap-sm {
+  gap: var(--sip-gap-sm);
+}
+
+.sip-flex--gap-md {
+  gap: var(--sip-gap-md);
+}
+
+.sip-flex--gap-lg {
+  gap: var(--sip-gap-lg);
+}
+
+/* ========================================
+   2. 卡片组件 (Card Components)
+   ======================================== */
+
+/* --- 基础卡片 --- */
+.sip-card {
+  background: var(--sip-bg-primary);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-xl);
+  overflow: hidden;
+  transition: box-shadow var(--sip-transition-fast),
+              transform var(--sip-transition-fast),
+              border-color var(--sip-transition-fast);
+}
+
+.sip-card:hover {
+  box-shadow: var(--sip-shadow-lg);
+  border-color: var(--sip-primary-subtle);
+}
+
+.sip-card--interactive {
+  cursor: pointer;
+}
+
+.sip-card--interactive:hover {
+  transform: translateY(-2px);
+}
+
+.sip-card--interactive:active {
+  transform: translateY(0);
+}
+
+/* --- 卡片头部 --- */
+.sip-card__header {
+  padding: var(--sip-space-5) var(--sip-space-6);
+  border-bottom: 1px solid var(--sip-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sip-gap-md);
+}
+
+.sip-card__header--no-border {
+  border-bottom: none;
+}
+
+.sip-card__title {
+  font-size: var(--sip-title-2-size);
+  font-weight: var(--sip-title-2-weight);
+  color: var(--sip-text-primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--sip-gap-sm);
+}
+
+.sip-card__title::before {
+  content: "";
+  width: var(--sip-title-2-marker-w);
+  height: var(--sip-title-2-marker-h);
+  border-radius: var(--sip-title-2-marker-radius);
+  background: var(--sip-primary);
+  flex-shrink: 0;
+}
+
+.sip-card__subtitle {
+  font-size: var(--sip-text-sm);
+  color: var(--sip-text-secondary);
+  margin: var(--sip-space-1) 0 0 0;
+}
+
+/* --- 卡片内容 --- */
+.sip-card__body {
+  padding: var(--sip-space-6);
+}
+
+.sip-card__body--compact {
+  padding: var(--sip-space-4);
+}
+
+.sip-card__footer {
+  padding: var(--sip-space-4) var(--sip-space-6);
+  border-top: 1px solid var(--sip-border);
+  background: var(--sip-bg-secondary);
+}
+
+/* --- 特殊卡片变体 --- */
+.sip-card--primary {
+  border-color: var(--sip-primary);
+  background: linear-gradient(135deg, var(--sip-surface) 0%, var(--sip-bg-primary) 100%);
+}
+
+.sip-card--ghost {
+  background: transparent;
+  border-style: dashed;
+}
+
+.sip-card--elevated {
+  box-shadow: var(--sip-shadow-md);
+  border: none;
+}
+
+/* ========================================
+   3. 按钮组件 (Button Components)
+   ======================================== */
+
+/* --- 基础按钮 --- */
+.sip-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sip-gap-sm);
+  padding: var(--sip-space-2) var(--sip-space-4);
+  font-size: var(--sip-text-base);
+  font-weight: var(--sip-font-medium);
+  line-height: 1.5;
+  border-radius: var(--sip-radius-md);
+  border: 1px solid transparent;
+  background: var(--sip-bg-secondary);
+  color: var(--sip-text-primary);
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.sip-btn:hover {
+  background: var(--sip-bg-hover);
+  transform: translateY(-1px);
+}
+
+.sip-btn:active {
+  transform: translateY(0);
+}
+
+.sip-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* --- 按钮变体 --- */
+.sip-btn--primary {
+  background: var(--sip-primary);
+  color: var(--sip-text-inverse);
+  border-color: var(--sip-primary);
+}
+
+.sip-btn--primary:hover {
+  background: var(--sip-primary-hover);
+  border-color: var(--sip-primary-hover);
+  box-shadow: var(--sip-shadow-primary);
+}
+
+.sip-btn--secondary {
+  background: var(--sip-surface);
+  color: var(--sip-primary-text);
+  border-color: var(--sip-primary-muted);
+}
+
+.sip-btn--secondary:hover {
+  background: var(--sip-surface-hover);
+  border-color: var(--sip-primary);
+}
+
+.sip-btn--ghost {
+  background: transparent;
+  color: var(--sip-text-secondary);
+  border-color: transparent;
+}
+
+.sip-btn--ghost:hover {
+  background: var(--sip-bg-hover);
+  color: var(--sip-text-primary);
+}
+
+.sip-btn--danger {
+  background: var(--sip-danger);
+  color: var(--sip-text-inverse);
+  border-color: var(--sip-danger);
+}
+
+.sip-btn--danger:hover {
+  background: var(--sip-danger-light);
+  border-color: var(--sip-danger-light);
+}
+
+/* --- 按钮尺寸 --- */
+.sip-btn--sm {
+  padding: var(--sip-space-1) var(--sip-space-3);
+  font-size: var(--sip-text-sm);
+}
+
+.sip-btn--lg {
+  padding: var(--sip-space-3) var(--sip-space-6);
+  font-size: var(--sip-text-md);
+}
+
+.sip-btn--xl {
+  padding: var(--sip-space-4) var(--sip-space-8);
+  font-size: var(--sip-text-lg);
+  border-radius: var(--sip-radius-lg);
+}
+
+/* --- 图标按钮 --- */
+.sip-btn--icon {
+  padding: var(--sip-space-2);
+  aspect-ratio: 1;
+}
+
+.sip-btn--icon-sm {
+  padding: var(--sip-space-1);
+}
+
+/* --- 全宽按钮 --- */
+.sip-btn--block {
+  width: 100%;
+}
+
+/* ========================================
+   4. 表单组件 (Form Components)
+   ======================================== */
+
+/* --- 表单组 --- */
+.sip-form-group {
+  margin-bottom: var(--sip-space-4);
+}
+
+.sip-form-group:last-child {
+  margin-bottom: 0;
+}
+
+.sip-form-label {
+  display: block;
+  font-size: var(--sip-text-sm);
+  font-weight: var(--sip-font-medium);
+  color: var(--sip-text-primary);
+  margin-bottom: var(--sip-space-2);
+}
+
+.sip-form-hint {
+  font-size: var(--sip-text-xs);
+  color: var(--sip-text-tertiary);
+  margin-top: var(--sip-space-1);
+}
+
+.sip-form-error {
+  font-size: var(--sip-text-xs);
+  color: var(--sip-danger);
+  margin-top: var(--sip-space-1);
+}
+
+/* --- 输入框容器 --- */
+.sip-input-wrapper {
+  position: relative;
+  border-radius: var(--sip-radius-lg);
+  box-shadow: 0 0 0 2px var(--sip-glow);
+  transition: box-shadow var(--sip-transition-fast);
+}
+
+.sip-input-wrapper:focus-within {
+  box-shadow: 0 0 0 3px var(--sip-glow-focus);
+}
+
+/* --- 文本输入 --- */
+.sip-input {
+  width: 100%;
+  padding: var(--sip-space-3) var(--sip-space-4);
+  font-size: var(--sip-text-base);
+  line-height: 1.5;
+  color: var(--sip-text-primary);
+  background: var(--sip-bg-input);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  transition: border-color var(--sip-transition-fast),
+              box-shadow var(--sip-transition-fast);
+  outline: none;
+}
+
+.sip-input:hover {
+  border-color: var(--sip-border-hover);
+}
+
+.sip-input:focus {
+  border-color: var(--sip-primary);
+  box-shadow: var(--sip-shadow-focus);
+}
+
+.sip-input::placeholder {
+  color: var(--sip-text-tertiary);
+}
+
+.sip-input:disabled {
+  background: var(--sip-bg-secondary);
+  cursor: not-allowed;
+}
+
+/* --- 输入框尺寸 --- */
+.sip-input--sm {
+  padding: var(--sip-space-2) var(--sip-space-3);
+  font-size: var(--sip-text-sm);
+}
+
+.sip-input--lg {
+  padding: var(--sip-space-4) var(--sip-space-5);
+  font-size: var(--sip-text-md);
+}
+
+/* --- 文本域 --- */
+.sip-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* --- 选择框 --- */
+.sip-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--sip-space-3) center;
+  padding-right: var(--sip-space-8);
+  cursor: pointer;
+}
+
+/* --- 开关 (Toggle) --- */
+.sip-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sip-gap-sm);
+  cursor: pointer;
+  user-select: none;
+}
+
+.sip-toggle__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sip-toggle__track {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  background: var(--sip-border);
+  border-radius: var(--sip-radius-full);
+  transition: background var(--sip-transition-fast);
+}
+
+.sip-toggle__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: var(--sip-shadow-sm);
+  transition: transform var(--sip-transition-spring);
+}
+
+.sip-toggle__input:checked + .sip-toggle__track {
+  background: var(--sip-primary);
+}
+
+.sip-toggle__input:checked + .sip-toggle__track .sip-toggle__thumb {
+  transform: translateX(20px);
+}
+
+.sip-toggle__label {
+  font-size: var(--sip-text-base);
+  color: var(--sip-text-primary);
+}
+
+/* --- 复选框 --- */
+.sip-checkbox {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sip-gap-sm);
+  cursor: pointer;
+  user-select: none;
+}
+
+.sip-checkbox__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sip-checkbox__box {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--sip-border);
+  border-radius: var(--sip-radius-sm);
+  background: var(--sip-bg-input);
+  transition: all var(--sip-transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sip-checkbox__box::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 2px;
+  transform: scale(0);
+  transition: transform var(--sip-transition-fast);
+}
+
+.sip-checkbox__input:checked + .sip-checkbox__box {
+  background: var(--sip-primary);
+  border-color: var(--sip-primary);
+}
+
+.sip-checkbox__input:checked + .sip-checkbox__box::after {
+  transform: scale(1);
+}
+
+/* --- 分段控制器 (Segmented Control) --- */
+.sip-segmented {
+  display: inline-flex;
+  background: var(--sip-bg-secondary);
+  border-radius: var(--sip-radius-md);
+  padding: var(--sip-space-1);
+  width: fit-content;
+  gap: var(--sip-space-1);
+}
+
+.sip-segmented__item {
+  padding: var(--sip-space-2) var(--sip-space-4);
+  border: none;
+  border-radius: var(--sip-radius-sm);
+  background: transparent;
+  color: var(--sip-text-secondary);
+  font-size: var(--sip-text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  white-space: nowrap;
+}
+
+.sip-segmented__item:hover {
+  color: var(--sip-text-primary);
+  background: var(--sip-bg-primary);
+}
+
+.sip-segmented__item--active {
+  background: var(--sip-primary);
+  color: white;
+  box-shadow: var(--sip-shadow-sm);
+}
+
+.sip-segmented__item--active:hover {
+  background: var(--sip-primary-hover);
+  color: white;
+}
+
+/* ========================================
+   5. 列表组件 (List Components)
+   ======================================== */
+
+/* --- 资源列表 --- */
+.sip-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sip-gap-sm);
+}
+
+/* --- 列表项 --- */
+.sip-list-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sip-gap-md);
+  padding: var(--sip-space-3) var(--sip-space-4);
+  background: var(--sip-bg-primary);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-list-item:hover {
+  border-color: var(--sip-primary-muted);
+  background: var(--sip-bg-secondary);
+}
+
+.sip-list-item--active {
+  border-color: var(--sip-primary);
+  background: var(--sip-surface);
+}
+
+/* --- 列表项内容 --- */
+.sip-list-item__icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--sip-bg-secondary);
+  border-radius: var(--sip-radius-md);
+  color: var(--sip-primary);
+  flex-shrink: 0;
+}
+
+.sip-list-item__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.sip-list-item__title {
+  font-size: var(--sip-text-base);
+  font-weight: var(--sip-font-medium);
+  color: var(--sip-text-primary);
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sip-list-item__meta {
+  font-size: var(--sip-text-xs);
+  color: var(--sip-text-tertiary);
+  margin-top: var(--sip-space-1);
+}
+
+.sip-list-item__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sip-gap-sm);
+  flex-shrink: 0;
+}
+
+/* ========================================
+   6. 导航组件 (Navigation Components)
+   ======================================== */
+
+/* --- 导航 Banner --- */
+.sip-nav-banner {
+  position: relative;
+  background: var(--sip-bg-primary);
+  border: 1px solid var(--sip-primary);
+  border-radius: var(--sip-radius-xl);
+  padding: var(--sip-space-6);
+  margin-bottom: var(--sip-space-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: box-shadow var(--sip-transition-fast);
+}
+
+.sip-nav-banner:hover {
+  box-shadow: var(--sip-shadow-md);
+}
+
+.sip-nav-banner__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: var(--sip-space-3);
+  background: var(--sip-bg-secondary);
+  color: var(--sip-primary);
+  border-radius: var(--sip-radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sip-nav-banner__title {
+  font-size: var(--sip-title-1-size);
+  font-weight: var(--sip-title-1-weight);
+  color: var(--sip-text-primary);
+  margin: 0 0 var(--sip-space-2) 0;
+}
+
+.sip-nav-banner__desc {
+  font-size: var(--sip-text-md);
+  color: var(--sip-text-secondary);
+  max-width: 600px;
+  margin: 0;
+}
+
+.sip-nav-banner__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--sip-bg-secondary);
+  border: 1px solid var(--sip-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  color: var(--sip-text-secondary);
+}
+
+.sip-nav-banner__arrow:hover {
+  background: var(--sip-primary);
+  color: white;
+  border-color: var(--sip-primary);
+}
+
+.sip-nav-banner__arrow--prev {
+  left: var(--sip-space-4);
+}
+
+.sip-nav-banner__arrow--next {
+  right: var(--sip-space-4);
+}
+
+/* --- 侧边栏导航 --- */
+.sip-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sip-gap-sm);
+}
+
+.sip-sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: var(--sip-gap-md);
+  padding: var(--sip-space-3) var(--sip-space-4);
+  border-radius: var(--sip-radius-md);
+  color: var(--sip-text-secondary);
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+  position: relative;
+}
+
+.sip-sidebar__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 0;
+  background: var(--sip-primary);
+  border-radius: 0 2px 2px 0;
+  transition: height var(--sip-transition-fast);
+}
+
+.sip-sidebar__item:hover {
+  background: var(--sip-bg-secondary);
+  color: var(--sip-text-primary);
+}
+
+.sip-sidebar__item--active {
+  background: var(--sip-surface);
+  color: var(--sip-primary-text);
+}
+
+.sip-sidebar__item--active::before {
+  height: 20px;
+}
+
+/* ========================================
+   7. 数据展示组件 (Data Display)
+   ======================================== */
+
+/* --- KPI 卡片 --- */
+.sip-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--sip-gap-lg);
+  margin-bottom: var(--sip-space-8);
+}
+
+.sip-kpi {
+  background: var(--sip-bg-primary);
+  border: 1px solid var(--sip-border);
+  border-radius: var(--sip-radius-lg);
+  padding: var(--sip-space-5);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-kpi::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--sip-primary);
+  opacity: 0;
+  transition: opacity var(--sip-transition-fast);
+}
+
+.sip-kpi:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sip-shadow-md);
+  border-color: var(--sip-primary-muted);
+}
+
+.sip-kpi:hover::after {
+  opacity: 1;
+}
+
+.sip-kpi__label {
+  font-size: var(--sip-text-xs);
+  color: var(--sip-text-secondary);
+  font-weight: var(--sip-font-semibold);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: var(--sip-space-2);
+}
+
+.sip-kpi__value {
+  font-size: var(--sip-text-3xl);
+  font-weight: var(--sip-font-bold);
+  color: var(--sip-text-primary);
+  line-height: 1.1;
+  margin-bottom: var(--sip-space-1);
+}
+
+.sip-kpi__sub {
+  font-size: var(--sip-text-xs);
+  color: var(--sip-text-tertiary);
+}
+
+/* --- 标签/徽章 --- */
+.sip-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sip-gap-xs);
+  padding: var(--sip-space-1) var(--sip-space-2);
+  font-size: var(--sip-text-xs);
+  font-weight: var(--sip-font-medium);
+  border-radius: var(--sip-radius-full);
+  background: var(--sip-bg-secondary);
+  color: var(--sip-text-secondary);
+  border: 1px solid var(--sip-border);
+}
+
+.sip-badge--primary {
+  background: var(--sip-primary-muted);
+  color: var(--sip-primary-text);
+  border-color: var(--sip-primary-subtle);
+}
+
+.sip-badge--success {
+  background: var(--sip-success-muted);
+  color: var(--sip-success);
+  border-color: var(--sip-success-light);
+}
+
+.sip-badge--warning {
+  background: var(--sip-warning-muted);
+  color: var(--sip-warning);
+  border-color: var(--sip-warning-light);
+}
+
+.sip-badge--danger {
+  background: var(--sip-danger-muted);
+  color: var(--sip-danger);
+  border-color: var(--sip-danger-light);
+}
+
+/* ========================================
+   8. 反馈组件 (Feedback Components)
+   ======================================== */
+
+/* --- 加载状态 --- */
+.sip-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--sip-border);
+  border-top-color: var(--sip-primary);
+  border-radius: 50%;
+  animation: sip-spin 0.8s linear infinite;
+}
+
+@keyframes sip-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* --- 空状态 --- */
+.sip-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sip-space-12) var(--sip-space-6);
+  text-align: center;
+}
+
+.sip-empty__icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: var(--sip-space-4);
+  color: var(--sip-text-tertiary);
+}
+
+.sip-empty__title {
+  font-size: var(--sip-text-lg);
+  font-weight: var(--sip-font-semibold);
+  color: var(--sip-text-primary);
+  margin: 0 0 var(--sip-space-2) 0;
+}
+
+.sip-empty__desc {
+  font-size: var(--sip-text-base);
+  color: var(--sip-text-secondary);
+  margin: 0;
+}
+
+/* ========================================
+   9. 模态框组件 (Modal Components)
+   ======================================== */
+
+/* --- 模态框遮罩 --- */
+.sip-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: var(--sip-z-modal-backdrop);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sip-space-4);
+}
+
+/* --- 模态框容器 --- */
+.sip-modal {
+  background: var(--sip-bg-primary);
+  border-radius: var(--sip-radius-3xl);
+  box-shadow: var(--sip-shadow-xl);
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: sip-modal-in 0.2s var(--sip-ease-spring);
+}
+
+@keyframes sip-modal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.sip-modal--lg {
+  max-width: 640px;
+}
+
+.sip-modal--full {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* --- 模态框头部 --- */
+.sip-modal__header {
+  padding: var(--sip-space-6);
+  border-bottom: 1px solid var(--sip-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sip-gap-md);
+}
+
+.sip-modal__title {
+  font-size: var(--sip-text-xl);
+  font-weight: var(--sip-font-bold);
+  color: var(--sip-text-primary);
+  margin: 0;
+}
+
+.sip-modal__close {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--sip-radius-md);
+  color: var(--sip-text-tertiary);
+  cursor: pointer;
+  transition: all var(--sip-transition-fast);
+}
+
+.sip-modal__close:hover {
+  background: var(--sip-bg-hover);
+  color: var(--sip-text-primary);
+}
+
+/* --- 模态框内容 --- */
+.sip-modal__body {
+  padding: var(--sip-space-6);
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* --- 模态框底部 --- */
+.sip-modal__footer {
+  padding: var(--sip-space-4) var(--sip-space-6);
+  border-top: 1px solid var(--sip-border);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--sip-gap-md);
+}
+
+} /* .sip-ui-root 结束 */
+
+
+
+
+/* ========================================
+   EVOLVED COMPONENTS (Auto-Generated)
+   ======================================== */
+
+/* ========================================
+   EVOLVED: 输入框组件 .sip-input-wrapper / .sip-input
+   ======================================== */
+.sip-input-wrapper { position: relative; border-radius: 12px; box-shadow: 0 0 0 2px var(--sip-primary-glow); transition: box-shadow 0.2s ease; background: var(--background-primary); height: 40px; display: flex; align-items: center; }
+.sip-input { width: 100%; min-width: 0; height: 100%; padding: 0 14px; border: none; border-radius: 12px; background: transparent; color: var(--text-normal); font-size: 13px; outline: none; box-sizing: border-box; }
+
+/* ========================================
+   EVOLVED: 下拉选择器 .sip-select
+   ======================================== */
+.sip-select { width: 100%; min-width: 0; height: 40px; padding: 0 28px 0 14px; border: 1px solid color-mix(in srgb, var(--text-normal) 15%, transparent); border-radius: 12px; background-color: var(--background-primary); color: var(--text-normal); font-size: 13px; cursor: pointer; outline: none; transition: all 0.2s ease; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239f7aea' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; box-sizing: border-box; }
+
+/* ========================================
+   EVOLVED: 资源列表组件 .sip-resource-list / .sip-resource-item / .sip-resource-grid
+   ======================================== */
+.sip-resource-list { display: flex; flex-direction: column; gap: 12px; }
+.sip-resource-item { border: 1px solid var(--sip-primary-muted); border-radius: 12px; padding: 16px; background: var(--background-primary); transition: all 0.2s ease; }
+.sip-resource-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.sip-resource-index { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; background: var(--sip-primary-muted); color: var(--sip-primary-text); font-size: 12px; font-weight: 600; border-radius: 8px; }
+.sip-resource-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 12px; align-items: start; }
+.sip-resource-field { min-width: 0; }
+.sip-field-label { font-size: 11px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; display: block; }
+
+/* ========================================
+   EVOLVED: 按钮组件 .sip-btn-primary / .sip-btn-secondary / .sip-btn-icon
+   ======================================== */
+.sip-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; background: var(--sip-primary); color: white; font-size: 14px; font-weight: 500; border: none; border-radius: 12px; cursor: pointer; transition: all 0.2s ease; }
+.sip-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; background: transparent; color: var(--text-normal); font-size: 14px; font-weight: 500; border: 1px solid color-mix(in srgb, var(--text-normal) 15%, transparent); border-radius: 12px; cursor: pointer; transition: all 0.2s ease; }
+.sip-btn-icon { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; color: var(--text-muted); border: none; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; }
+
+/* ========================================
+   EVOLVED: 卡片组件 .sip-card / .sip-card-header / .sip-card-body
+   ======================================== */
+.sip-card { background: var(--background-primary); border: 1px solid color-mix(in srgb, var(--text-normal) 8%, transparent); border-radius: 16px; margin-bottom: 20px; overflow: hidden; }
+.sip-card-header { padding: 20px 20px 0 20px; }
+.sip-card-body { padding: 16px 20px 20px 20px; }
+
+/* ========================================
+   EVOLVED: 边框表单组 .sip-bordered-group
+   ======================================== */
+.sip-bordered-group { border: 1px solid color-mix(in srgb, var(--text-normal) 10%, transparent); border-radius: 12px; padding: 16px; }
+
+/* ========================================
+   EVOLVED: 空状态组件 .sip-empty-state / .sip-empty-svg
+   ======================================== */
+.sip-empty-state { text-align: center; padding: 40px 20px; color: var(--text-muted); }
+.sip-empty-svg { width: 48px; height: 48px; margin-bottom: 12px; opacity: 0.5; stroke: currentColor; }

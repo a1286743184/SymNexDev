@@ -1,0 +1,118 @@
+/* Dataview 档案卡片：彻底移除表头计数与顶部分隔线，并美化表格间距 */
+
+/* 1) 仅在“档案卡片”容器内隐藏 Dataview 默认表格标题“(n)”和顶边线
+   - 避免影响其他 Dataview 表格（如时间轴等） */
+.dvjs-profile-card .table-view-table thead { display: none !important; }
+.dvjs-profile-card .table-view-table { border-top: none !important; }
+
+/* 2) 我们自定义的档案表格（class: dvjs-profile-table）无任何边框与背景 */
+.dvjs-profile-table {
+  border: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: transparent !important;
+}
+.dvjs-profile-table td {
+  border: none !important;
+  padding: 8px 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* 3) 左列标签更醒目（加粗、特定颜色） */
+.dvjs-profile-table td:first-child {
+  color: #76448A;
+  font-weight: 600;
+  white-space: nowrap;
+  padding-right: 20px !important;
+}
+
+/* ---- Align profile card table with Obsidian's Properties UI style ---- */
+.dvjs-profile-card .dvjs-profile-table,
+.dvjs-profile-card .dvjs-profile-table tr,
+.dvjs-profile-card .dvjs-profile-table td {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+.dvjs-profile-card .dvjs-profile-table {
+  width: 100%;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: transparent;
+  font-size: 0.9em !important; /* 表格整体 0.85em */
+}
+.dvjs-profile-card .dvjs-profile-table td {
+  border: 0;
+  padding: 8px 0; /* 与上方统一 */
+  vertical-align: top;
+  /* 移除这里的字体强制，避免重复缩放导致误差 */
+}
+.dvjs-profile-card .dvjs-profile-table td:first-child {
+  color: #76448A; /* 统一左列颜色 */
+  font-weight: 600; /* 左列加粗 */
+  padding-right: 20px; /* 增大列间距 */
+  white-space: nowrap;
+  min-width: 6.5em; /* 与属性标签宽度一致 */
+}
+.dvjs-profile-card .dvjs-profile-table td:last-child {
+  color: var(--metadata-input-text-color, var(--text-normal));
+  min-width: 10em; /* 右列最小宽度 */
+}
+/* subtle spacing between rows without borders, similar to Properties */
+.dvjs-profile-card .dvjs-profile-table tr + tr td {
+  padding-top: 4px;
+}
+/* keep native tag appearance */
+.dvjs-profile-card .tag {
+  line-height: 1.6;
+}
+/* 在表格内保持标签按“全局 0.6em（相对根）”的视觉大小：
+   由于父元素是 0.85em，这里用 0.6em / 0.85 的系数抵消继承缩放 */
+.dvjs-profile-card .dvjs-profile-table a.tag {
+  font-size: calc(0.6em) !important;
+}
+
+/* 强化继承：有些主题在表格单元格内使用 rem/固定字号，导致父级缩放不生效，这里强制单元格继承容器字号 */
+.dvjs-profile-card .dvjs-profile-table td,
+.dvjs-profile-card .dvjs-profile-table th {
+  font-size: inherit !important;
+}
+
+.dvjs-profile-card .dvjs-profile-table td > *,
+.dvjs-profile-card .dvjs-profile-table th > * {
+  font-size: inherit !important;
+}
+/* 扩大继承范围：确保所有嵌套元素也继承 0.85em，排除标签（a.tag）以保留其单独设置 */
+.dvjs-profile-card .dvjs-profile-table *:not(a.tag) {
+  font-size: inherit !important;
+}
+
+/* ---- 时间轴表格样式（与档案卡接近）---- */
+/* 无表格边框、首行（表头）使用相同紫色并加粗；其他文字默认 */
+.dvjs-profile-timeline-table {
+  border: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: transparent !important;
+  width: 100%;
+}
+.dvjs-profile-timeline-table th,
+.dvjs-profile-timeline-table td {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 8px 0 !important;
+  font-size: inherit !important;
+}
+.dvjs-profile-timeline-table thead th {
+  color: #76448A !important;
+  font-weight: 600 !important;
+}
+/* 行间轻微间距（无边框效果下对齐 Properties UI 风格） */
+.dvjs-profile-timeline-table tr + tr td { padding-top: 4px !important; }

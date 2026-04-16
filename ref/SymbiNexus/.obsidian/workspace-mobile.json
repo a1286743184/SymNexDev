@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-经纬矩阵系统/01-看板模块/今日聚焦.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "今日聚焦"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31dda25e6f75ad2a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "17a3a8a2880349d3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": true
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "e1d0449d5a0e3941",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "驱虫",
+            "matchingCase": false,
+            "explainSearch": true,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "54389e083197164a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "5e3f6dac079e891f",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "cbc70426c8d05619",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a39f381344b6f566",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "56da52730956e2c1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/逻辑填空.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "2722fbfc97d74983",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "个人复盘/每日复盘2025-09-17.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "4cca553820fb156b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "01-经纬矩阵系统/08-捕获/02-Require.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      },
+      {
+        "id": "ba9e38e43d8f4aeb",
+        "type": "leaf",
+        "state": {
+          "type": "file-properties",
+          "state": {
+            "file": "07-项目系统/01-公务员考试/02-申论/02-知识沉淀/大作文万能模版.md"
+          },
+          "icon": "lucide-info",
+          "title": "笔记属性"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": true,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "01-经纬矩阵系统/01-看板模块/今日聚焦.md",
+    "99-附件/自己/自己-7.webp",
+    "99-附件/自己/自己-8.webp",
+    "05-生活坐标系统/01-角色档案/自己.md",
+    "01-经纬矩阵系统/02-周委托模块/周度委托列表26W16.md",
+    "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md",
+    "01-经纬矩阵系统/08-智能录入模块/03-智能录入看板.md",
+    "01-经纬矩阵系统/08-智能录入模块/02-Require.md",
+    "01-经纬矩阵系统/02-周委托模块/周度委托列表26W13.md",
+    "07-项目系统/01-公务员考试/02-申论/02-知识沉淀/大作文万能模版.md",
+    "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/速算.md",
+    "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/百化分-数值挂靠表.md",
+    "07-项目系统/01-公务员考试/01-行测/02-知识沉淀/00-理论体系/百化分-核心记忆阵列.md",
+    "01-经纬矩阵系统/02-周委托模块/周度委托列表26W11.md",
+    "07-项目系统/01-公务员考试/学习计划/26年省考时间安排.md",
+    "01-经纬矩阵系统/99-任务归档/99-周委托归档/2026/周度委托列表26W10.md",
+    "08-科技树系统/01-OB_LifeOS_Build/03-密钥/LongCatKey.md",
+    "01-经纬矩阵系统/99-任务归档/99-周委托归档/2026/周度委托列表26W09__dup-1772423352802.md",
+    "05-生活坐标系统/01-角色档案/阿软.md",
+    "01-经纬矩阵系统/08-智能录入模块/智能录入日志/SIPLog_2026-03.md",
+    "06-财务系统/01-账单数据/2026/02/260228-01-交通出行-车贷.md",
+    "01-经纬矩阵系统/08-智能录入模块/传输助手",
+    "98-稿纸/未命名",
+    "06-财务系统/01-账单数据/2026/02/260206-01-购物消费-电子产品.md",
+    "06-财务系统/01-账单数据/2026/02/260206-03-其他收入-退款.md",
+    "06-财务系统/01-账单数据/2026/02/260210-08-其他收入-退款.md",
+    "06-财务系统/01-账单数据/2026/02/260222-08-其他支出-未知.md",
+    "06-财务系统/02-统计分析/财务看板.md",
+    "SmartInputPro_Debug_Log.sync-conflict-20260221-224302-BIYBTDD.md",
+    "08-科技树系统/01-OB_LifeOS_Build/98-配置/lifeos-engine/task.index.sync-conflict-20260221-224302-BIYBTDD.json",
+    "08-科技树系统/01-OB_LifeOS_Build/98-配置/lifeos-engine/task.index.sync-conflict-20260221-224000-BIYBTDD.json",
+    "08-科技树系统/01-OB_LifeOS_Build/04-技能/SIP-UI Expert.zip",
+    "08-科技树系统/01-OB_LifeOS_Build/04-技能/SIP-UI Expert/evolution.json",
+    "08-科技树系统/01-OB_LifeOS_Build/04-技能/SIP-UI Expert",
+    "08-科技树系统/01-OB_LifeOS_Build/00-通用模块库/task-reminder/log/task-reminder20260221.log",
+    "08-科技树系统/01-OB_LifeOS_Build/02-示例/Tab.js",
+    "08-科技树系统/01-OB_LifeOS_Build/02-示例/helper.js",
+    "99-附件/自己/自己-4.webp",
+    "99-附件/自己/自己-3.webp",
+    "99-附件/自己/自己-2.webp",
+    "99-附件/自己/自己-1.webp",
+    "99-附件/自己/自己.webp",
+    "99-附件/月饼/月饼-7.webp",
+    "99-附件/老五/老五-6.webp",
+    "99-附件/老四/老四-8.webp"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ntfy": {
+    "server": "https://ntfy.sh",
+    "topic": "lifeos_task_reminder_4e5a8d3f2c1b9a0d7e6f5c4b3a2d1e0f",
+    "actionsTopic": "lifeos_task_actions_9f0e1d2c3b4a5f6e7d0a9b1c2d3e4f5a",
+    "auth": {
+      "type": "none",
+      "token": "",
+      "username": "",
+      "password": ""
+    }
+  },
+  "paths": {
+    "taskDashboardKit": "08-科技树系统/01-OB_LifeOS_Build/00-通用模块库/TaskDashboardKit.js"
+  },
+  "writeback": {
+    "enabled": true
+  },
+  "scan": {
+    "maxFiles": 5000
+  },
+  "reminder": {
+    "leadMinutes": 10,
+    "slotLeadMinutes": 10,
+    "periodLeadMinutes": 30,
+    "timeLeadMinutes": 10,
+    "snoozeMinutes": 30,
+    "timePeriods": [
+      {
+        "token": "凌晨",
+        "start": "00:00",
+        "end": "03:00",
+        "aliases": ["凌", "半夜", "夜里", "夜间", "深夜"]
+      },
+      {
+        "token": "早上",
+        "start": "03:00",
+        "end": "09:00",
+        "aliases": ["早晨", "清晨", "早", "一早"]
+      },
+      {
+        "token": "上午",
+        "start": "09:00",
+        "end": "12:00",
+        "aliases": ["上", "早间"]
+      },
+      {
+        "token": "中午",
+        "start": "12:00",
+        "end": "14:00",
+        "aliases": ["午", "午间", "正午"]
+      },
+      {
+        "token": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "aliases": ["下", "午后"]
+      },
+      {
+        "token": "晚上",
+        "start": "18:00",
+        "end": "24:00",
+        "aliases": ["晚", "傍晚", "夜晚", "夜里", "夜间", "晚间"]
+      }
+    ],
+    "timeTokenMap": {
+      "凌晨": "03:00",
+      "凌": "03:00",
+      "早上": "09:00",
+      "早": "09:00",
+      "上午": "12:00",
+      "中午": "14:00",
+      "中": "12:00",
+      "下午": "18:00",
+      "下": "18:00",
+      "晚上": "24:00",
+      "晚": "24:00"
+    },
+    "slots": [
+      { "label": "凌晨", "time": "03:00" },
+      { "label": "早上", "time": "09:00" },
+      { "label": "上午", "time": "12:00" },
+      { "label": "中午", "time": "14:00" },
+      { "label": "下午", "time": "18:00" },
+      { "label": "晚上", "time": "24:00" }
+    ]
+  }
+}

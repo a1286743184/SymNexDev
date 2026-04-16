@@ -1,0 +1,7106 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "generated_at": "2026-03-19T17:22:31.817043",
+    "source": "真实视频时长和讲义字数",
+    "total_videos": 26,
+    "total_lectures": 23,
+    "total_questions": 192,
+    "total_days": 25,
+    "review_nodes": [
+      1,
+      3,
+      7,
+      15
+    ],
+    "time_breakdown": {
+      "video_hours": 20.7,
+      "internalization_hours": 41.5,
+      "memory_hours": 20.7,
+      "review_hours": 33.8,
+      "total_hours": 116.7
+    },
+    "learning_flow": [
+      "视频观看",
+      "内化改造",
+      "背诵掌握",
+      "艾宾浩斯复习"
+    ],
+    "time_ratios": {
+      "video": 1,
+      "internalization": 2,
+      "memory": 1,
+      "review": 0.5
+    }
+  },
+  "daily_plan": [
+    {
+      "day": 1,
+      "day_name": "Day 1",
+      "date": "2026-03-19",
+      "video_tasks": [
+        {
+          "video_id": "UP001",
+          "title": "情景模拟讲解",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "01.情景模拟讲解.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\01.情景模拟讲解.mp4",
+          "duration_minutes": 67.8,
+          "description": "情景模拟讲解"
+        },
+        {
+          "video_id": "UP002",
+          "title": "人际关系讲解",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "02.人际关系讲解.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\02.人际关系讲解.mp4",
+          "duration_minutes": 49.8,
+          "description": "人际关系讲解"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L01-Q001",
+          "video_id": "UP001",
+          "title": "与不满的同事沟通",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：与不满的同事沟通"
+        },
+        {
+          "task_id": "IN-L01-Q002",
+          "video_id": "UP001",
+          "title": "劝群众严防电诈",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：劝群众严防电诈"
+        },
+        {
+          "task_id": "IN-L01-Q003",
+          "video_id": "UP001",
+          "title": "劝人接活儿",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：劝人接活儿"
+        },
+        {
+          "task_id": "IN-L01-Q004",
+          "video_id": "UP001",
+          "title": "说服持反对意见的领导",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：说服持反对意见的领导"
+        },
+        {
+          "task_id": "IN-L01-Q005",
+          "video_id": "UP001",
+          "title": "座谈会发言",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：座谈会发言"
+        },
+        {
+          "task_id": "IN-L01-Q006",
+          "video_id": "UP001",
+          "title": "开导负能量同事",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：开导负能量同事"
+        },
+        {
+          "task_id": "IN-L02-Q007",
+          "video_id": "UP002",
+          "title": "性格各异的领导同事",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：性格各异的领导同事"
+        },
+        {
+          "task_id": "IN-L02-Q008",
+          "video_id": "UP002",
+          "title": "同事抢你功劳",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：同事抢你功劳"
+        },
+        {
+          "task_id": "IN-L02-Q009",
+          "video_id": "UP002",
+          "title": "当好工作组长",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：当好工作组长"
+        },
+        {
+          "task_id": "IN-L02-Q010",
+          "video_id": "UP002",
+          "title": "同事指手画脚",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：同事指手画脚"
+        },
+        {
+          "task_id": "IN-L02-Q011",
+          "video_id": "UP002",
+          "title": "向领导推辞工作",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：向领导推辞工作"
+        },
+        {
+          "task_id": "IN-L02-Q012",
+          "video_id": "UP002",
+          "title": "新人意志消沉",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：新人意志消沉"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [],
+      "estimated_time": {
+        "video_minutes": 117.6,
+        "internalization_minutes": 300,
+        "memory_minutes": 0,
+        "review_minutes": 0,
+        "total_minutes": 417.6,
+        "total_hours": 7.0
+      },
+      "phase": "基础题型",
+      "topic": "情景模拟"
+    },
+    {
+      "day": 2,
+      "day_name": "Day 2",
+      "date": "2026-03-20",
+      "video_tasks": [
+        {
+          "video_id": "UP003",
+          "title": "应急应变题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "03.应急应变题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\03.应急应变题.mp4",
+          "duration_minutes": 57.7,
+          "description": "应急应变题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L02-Q013",
+          "video_id": "UP002",
+          "title": "领导冒用稿子",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：领导冒用稿子"
+        },
+        {
+          "task_id": "IN-L02-Q014",
+          "video_id": "UP002",
+          "title": "下级不配合工作",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：下级不配合工作"
+        },
+        {
+          "task_id": "IN-L03-Q015",
+          "video_id": "UP003",
+          "title": "处理犯错同事",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：处理犯错同事"
+        },
+        {
+          "task_id": "IN-L03-Q016",
+          "video_id": "UP003",
+          "title": "处理下跪老人",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：处理下跪老人"
+        },
+        {
+          "task_id": "IN-L03-Q017",
+          "video_id": "UP003",
+          "title": "发布会被质疑",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：发布会被质疑"
+        },
+        {
+          "task_id": "IN-L03-Q018",
+          "video_id": "UP003",
+          "title": "群众阻拦施工",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：群众阻拦施工"
+        },
+        {
+          "task_id": "IN-L03-Q019",
+          "video_id": "UP003",
+          "title": "极端天气应对",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：极端天气应对"
+        },
+        {
+          "task_id": "IN-L03-Q020",
+          "video_id": "UP003",
+          "title": "会场临时停电",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：会场临时停电"
+        },
+        {
+          "task_id": "IN-L03-Q021",
+          "video_id": "UP003",
+          "title": "汇报出错",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：汇报出错"
+        },
+        {
+          "task_id": "IN-L03-Q022",
+          "video_id": "UP003",
+          "title": "樱桃滞销",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：樱桃滞销"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L01-Q001",
+          "title": "与不满的同事沟通",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L01-Q002",
+          "title": "劝群众严防电诈",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L01-Q003",
+          "title": "劝人接活儿",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L01-Q004",
+          "title": "说服持反对意见的领导",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L01-Q005",
+          "title": "座谈会发言",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L01-Q006",
+          "title": "开导负能量同事",
+          "type": "情景模拟类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q007",
+          "title": "性格各异的领导同事",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q008",
+          "title": "同事抢你功劳",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP001",
+          "title": "复习：情景模拟讲解",
+          "review_node": "1天后",
+          "original_day": 1,
+          "estimated_minutes": 33.9
+        },
+        {
+          "video_id": "UP002",
+          "title": "复习：人际关系讲解",
+          "review_node": "1天后",
+          "original_day": 1,
+          "estimated_minutes": 24.9
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 57.7,
+        "internalization_minutes": 250,
+        "memory_minutes": 96,
+        "review_minutes": 58.8,
+        "total_minutes": 462.5,
+        "total_hours": 7.7
+      },
+      "phase": "基础题型",
+      "topic": "应急应变"
+    },
+    {
+      "day": 3,
+      "day_name": "Day 3",
+      "date": "2026-03-21",
+      "video_tasks": [
+        {
+          "video_id": "UP004",
+          "title": "组织管理题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "04.组织管理题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\04.组织管理题.mp4",
+          "duration_minutes": 63.0,
+          "description": "组织管理题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L04-Q023",
+          "video_id": "UP004",
+          "title": "组织人员培训",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织人员培训"
+        },
+        {
+          "task_id": "IN-L04-Q024",
+          "video_id": "UP004",
+          "title": "组织招募活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织招募活动"
+        },
+        {
+          "task_id": "IN-L04-Q025",
+          "video_id": "UP004",
+          "title": "组织改开活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织改开活动"
+        },
+        {
+          "task_id": "IN-L04-Q026",
+          "video_id": "UP004",
+          "title": "组织特色会议",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织特色会议"
+        },
+        {
+          "task_id": "IN-L04-Q027",
+          "video_id": "UP004",
+          "title": "组织开园活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织开园活动"
+        },
+        {
+          "task_id": "IN-L04-Q028",
+          "video_id": "UP004",
+          "title": "组织敬老活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织敬老活动"
+        },
+        {
+          "task_id": "IN-L04-Q029",
+          "video_id": "UP004",
+          "title": "组织专项整治",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织专项整治"
+        },
+        {
+          "task_id": "IN-L04-Q030",
+          "video_id": "UP004",
+          "title": "组织防火活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织防火活动"
+        },
+        {
+          "task_id": "IN-L04-Q031",
+          "video_id": "UP004",
+          "title": "组织帮扶活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织帮扶活动"
+        },
+        {
+          "task_id": "IN-L04-Q032",
+          "video_id": "UP004",
+          "title": "组织宣传活动",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：组织宣传活动"
+        },
+        {
+          "task_id": "IN-L04-Q033",
+          "video_id": "UP004",
+          "title": "创建联络站点",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：创建联络站点"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L02-Q009",
+          "title": "当好工作组长",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q010",
+          "title": "同事指手画脚",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q011",
+          "title": "向领导推辞工作",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q012",
+          "title": "新人意志消沉",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L02-Q013",
+          "title": "领导冒用稿子",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP003",
+          "title": "复习：应急应变题",
+          "review_node": "1天后",
+          "original_day": 2,
+          "estimated_minutes": 28.9
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 63.0,
+        "internalization_minutes": 275,
+        "memory_minutes": 60,
+        "review_minutes": 28.9,
+        "total_minutes": 426.9,
+        "total_hours": 7.1
+      },
+      "phase": "基础题型",
+      "topic": "组织管理"
+    },
+    {
+      "day": 4,
+      "day_name": "Day 4",
+      "date": "2026-03-22",
+      "video_tasks": [
+        {
+          "video_id": "UP005",
+          "title": "启示做法题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "05.启示做法题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\05.启示做法题.mp4",
+          "duration_minutes": 54.9,
+          "description": "启示做法题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L05-Q034",
+          "video_id": "UP005",
+          "title": "领异标新",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：领异标新"
+        },
+        {
+          "task_id": "IN-L05-Q035",
+          "video_id": "UP005",
+          "title": "青蛙鸿鹄",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：青蛙鸿鹄"
+        },
+        {
+          "task_id": "IN-L05-Q036",
+          "video_id": "UP005",
+          "title": "道德定力",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：道德定力"
+        },
+        {
+          "task_id": "IN-L05-Q037",
+          "video_id": "UP005",
+          "title": "服务群众",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：服务群众"
+        },
+        {
+          "task_id": "IN-L05-Q038",
+          "video_id": "UP005",
+          "title": "嘀嘀打车",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：嘀嘀打车"
+        },
+        {
+          "task_id": "IN-L05-Q039",
+          "video_id": "UP005",
+          "title": "胖东来",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：胖东来"
+        },
+        {
+          "task_id": "IN-L05-Q040",
+          "video_id": "UP005",
+          "title": "枫桥经验",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：枫桥经验"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L02-Q014",
+          "title": "下级不配合工作",
+          "type": "人际关系类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q015",
+          "title": "处理犯错同事",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q016",
+          "title": "处理下跪老人",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q017",
+          "title": "发布会被质疑",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q018",
+          "title": "群众阻拦施工",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q019",
+          "title": "极端天气应对",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q020",
+          "title": "会场临时停电",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q021",
+          "title": "汇报出错",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L03-Q022",
+          "title": "樱桃滞销",
+          "type": "应急应变类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q023",
+          "title": "组织人员培训",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q024",
+          "title": "组织招募活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q025",
+          "title": "组织改开活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q026",
+          "title": "组织特色会议",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q027",
+          "title": "组织开园活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP001",
+          "title": "复习：情景模拟讲解",
+          "review_node": "3天后",
+          "original_day": 1,
+          "estimated_minutes": 33.9
+        },
+        {
+          "video_id": "UP002",
+          "title": "复习：人际关系讲解",
+          "review_node": "3天后",
+          "original_day": 1,
+          "estimated_minutes": 24.9
+        },
+        {
+          "video_id": "UP004",
+          "title": "复习：组织管理题",
+          "review_node": "1天后",
+          "original_day": 3,
+          "estimated_minutes": 31.5
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 54.9,
+        "internalization_minutes": 175,
+        "memory_minutes": 168,
+        "review_minutes": 90.3,
+        "total_minutes": 488.2,
+        "total_hours": 8.1
+      },
+      "phase": "基础题型",
+      "topic": "启示做法"
+    },
+    {
+      "day": 5,
+      "day_name": "Day 5",
+      "date": "2026-03-23",
+      "video_tasks": [
+        {
+          "video_id": "UP006",
+          "title": "名言警句题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "06.名言警句题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\06.名言警句题.mp4",
+          "duration_minutes": 46.0,
+          "description": "名言警句题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L06-Q041",
+          "video_id": "UP006",
+          "title": "冲劲韧劲",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：冲劲韧劲"
+        },
+        {
+          "task_id": "IN-L06-Q042",
+          "video_id": "UP006",
+          "title": "道阻且长",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：道阻且长"
+        },
+        {
+          "task_id": "IN-L06-Q043",
+          "video_id": "UP006",
+          "title": "圣人不积",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：圣人不积"
+        },
+        {
+          "task_id": "IN-L06-Q044",
+          "video_id": "UP006",
+          "title": "我是谁",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：我是谁"
+        },
+        {
+          "task_id": "IN-L06-Q045",
+          "video_id": "UP006",
+          "title": "大路石子",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：大路石子"
+        },
+        {
+          "task_id": "IN-L06-Q046",
+          "video_id": "UP006",
+          "title": "从善如登",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：从善如登"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L04-Q028",
+          "title": "组织敬老活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q029",
+          "title": "组织专项整治",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q030",
+          "title": "组织防火活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q031",
+          "title": "组织帮扶活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q032",
+          "title": "组织宣传活动",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L04-Q033",
+          "title": "创建联络站点",
+          "type": "组织管理类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q034",
+          "title": "领异标新",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q035",
+          "title": "青蛙鸿鹄",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q036",
+          "title": "道德定力",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q037",
+          "title": "服务群众",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q038",
+          "title": "嘀嘀打车",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q039",
+          "title": "胖东来",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L05-Q040",
+          "title": "枫桥经验",
+          "type": "启示做法类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L06-Q041",
+          "title": "冲劲韧劲",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L06-Q042",
+          "title": "道阻且长",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L06-Q043",
+          "title": "圣人不积",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L06-Q044",
+          "title": "我是谁",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP003",
+          "title": "复习：应急应变题",
+          "review_node": "3天后",
+          "original_day": 2,
+          "estimated_minutes": 28.9
+        },
+        {
+          "video_id": "UP005",
+          "title": "复习：启示做法题",
+          "review_node": "1天后",
+          "original_day": 4,
+          "estimated_minutes": 27.4
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 46.0,
+        "internalization_minutes": 150,
+        "memory_minutes": 204,
+        "review_minutes": 56.3,
+        "total_minutes": 456.3,
+        "total_hours": 7.6
+      },
+      "phase": "基础题型",
+      "topic": "名言警句"
+    },
+    {
+      "day": 6,
+      "day_name": "Day 6",
+      "date": "2026-03-24",
+      "video_tasks": [
+        {
+          "video_id": "UP007",
+          "title": "领导讲话（宏观政策）题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "07.领导讲话（宏观政策）题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\07.领导讲话（宏观政策）题.mp4",
+          "duration_minutes": 49.4,
+          "description": "领导讲话（宏观政策）题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L07-Q047",
+          "video_id": "UP007",
+          "title": "人民中心",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：人民中心"
+        },
+        {
+          "task_id": "IN-L07-Q048",
+          "video_id": "UP007",
+          "title": "奋进懈怠",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：奋进懈怠"
+        },
+        {
+          "task_id": "IN-L07-Q049",
+          "video_id": "UP007",
+          "title": "新质生产力",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：新质生产力"
+        },
+        {
+          "task_id": "IN-L07-Q050",
+          "video_id": "UP007",
+          "title": "意识形态",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：意识形态"
+        },
+        {
+          "task_id": "IN-L07-Q051",
+          "video_id": "UP007",
+          "title": "自信自立",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：自信自立"
+        },
+        {
+          "task_id": "IN-L07-Q052",
+          "video_id": "UP007",
+          "title": "先立后破",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：先立后破"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L06-Q045",
+          "title": "大路石子",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L06-Q046",
+          "title": "从善如登",
+          "type": "名言警句类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q047",
+          "title": "人民中心",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q048",
+          "title": "奋进懈怠",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q049",
+          "title": "新质生产力",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q050",
+          "title": "意识形态",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q051",
+          "title": "自信自立",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L07-Q052",
+          "title": "先立后破",
+          "type": "领导讲话（宏观政策）类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP004",
+          "title": "复习：组织管理题",
+          "review_node": "3天后",
+          "original_day": 3,
+          "estimated_minutes": 31.5
+        },
+        {
+          "video_id": "UP006",
+          "title": "复习：名言警句题",
+          "review_node": "1天后",
+          "original_day": 5,
+          "estimated_minutes": 23.0
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 49.4,
+        "internalization_minutes": 150,
+        "memory_minutes": 96,
+        "review_minutes": 54.5,
+        "total_minutes": 349.9,
+        "total_hours": 5.8
+      },
+      "phase": "基础题型",
+      "topic": "领导讲话（宏观政策）"
+    },
+    {
+      "day": 7,
+      "day_name": "Day 7",
+      "date": "2026-03-25",
+      "video_tasks": [
+        {
+          "video_id": "UP008",
+          "title": "态度观点题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "08.态度观点题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\08.态度观点题.mp4",
+          "duration_minutes": 59.8,
+          "description": "态度观点题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L08-Q053",
+          "video_id": "UP008",
+          "title": "自身环境",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：自身环境"
+        },
+        {
+          "task_id": "IN-L08-Q054",
+          "video_id": "UP008",
+          "title": "业缘趣缘",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：业缘趣缘"
+        },
+        {
+          "task_id": "IN-L08-Q055",
+          "video_id": "UP008",
+          "title": "城市乡村",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：城市乡村"
+        },
+        {
+          "task_id": "IN-L08-Q056",
+          "video_id": "UP008",
+          "title": "宏伟朴素",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：宏伟朴素"
+        },
+        {
+          "task_id": "IN-L08-Q057",
+          "video_id": "UP008",
+          "title": "信息化下基层",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：信息化下基层"
+        },
+        {
+          "task_id": "IN-L08-Q058",
+          "video_id": "UP008",
+          "title": "导航干部",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：导航干部"
+        },
+        {
+          "task_id": "IN-L08-Q059",
+          "video_id": "UP008",
+          "title": "做得多错得多",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：做得多错得多"
+        },
+        {
+          "task_id": "IN-L08-Q060",
+          "video_id": "UP008",
+          "title": "隐藏实力",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：隐藏实力"
+        },
+        {
+          "task_id": "IN-L08-Q061",
+          "video_id": "UP008",
+          "title": "工作能力",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：工作能力"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L08-Q053",
+          "title": "自身环境",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q054",
+          "title": "业缘趣缘",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q055",
+          "title": "城市乡村",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q056",
+          "title": "宏伟朴素",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q057",
+          "title": "信息化下基层",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q058",
+          "title": "导航干部",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q059",
+          "title": "做得多错得多",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q060",
+          "title": "隐藏实力",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L08-Q061",
+          "title": "工作能力",
+          "type": "态度观点类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP005",
+          "title": "复习：启示做法题",
+          "review_node": "3天后",
+          "original_day": 4,
+          "estimated_minutes": 27.4
+        },
+        {
+          "video_id": "UP007",
+          "title": "复习：领导讲话（宏观政策）题",
+          "review_node": "1天后",
+          "original_day": 6,
+          "estimated_minutes": 24.7
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 59.8,
+        "internalization_minutes": 225,
+        "memory_minutes": 108,
+        "review_minutes": 52.099999999999994,
+        "total_minutes": 444.9,
+        "total_hours": 7.4
+      },
+      "phase": "基础题型",
+      "topic": "态度观点"
+    },
+    {
+      "day": 8,
+      "day_name": "Day 8",
+      "date": "2026-03-26",
+      "video_tasks": [
+        {
+          "video_id": "UP009",
+          "title": "社会现象题下",
+          "part": " ",
+          "type": "系统课程",
+          "file_name": "09.社会现象题 下.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\09.社会现象题 下.mp4",
+          "duration_minutes": 54.4,
+          "description": "社会现象题下（ ）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L09-Q062",
+          "video_id": "UP009",
+          "title": "大学生就业难",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：大学生就业难"
+        },
+        {
+          "task_id": "IN-L09-Q063",
+          "video_id": "UP009",
+          "title": "黑话热梗",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：黑话热梗"
+        },
+        {
+          "task_id": "IN-L09-Q064",
+          "video_id": "UP009",
+          "title": "社交恐惧",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：社交恐惧"
+        },
+        {
+          "task_id": "IN-L09-Q065",
+          "video_id": "UP009",
+          "title": "网络暴力",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：网络暴力"
+        },
+        {
+          "task_id": "IN-L09-Q066",
+          "video_id": "UP009",
+          "title": "青年发展环境",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：青年发展环境"
+        },
+        {
+          "task_id": "IN-L09-Q067",
+          "video_id": "UP009",
+          "title": "低价旅游",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：低价旅游"
+        },
+        {
+          "task_id": "IN-L09-Q068",
+          "video_id": "UP009",
+          "title": "小高改稿子",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：小高改稿子"
+        },
+        {
+          "task_id": "IN-L09-Q069",
+          "video_id": "UP009",
+          "title": "村超爆火",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：村超爆火"
+        },
+        {
+          "task_id": "IN-L09-Q070",
+          "video_id": "UP009",
+          "title": "deepseek",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：deepseek"
+        },
+        {
+          "task_id": "IN-L09-Q071",
+          "video_id": "UP009",
+          "title": "图书馆直播",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：图书馆直播"
+        },
+        {
+          "task_id": "IN-L09-Q072",
+          "video_id": "UP009",
+          "title": "器材弃材",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：器材弃材"
+        },
+        {
+          "task_id": "IN-L09-Q073",
+          "video_id": "UP009",
+          "title": "食品安全",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：食品安全"
+        },
+        {
+          "task_id": "IN-L09-Q074",
+          "video_id": "UP009",
+          "title": "官员带货",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：官员带货"
+        },
+        {
+          "task_id": "IN-L09-Q075",
+          "video_id": "UP009",
+          "title": "线上审批",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：线上审批"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP001",
+          "title": "复习：情景模拟讲解",
+          "review_node": "7天后",
+          "original_day": 1,
+          "estimated_minutes": 33.9
+        },
+        {
+          "video_id": "UP002",
+          "title": "复习：人际关系讲解",
+          "review_node": "7天后",
+          "original_day": 1,
+          "estimated_minutes": 24.9
+        },
+        {
+          "video_id": "UP006",
+          "title": "复习：名言警句题",
+          "review_node": "3天后",
+          "original_day": 5,
+          "estimated_minutes": 23.0
+        },
+        {
+          "video_id": "UP008",
+          "title": "复习：态度观点题",
+          "review_node": "1天后",
+          "original_day": 7,
+          "estimated_minutes": 29.9
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 54.4,
+        "internalization_minutes": 350,
+        "memory_minutes": 0,
+        "review_minutes": 111.69999999999999,
+        "total_minutes": 516.1,
+        "total_hours": 8.6
+      },
+      "phase": "基础题型",
+      "topic": "社会现象下"
+    },
+    {
+      "day": 9,
+      "day_name": "Day 9",
+      "date": "2026-03-27",
+      "video_tasks": [
+        {
+          "video_id": "UP009",
+          "title": "社会现象题",
+          "part": "上",
+          "type": "系统课程",
+          "file_name": "09.社会现象题上.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\09.社会现象题上.mp4",
+          "duration_minutes": 55.6,
+          "description": "社会现象题（上）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L09-Q076",
+          "video_id": "UP009",
+          "title": "承诺政策",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：承诺政策"
+        },
+        {
+          "task_id": "IN-L09-Q077",
+          "video_id": "UP009",
+          "title": "无会月",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：无会月"
+        },
+        {
+          "task_id": "IN-L09-Q078",
+          "video_id": "UP009",
+          "title": "三呼三应",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：三呼三应"
+        },
+        {
+          "task_id": "IN-L09-Q062",
+          "video_id": "UP009",
+          "title": "大学生就业难",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：大学生就业难"
+        },
+        {
+          "task_id": "IN-L09-Q063",
+          "video_id": "UP009",
+          "title": "黑话热梗",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：黑话热梗"
+        },
+        {
+          "task_id": "IN-L09-Q064",
+          "video_id": "UP009",
+          "title": "社交恐惧",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：社交恐惧"
+        },
+        {
+          "task_id": "IN-L09-Q065",
+          "video_id": "UP009",
+          "title": "网络暴力",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：网络暴力"
+        },
+        {
+          "task_id": "IN-L09-Q066",
+          "video_id": "UP009",
+          "title": "青年发展环境",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：青年发展环境"
+        },
+        {
+          "task_id": "IN-L09-Q067",
+          "video_id": "UP009",
+          "title": "低价旅游",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：低价旅游"
+        },
+        {
+          "task_id": "IN-L09-Q068",
+          "video_id": "UP009",
+          "title": "小高改稿子",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：小高改稿子"
+        },
+        {
+          "task_id": "IN-L09-Q069",
+          "video_id": "UP009",
+          "title": "村超爆火",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：村超爆火"
+        },
+        {
+          "task_id": "IN-L09-Q070",
+          "video_id": "UP009",
+          "title": "deepseek",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：deepseek"
+        },
+        {
+          "task_id": "IN-L09-Q071",
+          "video_id": "UP009",
+          "title": "图书馆直播",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：图书馆直播"
+        },
+        {
+          "task_id": "IN-L09-Q072",
+          "video_id": "UP009",
+          "title": "器材弃材",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：器材弃材"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP003",
+          "title": "复习：应急应变题",
+          "review_node": "7天后",
+          "original_day": 2,
+          "estimated_minutes": 28.9
+        },
+        {
+          "video_id": "UP007",
+          "title": "复习：领导讲话（宏观政策）题",
+          "review_node": "3天后",
+          "original_day": 6,
+          "estimated_minutes": 24.7
+        },
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题下",
+          "review_node": "1天后",
+          "original_day": 8,
+          "estimated_minutes": 27.2
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 55.6,
+        "internalization_minutes": 350,
+        "memory_minutes": 0,
+        "review_minutes": 80.8,
+        "total_minutes": 486.4,
+        "total_hours": 8.1
+      },
+      "phase": "基础题型",
+      "topic": "社会现象"
+    },
+    {
+      "day": 10,
+      "day_name": "Day 10",
+      "date": "2026-03-28",
+      "video_tasks": [
+        {
+          "video_id": "UP010",
+          "title": "调查研究类题上",
+          "part": " ",
+          "type": "系统课程",
+          "file_name": "10.调查研究类题 上.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\10.调查研究类题 上.mp4",
+          "duration_minutes": 60.9,
+          "description": "调查研究类题上（ ）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L09-Q073",
+          "video_id": "UP009",
+          "title": "食品安全",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：食品安全"
+        },
+        {
+          "task_id": "IN-L09-Q074",
+          "video_id": "UP009",
+          "title": "官员带货",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：官员带货"
+        },
+        {
+          "task_id": "IN-L09-Q075",
+          "video_id": "UP009",
+          "title": "线上审批",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：线上审批"
+        },
+        {
+          "task_id": "IN-L09-Q076",
+          "video_id": "UP009",
+          "title": "承诺政策",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：承诺政策"
+        },
+        {
+          "task_id": "IN-L09-Q077",
+          "video_id": "UP009",
+          "title": "无会月",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：无会月"
+        },
+        {
+          "task_id": "IN-L09-Q078",
+          "video_id": "UP009",
+          "title": "三呼三应",
+          "part": "上",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：三呼三应"
+        },
+        {
+          "task_id": "IN-L10-Q001",
+          "video_id": "UP010",
+          "title": "博物馆建设调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：博物馆建设调研"
+        },
+        {
+          "task_id": "IN-L10-Q002",
+          "video_id": "UP010",
+          "title": "阅读之城调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：阅读之城调研"
+        },
+        {
+          "task_id": "IN-L10-Q003",
+          "video_id": "UP010",
+          "title": "滨河公园信息获取",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：滨河公园信息获取"
+        },
+        {
+          "task_id": "IN-L10-Q004",
+          "video_id": "UP010",
+          "title": "不可行性调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：不可行性调研"
+        },
+        {
+          "task_id": "IN-L10-Q005",
+          "video_id": "UP010",
+          "title": "汇报调研成果",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：汇报调研成果"
+        },
+        {
+          "task_id": "IN-L10-Q006",
+          "video_id": "UP010",
+          "title": "应急预案前期调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：应急预案前期调研"
+        },
+        {
+          "task_id": "IN-L10-Q007",
+          "video_id": "UP010",
+          "title": "保障调研有效性",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：保障调研有效性"
+        },
+        {
+          "task_id": "IN-L10-Q008",
+          "video_id": "UP010",
+          "title": "制定电池回收补贴标准",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：制定电池回收补贴标准"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP004",
+          "title": "复习：组织管理题",
+          "review_node": "7天后",
+          "original_day": 3,
+          "estimated_minutes": 31.5
+        },
+        {
+          "video_id": "UP008",
+          "title": "复习：态度观点题",
+          "review_node": "3天后",
+          "original_day": 7,
+          "estimated_minutes": 29.9
+        },
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题",
+          "review_node": "1天后",
+          "original_day": 9,
+          "estimated_minutes": 27.8
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 60.9,
+        "internalization_minutes": 350,
+        "memory_minutes": 0,
+        "review_minutes": 89.2,
+        "total_minutes": 500.1,
+        "total_hours": 8.3
+      },
+      "phase": "基础题型",
+      "topic": "调查研究类上"
+    },
+    {
+      "day": 11,
+      "day_name": "Day 11",
+      "date": "2026-03-29",
+      "video_tasks": [
+        {
+          "video_id": "UP010",
+          "title": "调查研究类题下",
+          "part": " ",
+          "type": "系统课程",
+          "file_name": "10.调查研究类题 下.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\10.调查研究类题 下.mp4",
+          "duration_minutes": 59.0,
+          "description": "调查研究类题下（ ）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L10-Q009",
+          "video_id": "UP010",
+          "title": "扶贫调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：扶贫调研"
+        },
+        {
+          "task_id": "IN-L10-Q001",
+          "video_id": "UP010",
+          "title": "用工难调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：用工难调研"
+        },
+        {
+          "task_id": "IN-L10-Q002",
+          "video_id": "UP010",
+          "title": "临时调研任务",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：临时调研任务"
+        },
+        {
+          "task_id": "IN-L10-Q003",
+          "video_id": "UP010",
+          "title": "留守儿童活动调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：留守儿童活动调研"
+        },
+        {
+          "task_id": "IN-L10-Q004",
+          "video_id": "UP010",
+          "title": "微信群调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：微信群调研"
+        },
+        {
+          "task_id": "IN-L10-Q005",
+          "video_id": "UP010",
+          "title": "两难学校选址",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：两难学校选址"
+        },
+        {
+          "task_id": "IN-L10-Q006",
+          "video_id": "UP010",
+          "title": "便民服务圈建设",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：便民服务圈建设"
+        },
+        {
+          "task_id": "IN-L10-Q007",
+          "video_id": "UP010",
+          "title": "老年人食堂调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：老年人食堂调研"
+        },
+        {
+          "task_id": "IN-L10-Q008",
+          "video_id": "UP010",
+          "title": "五个消费调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：五个消费调研"
+        },
+        {
+          "task_id": "IN-L10-Q009",
+          "video_id": "UP010",
+          "title": "解决快递人手不足",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：解决快递人手不足"
+        },
+        {
+          "task_id": "IN-L10-Q010",
+          "video_id": "UP010",
+          "title": "就业问题调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：就业问题调研"
+        },
+        {
+          "task_id": "IN-L10-Q011",
+          "video_id": "UP010",
+          "title": "旅游业调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：旅游业调研"
+        },
+        {
+          "task_id": "IN-L10-Q001",
+          "video_id": "UP010",
+          "title": "博物馆建设调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：博物馆建设调研"
+        },
+        {
+          "task_id": "IN-L10-Q002",
+          "video_id": "UP010",
+          "title": "阅读之城调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：阅读之城调研"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP005",
+          "title": "复习：启示做法题",
+          "review_node": "7天后",
+          "original_day": 4,
+          "estimated_minutes": 27.4
+        },
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题下",
+          "review_node": "3天后",
+          "original_day": 8,
+          "estimated_minutes": 27.2
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题上",
+          "review_node": "1天后",
+          "original_day": 10,
+          "estimated_minutes": 30.4
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 59.0,
+        "internalization_minutes": 350,
+        "memory_minutes": 0,
+        "review_minutes": 85.0,
+        "total_minutes": 494.0,
+        "total_hours": 8.2
+      },
+      "phase": "基础题型",
+      "topic": "调查研究类下"
+    },
+    {
+      "day": 12,
+      "day_name": "Day 12",
+      "date": "2026-03-30",
+      "video_tasks": [
+        {
+          "video_id": "UP011",
+          "title": "演讲发言类题上",
+          "part": " ",
+          "type": "系统课程",
+          "file_name": "11.演讲发言类题 上.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\11.演讲发言类题 上.mp4",
+          "duration_minutes": 63.5,
+          "description": "演讲发言类题上（ ）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L10-Q003",
+          "video_id": "UP010",
+          "title": "滨河公园信息获取",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：滨河公园信息获取"
+        },
+        {
+          "task_id": "IN-L10-Q004",
+          "video_id": "UP010",
+          "title": "不可行性调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：不可行性调研"
+        },
+        {
+          "task_id": "IN-L10-Q005",
+          "video_id": "UP010",
+          "title": "汇报调研成果",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：汇报调研成果"
+        },
+        {
+          "task_id": "IN-L10-Q006",
+          "video_id": "UP010",
+          "title": "应急预案前期调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：应急预案前期调研"
+        },
+        {
+          "task_id": "IN-L10-Q007",
+          "video_id": "UP010",
+          "title": "保障调研有效性",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：保障调研有效性"
+        },
+        {
+          "task_id": "IN-L10-Q008",
+          "video_id": "UP010",
+          "title": "制定电池回收补贴标准",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：制定电池回收补贴标准"
+        },
+        {
+          "task_id": "IN-L10-Q009",
+          "video_id": "UP010",
+          "title": "扶贫调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：扶贫调研"
+        },
+        {
+          "task_id": "IN-L10-Q001",
+          "video_id": "UP010",
+          "title": "用工难调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：用工难调研"
+        },
+        {
+          "task_id": "IN-L10-Q002",
+          "video_id": "UP010",
+          "title": "临时调研任务",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：临时调研任务"
+        },
+        {
+          "task_id": "IN-L10-Q003",
+          "video_id": "UP010",
+          "title": "留守儿童活动调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：留守儿童活动调研"
+        },
+        {
+          "task_id": "IN-L10-Q004",
+          "video_id": "UP010",
+          "title": "微信群调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：微信群调研"
+        },
+        {
+          "task_id": "IN-L10-Q005",
+          "video_id": "UP010",
+          "title": "两难学校选址",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：两难学校选址"
+        },
+        {
+          "task_id": "IN-L10-Q006",
+          "video_id": "UP010",
+          "title": "便民服务圈建设",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：便民服务圈建设"
+        },
+        {
+          "task_id": "IN-L10-Q007",
+          "video_id": "UP010",
+          "title": "老年人食堂调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：老年人食堂调研"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP006",
+          "title": "复习：名言警句题",
+          "review_node": "7天后",
+          "original_day": 5,
+          "estimated_minutes": 23.0
+        },
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题",
+          "review_node": "3天后",
+          "original_day": 9,
+          "estimated_minutes": 27.8
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题下",
+          "review_node": "1天后",
+          "original_day": 11,
+          "estimated_minutes": 29.5
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 63.5,
+        "internalization_minutes": 350,
+        "memory_minutes": 0,
+        "review_minutes": 80.3,
+        "total_minutes": 493.8,
+        "total_hours": 8.2
+      },
+      "phase": "基础题型",
+      "topic": "演讲发言类上"
+    },
+    {
+      "day": 13,
+      "day_name": "Day 13",
+      "date": "2026-03-31",
+      "video_tasks": [
+        {
+          "video_id": "UP011",
+          "title": "演讲发言类题下",
+          "part": " ",
+          "type": "系统课程",
+          "file_name": "11.演讲发言类题 下.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\11.演讲发言类题 下.mp4",
+          "duration_minutes": 37.0,
+          "description": "演讲发言类题下（ ）"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L10-Q008",
+          "video_id": "UP010",
+          "title": "五个消费调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：五个消费调研"
+        },
+        {
+          "task_id": "IN-L10-Q009",
+          "video_id": "UP010",
+          "title": "解决快递人手不足",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：解决快递人手不足"
+        },
+        {
+          "task_id": "IN-L10-Q010",
+          "video_id": "UP010",
+          "title": "就业问题调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：就业问题调研"
+        },
+        {
+          "task_id": "IN-L10-Q011",
+          "video_id": "UP010",
+          "title": "旅游业调研",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：旅游业调研"
+        },
+        {
+          "task_id": "IN-L11-Q001",
+          "video_id": "UP011",
+          "title": "钉子精神",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：钉子精神"
+        },
+        {
+          "task_id": "IN-L11-Q002",
+          "video_id": "UP011",
+          "title": "外卖小哥",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：外卖小哥"
+        },
+        {
+          "task_id": "IN-L11-Q003",
+          "video_id": "UP011",
+          "title": "红色基因",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：红色基因"
+        },
+        {
+          "task_id": "IN-L11-Q004",
+          "video_id": "UP011",
+          "title": "党徽",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：党徽"
+        },
+        {
+          "task_id": "IN-L11-Q005",
+          "video_id": "UP011",
+          "title": "品牌",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：品牌"
+        },
+        {
+          "task_id": "IN-L11-Q006",
+          "video_id": "UP011",
+          "title": "以人民为中心",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：以人民为中心"
+        },
+        {
+          "task_id": "IN-L11-Q007",
+          "video_id": "UP011",
+          "title": "我们",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：我们"
+        },
+        {
+          "task_id": "IN-L11-Q008",
+          "video_id": "UP011",
+          "title": "乡村美好",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乡村美好"
+        },
+        {
+          "task_id": "IN-L11-Q009",
+          "video_id": "UP011",
+          "title": "思想解放",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：思想解放"
+        },
+        {
+          "task_id": "IN-L11-Q010",
+          "video_id": "UP011",
+          "title": "初心使命",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：初心使命"
+        },
+        {
+          "task_id": "IN-L11-Q011",
+          "video_id": "UP011",
+          "title": "默默坚守",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：默默坚守"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP007",
+          "title": "复习：领导讲话（宏观政策）题",
+          "review_node": "7天后",
+          "original_day": 6,
+          "estimated_minutes": 24.7
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题上",
+          "review_node": "3天后",
+          "original_day": 10,
+          "estimated_minutes": 30.4
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题上",
+          "review_node": "1天后",
+          "original_day": 12,
+          "estimated_minutes": 31.8
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 37.0,
+        "internalization_minutes": 375,
+        "memory_minutes": 0,
+        "review_minutes": 86.9,
+        "total_minutes": 498.9,
+        "total_hours": 8.3
+      },
+      "phase": "基础题型",
+      "topic": "演讲发言类下"
+    },
+    {
+      "day": 14,
+      "day_name": "Day 14",
+      "date": "2026-04-01",
+      "video_tasks": [
+        {
+          "video_id": "UP012",
+          "title": "漫画类题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "12.漫画类题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\12.漫画类题.mp4",
+          "duration_minutes": 98.1,
+          "description": "漫画类题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L11-Q012",
+          "video_id": "UP011",
+          "title": "精神照耀",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：精神照耀"
+        },
+        {
+          "task_id": "IN-L11-Q013",
+          "video_id": "UP011",
+          "title": "革命理想",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：革命理想"
+        },
+        {
+          "task_id": "IN-L11-Q014",
+          "video_id": "UP011",
+          "title": "冬奥精神",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：冬奥精神"
+        },
+        {
+          "task_id": "IN-L11-Q015",
+          "video_id": "UP011",
+          "title": "我眼中的未来",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：我眼中的未来"
+        },
+        {
+          "task_id": "IN-L11-Q016",
+          "video_id": "UP011",
+          "title": "乐观",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乐观"
+        },
+        {
+          "task_id": "IN-L11-Q017",
+          "video_id": "UP011",
+          "title": "勤俭节约",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：勤俭节约"
+        },
+        {
+          "task_id": "IN-L11-Q018",
+          "video_id": "UP011",
+          "title": "乔老爷",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乔老爷"
+        },
+        {
+          "task_id": "IN-L11-Q019",
+          "video_id": "UP011",
+          "title": "鸟儿摔不下来",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：鸟儿摔不下来"
+        },
+        {
+          "task_id": "IN-L11-Q020",
+          "video_id": "UP011",
+          "title": "人类命运共同体",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：人类命运共同体"
+        },
+        {
+          "task_id": "IN-L11-Q001",
+          "video_id": "UP011",
+          "title": "钉子精神",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：钉子精神"
+        },
+        {
+          "task_id": "IN-L11-Q002",
+          "video_id": "UP011",
+          "title": "外卖小哥",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：外卖小哥"
+        },
+        {
+          "task_id": "IN-L11-Q003",
+          "video_id": "UP011",
+          "title": "红色基因",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：红色基因"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP008",
+          "title": "复习：态度观点题",
+          "review_node": "7天后",
+          "original_day": 7,
+          "estimated_minutes": 29.9
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题下",
+          "review_node": "3天后",
+          "original_day": 11,
+          "estimated_minutes": 29.5
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题下",
+          "review_node": "1天后",
+          "original_day": 13,
+          "estimated_minutes": 18.5
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 98.1,
+        "internalization_minutes": 300,
+        "memory_minutes": 0,
+        "review_minutes": 77.9,
+        "total_minutes": 476.0,
+        "total_hours": 7.9
+      },
+      "phase": "基础题型",
+      "topic": "漫画类"
+    },
+    {
+      "day": 15,
+      "day_name": "Day 15",
+      "date": "2026-04-02",
+      "video_tasks": [
+        {
+          "video_id": "UP013",
+          "title": "特殊问法答法类题",
+          "part": null,
+          "type": "系统课程",
+          "file_name": "13.特殊问法答法类题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\13.特殊问法答法类题.mp4",
+          "duration_minutes": 124.3,
+          "description": "特殊问法答法类题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L11-Q004",
+          "video_id": "UP011",
+          "title": "党徽",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：党徽"
+        },
+        {
+          "task_id": "IN-L11-Q005",
+          "video_id": "UP011",
+          "title": "品牌",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：品牌"
+        },
+        {
+          "task_id": "IN-L11-Q006",
+          "video_id": "UP011",
+          "title": "以人民为中心",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：以人民为中心"
+        },
+        {
+          "task_id": "IN-L11-Q007",
+          "video_id": "UP011",
+          "title": "我们",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：我们"
+        },
+        {
+          "task_id": "IN-L11-Q008",
+          "video_id": "UP011",
+          "title": "乡村美好",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乡村美好"
+        },
+        {
+          "task_id": "IN-L11-Q009",
+          "video_id": "UP011",
+          "title": "思想解放",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：思想解放"
+        },
+        {
+          "task_id": "IN-L11-Q010",
+          "video_id": "UP011",
+          "title": "初心使命",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：初心使命"
+        },
+        {
+          "task_id": "IN-L11-Q011",
+          "video_id": "UP011",
+          "title": "默默坚守",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：默默坚守"
+        },
+        {
+          "task_id": "IN-L11-Q012",
+          "video_id": "UP011",
+          "title": "精神照耀",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：精神照耀"
+        },
+        {
+          "task_id": "IN-L11-Q013",
+          "video_id": "UP011",
+          "title": "革命理想",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：革命理想"
+        },
+        {
+          "task_id": "IN-L11-Q014",
+          "video_id": "UP011",
+          "title": "冬奥精神",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：冬奥精神"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题下",
+          "review_node": "7天后",
+          "original_day": 8,
+          "estimated_minutes": 27.2
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题上",
+          "review_node": "3天后",
+          "original_day": 12,
+          "estimated_minutes": 31.8
+        },
+        {
+          "video_id": "UP012",
+          "title": "复习：漫画类题",
+          "review_node": "1天后",
+          "original_day": 14,
+          "estimated_minutes": 49.0
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 124.3,
+        "internalization_minutes": 275,
+        "memory_minutes": 0,
+        "review_minutes": 108.0,
+        "total_minutes": 507.3,
+        "total_hours": 8.5
+      },
+      "phase": "基础题型",
+      "topic": "特殊问法答法类"
+    },
+    {
+      "day": 16,
+      "day_name": "Day 16",
+      "date": "2026-04-03",
+      "video_tasks": [
+        {
+          "video_id": "UP014",
+          "title": "第1套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "14.第1套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\14.第1套全真模拟题.mp4",
+          "duration_minutes": 21.4,
+          "description": "第1套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L11-Q015",
+          "video_id": "UP011",
+          "title": "我眼中的未来",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：我眼中的未来"
+        },
+        {
+          "task_id": "IN-L11-Q016",
+          "video_id": "UP011",
+          "title": "乐观",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乐观"
+        },
+        {
+          "task_id": "IN-L11-Q017",
+          "video_id": "UP011",
+          "title": "勤俭节约",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：勤俭节约"
+        },
+        {
+          "task_id": "IN-L11-Q018",
+          "video_id": "UP011",
+          "title": "乔老爷",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：乔老爷"
+        },
+        {
+          "task_id": "IN-L11-Q019",
+          "video_id": "UP011",
+          "title": "鸟儿摔不下来",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：鸟儿摔不下来"
+        },
+        {
+          "task_id": "IN-L11-Q020",
+          "video_id": "UP011",
+          "title": "人类命运共同体",
+          "part": " ",
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：人类命运共同体"
+        },
+        {
+          "task_id": "IN-L12-Q001",
+          "video_id": "UP012",
+          "title": "青蛙鸿鹄",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：青蛙鸿鹄"
+        },
+        {
+          "task_id": "IN-L12-Q002",
+          "video_id": "UP012",
+          "title": "锯腿",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：锯腿"
+        },
+        {
+          "task_id": "IN-L12-Q003",
+          "video_id": "UP012",
+          "title": "网",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：网"
+        },
+        {
+          "task_id": "IN-L12-Q004",
+          "video_id": "UP012",
+          "title": "墙上画靶",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：墙上画靶"
+        },
+        {
+          "task_id": "IN-L12-Q005",
+          "video_id": "UP012",
+          "title": "蜗牛",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：蜗牛"
+        },
+        {
+          "task_id": "IN-L12-Q006",
+          "video_id": "UP012",
+          "title": "水管",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：水管"
+        },
+        {
+          "task_id": "IN-L12-Q007",
+          "video_id": "UP012",
+          "title": "空中指路",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：空中指路"
+        },
+        {
+          "task_id": "IN-L12-Q008",
+          "video_id": "UP012",
+          "title": "宴无好宴",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：宴无好宴"
+        },
+        {
+          "task_id": "IN-L12-Q009",
+          "video_id": "UP012",
+          "title": "精准施策",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：精准施策"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP001",
+          "title": "复习：情景模拟讲解",
+          "review_node": "15天后",
+          "original_day": 1,
+          "estimated_minutes": 33.9
+        },
+        {
+          "video_id": "UP002",
+          "title": "复习：人际关系讲解",
+          "review_node": "15天后",
+          "original_day": 1,
+          "estimated_minutes": 24.9
+        },
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题",
+          "review_node": "7天后",
+          "original_day": 9,
+          "estimated_minutes": 27.8
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题下",
+          "review_node": "3天后",
+          "original_day": 13,
+          "estimated_minutes": 18.5
+        },
+        {
+          "video_id": "UP013",
+          "title": "复习：特殊问法答法类题",
+          "review_node": "1天后",
+          "original_day": 15,
+          "estimated_minutes": 62.1
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 21.4,
+        "internalization_minutes": 375,
+        "memory_minutes": 0,
+        "review_minutes": 167.2,
+        "total_minutes": 563.6,
+        "total_hours": 9.4
+      },
+      "phase": "全真模拟",
+      "topic": "第1套全真模拟题"
+    },
+    {
+      "day": 17,
+      "day_name": "Day 17",
+      "date": "2026-04-04",
+      "video_tasks": [
+        {
+          "video_id": "UP015",
+          "title": "第2套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "15.第2套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\15.第2套全真模拟题.mp4",
+          "duration_minutes": 15.1,
+          "description": "第2套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L12-Q010",
+          "video_id": "UP012",
+          "title": "阳光阴影",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：阳光阴影"
+        },
+        {
+          "task_id": "IN-L12-Q011",
+          "video_id": "UP012",
+          "title": "基层干部改造",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：基层干部改造"
+        },
+        {
+          "task_id": "IN-L12-Q001",
+          "video_id": "UP012",
+          "title": "雕塑自我",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：雕塑自我"
+        },
+        {
+          "task_id": "IN-L12-Q002",
+          "video_id": "UP012",
+          "title": "打开心门",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：打开心门"
+        },
+        {
+          "task_id": "IN-L12-Q003",
+          "video_id": "UP012",
+          "title": "想象中的大鱼",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：想象中的大鱼"
+        },
+        {
+          "task_id": "IN-L12-Q004",
+          "video_id": "UP012",
+          "title": "蜗牛去壳",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：蜗牛去壳"
+        },
+        {
+          "task_id": "IN-L12-Q005",
+          "video_id": "UP012",
+          "title": "木桶",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：木桶"
+        },
+        {
+          "task_id": "IN-L12-Q006",
+          "video_id": "UP012",
+          "title": "扫帚",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：扫帚"
+        },
+        {
+          "task_id": "IN-L12-Q007",
+          "video_id": "UP012",
+          "title": "婴儿",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：婴儿"
+        },
+        {
+          "task_id": "IN-L12-Q008",
+          "video_id": "UP012",
+          "title": "手指头",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：手指头"
+        },
+        {
+          "task_id": "IN-L12-Q009",
+          "video_id": "UP012",
+          "title": "筷子",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：筷子"
+        },
+        {
+          "task_id": "IN-L12-Q010",
+          "video_id": "UP012",
+          "title": "工作总结",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：工作总结"
+        },
+        {
+          "task_id": "IN-L13-Q001",
+          "video_id": "UP013",
+          "title": "处理四个问题",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：处理四个问题"
+        },
+        {
+          "task_id": "IN-L13-Q002",
+          "video_id": "UP013",
+          "title": "介绍经历",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：介绍经历"
+        },
+        {
+          "task_id": "IN-L13-Q003",
+          "video_id": "UP013",
+          "title": "运用技术创新",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：运用技术创新"
+        },
+        {
+          "task_id": "IN-L13-Q004",
+          "video_id": "UP013",
+          "title": "做好服务",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：做好服务"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP003",
+          "title": "复习：应急应变题",
+          "review_node": "15天后",
+          "original_day": 2,
+          "estimated_minutes": 28.9
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题上",
+          "review_node": "7天后",
+          "original_day": 10,
+          "estimated_minutes": 30.4
+        },
+        {
+          "video_id": "UP012",
+          "title": "复习：漫画类题",
+          "review_node": "3天后",
+          "original_day": 14,
+          "estimated_minutes": 49.0
+        },
+        {
+          "video_id": "UP014",
+          "title": "复习：第1套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 16,
+          "estimated_minutes": 10.7
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 15.1,
+        "internalization_minutes": 400,
+        "memory_minutes": 0,
+        "review_minutes": 119.0,
+        "total_minutes": 534.1,
+        "total_hours": 8.9
+      },
+      "phase": "全真模拟",
+      "topic": "第2套全真模拟题"
+    },
+    {
+      "day": 18,
+      "day_name": "Day 18",
+      "date": "2026-04-05",
+      "video_tasks": [
+        {
+          "video_id": "UP016",
+          "title": "第3套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "16.第3套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\16.第3套全真模拟题.mp4",
+          "duration_minutes": 25.4,
+          "description": "第3套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "IN-L13-Q005",
+          "video_id": "UP013",
+          "title": "评价自己和他人",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：评价自己和他人"
+        },
+        {
+          "task_id": "IN-L13-Q006",
+          "video_id": "UP013",
+          "title": "重要紧急的事情",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：重要紧急的事情"
+        },
+        {
+          "task_id": "IN-L13-Q007",
+          "video_id": "UP013",
+          "title": "事情没办好",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：事情没办好"
+        },
+        {
+          "task_id": "IN-L13-Q008",
+          "video_id": "UP013",
+          "title": "党建指导员素质",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：党建指导员素质"
+        },
+        {
+          "task_id": "IN-L13-Q009",
+          "video_id": "UP013",
+          "title": "四句歌词",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：四句歌词"
+        },
+        {
+          "task_id": "IN-L13-Q010",
+          "video_id": "UP013",
+          "title": "讲话稿重点",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：讲话稿重点"
+        },
+        {
+          "task_id": "IN-L13-Q011",
+          "video_id": "UP013",
+          "title": "基层问题",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：基层问题"
+        },
+        {
+          "task_id": "IN-L13-Q001",
+          "video_id": "UP013",
+          "title": "字",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：字"
+        },
+        {
+          "task_id": "IN-L13-Q002",
+          "video_id": "UP013",
+          "title": "词",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：词"
+        },
+        {
+          "task_id": "IN-L13-Q003",
+          "video_id": "UP013",
+          "title": "句",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：句"
+        },
+        {
+          "task_id": "IN-L13-Q004",
+          "video_id": "UP013",
+          "title": "比",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：比"
+        },
+        {
+          "task_id": "IN-L13-Q005",
+          "video_id": "UP013",
+          "title": "加",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：加"
+        },
+        {
+          "task_id": "IN-L13-Q006",
+          "video_id": "UP013",
+          "title": "油",
+          "part": null,
+          "type": "系统课程",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 25,
+          "description": "内化改造：油"
+        },
+        {
+          "task_id": "I014",
+          "video_id": "UP014",
+          "title": "第1套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 42.8,
+          "description": "内化改造：第1套全真模拟题"
+        },
+        {
+          "task_id": "I015",
+          "video_id": "UP015",
+          "title": "第2套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 30.2,
+          "description": "内化改造：第2套全真模拟题"
+        }
+      ],
+      "memory_tasks": [],
+      "review_tasks": [
+        {
+          "video_id": "UP004",
+          "title": "复习：组织管理题",
+          "review_node": "15天后",
+          "original_day": 3,
+          "estimated_minutes": 31.5
+        },
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题下",
+          "review_node": "7天后",
+          "original_day": 11,
+          "estimated_minutes": 29.5
+        },
+        {
+          "video_id": "UP013",
+          "title": "复习：特殊问法答法类题",
+          "review_node": "3天后",
+          "original_day": 15,
+          "estimated_minutes": 62.1
+        },
+        {
+          "video_id": "UP015",
+          "title": "复习：第2套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 17,
+          "estimated_minutes": 7.5
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 25.4,
+        "internalization_minutes": 398.0,
+        "memory_minutes": 0,
+        "review_minutes": 130.6,
+        "total_minutes": 554.0,
+        "total_hours": 9.2
+      },
+      "phase": "全真模拟",
+      "topic": "第3套全真模拟题"
+    },
+    {
+      "day": 19,
+      "day_name": "Day 19",
+      "date": "2026-04-06",
+      "video_tasks": [
+        {
+          "video_id": "UP017",
+          "title": "第4套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "17.第4套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\17.第4套全真模拟题.mp4",
+          "duration_minutes": 24.1,
+          "description": "第4套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I016",
+          "video_id": "UP016",
+          "title": "第3套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 50.8,
+          "description": "内化改造：第3套全真模拟题"
+        },
+        {
+          "task_id": "I017",
+          "video_id": "UP017",
+          "title": "第4套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 48.2,
+          "description": "内化改造：第4套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L09-Q062",
+          "title": "大学生就业难",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q063",
+          "title": "黑话热梗",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q064",
+          "title": "社交恐惧",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q065",
+          "title": "网络暴力",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q066",
+          "title": "青年发展环境",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q067",
+          "title": "低价旅游",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q068",
+          "title": "小高改稿子",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q069",
+          "title": "村超爆火",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q070",
+          "title": "deepseek",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q071",
+          "title": "图书馆直播",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q072",
+          "title": "器材弃材",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q073",
+          "title": "食品安全",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q074",
+          "title": "官员带货",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q075",
+          "title": "线上审批",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q076",
+          "title": "承诺政策",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q077",
+          "title": "无会月",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q078",
+          "title": "三呼三应",
+          "type": "社会现象下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q062",
+          "title": "大学生就业难",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q063",
+          "title": "黑话热梗",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q064",
+          "title": "社交恐惧",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q065",
+          "title": "网络暴力",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q066",
+          "title": "青年发展环境",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q067",
+          "title": "低价旅游",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP005",
+          "title": "复习：启示做法题",
+          "review_node": "15天后",
+          "original_day": 4,
+          "estimated_minutes": 27.4
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题上",
+          "review_node": "7天后",
+          "original_day": 12,
+          "estimated_minutes": 31.8
+        },
+        {
+          "video_id": "UP014",
+          "title": "复习：第1套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 16,
+          "estimated_minutes": 10.7
+        },
+        {
+          "video_id": "UP016",
+          "title": "复习：第3套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 18,
+          "estimated_minutes": 12.7
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 24.1,
+        "internalization_minutes": 99.0,
+        "memory_minutes": 276,
+        "review_minutes": 82.6,
+        "total_minutes": 481.7,
+        "total_hours": 8.0
+      },
+      "phase": "全真模拟",
+      "topic": "第4套全真模拟题"
+    },
+    {
+      "day": 20,
+      "day_name": "Day 20",
+      "date": "2026-04-07",
+      "video_tasks": [
+        {
+          "video_id": "UP018",
+          "title": "第5套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "18.第5套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\18.第5套全真模拟题.mp4",
+          "duration_minutes": 18.0,
+          "description": "第5套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I018",
+          "video_id": "UP018",
+          "title": "第5套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 36.0,
+          "description": "内化改造：第5套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L09-Q068",
+          "title": "小高改稿子",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q069",
+          "title": "村超爆火",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q070",
+          "title": "deepseek",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q071",
+          "title": "图书馆直播",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q072",
+          "title": "器材弃材",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q073",
+          "title": "食品安全",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q074",
+          "title": "官员带货",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q075",
+          "title": "线上审批",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q076",
+          "title": "承诺政策",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q077",
+          "title": "无会月",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L09-Q078",
+          "title": "三呼三应",
+          "type": "社会现象类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q001",
+          "title": "博物馆建设调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q002",
+          "title": "阅读之城调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q003",
+          "title": "滨河公园信息获取",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q004",
+          "title": "不可行性调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q005",
+          "title": "汇报调研成果",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q006",
+          "title": "应急预案前期调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q007",
+          "title": "保障调研有效性",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q008",
+          "title": "制定电池回收补贴标准",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q009",
+          "title": "扶贫调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q001",
+          "title": "用工难调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q002",
+          "title": "临时调研任务",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q003",
+          "title": "留守儿童活动调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q004",
+          "title": "微信群调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q005",
+          "title": "两难学校选址",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q006",
+          "title": "便民服务圈建设",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q007",
+          "title": "老年人食堂调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q008",
+          "title": "五个消费调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q009",
+          "title": "解决快递人手不足",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP006",
+          "title": "复习：名言警句题",
+          "review_node": "15天后",
+          "original_day": 5,
+          "estimated_minutes": 23.0
+        },
+        {
+          "video_id": "UP011",
+          "title": "复习：演讲发言类题下",
+          "review_node": "7天后",
+          "original_day": 13,
+          "estimated_minutes": 18.5
+        },
+        {
+          "video_id": "UP015",
+          "title": "复习：第2套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 17,
+          "estimated_minutes": 7.5
+        },
+        {
+          "video_id": "UP017",
+          "title": "复习：第4套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 19,
+          "estimated_minutes": 12.1
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 18.0,
+        "internalization_minutes": 36.0,
+        "memory_minutes": 348,
+        "review_minutes": 61.1,
+        "total_minutes": 463.1,
+        "total_hours": 7.7
+      },
+      "phase": "全真模拟",
+      "topic": "第5套全真模拟题"
+    },
+    {
+      "day": 21,
+      "day_name": "Day 21",
+      "date": "2026-04-08",
+      "video_tasks": [
+        {
+          "video_id": "UP019",
+          "title": "第6套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "19.第6套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\19.第6套全真模拟题.mp4",
+          "duration_minutes": 24.4,
+          "description": "第6套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I019",
+          "video_id": "UP019",
+          "title": "第6套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 48.8,
+          "description": "内化改造：第6套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L10-Q010",
+          "title": "就业问题调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q011",
+          "title": "旅游业调研",
+          "type": "调查研究类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q001",
+          "title": "博物馆建设调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q002",
+          "title": "阅读之城调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q003",
+          "title": "滨河公园信息获取",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q004",
+          "title": "不可行性调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q005",
+          "title": "汇报调研成果",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q006",
+          "title": "应急预案前期调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q007",
+          "title": "保障调研有效性",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q008",
+          "title": "制定电池回收补贴标准",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q009",
+          "title": "扶贫调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q001",
+          "title": "用工难调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q002",
+          "title": "临时调研任务",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q003",
+          "title": "留守儿童活动调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q004",
+          "title": "微信群调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q005",
+          "title": "两难学校选址",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q006",
+          "title": "便民服务圈建设",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q007",
+          "title": "老年人食堂调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q008",
+          "title": "五个消费调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q009",
+          "title": "解决快递人手不足",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q010",
+          "title": "就业问题调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L10-Q011",
+          "title": "旅游业调研",
+          "type": "调查研究类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q001",
+          "title": "钉子精神",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q002",
+          "title": "外卖小哥",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q003",
+          "title": "红色基因",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q004",
+          "title": "党徽",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q005",
+          "title": "品牌",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP007",
+          "title": "复习：领导讲话（宏观政策）题",
+          "review_node": "15天后",
+          "original_day": 6,
+          "estimated_minutes": 24.7
+        },
+        {
+          "video_id": "UP012",
+          "title": "复习：漫画类题",
+          "review_node": "7天后",
+          "original_day": 14,
+          "estimated_minutes": 49.0
+        },
+        {
+          "video_id": "UP016",
+          "title": "复习：第3套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 18,
+          "estimated_minutes": 12.7
+        },
+        {
+          "video_id": "UP018",
+          "title": "复习：第5套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 20,
+          "estimated_minutes": 9.0
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 24.4,
+        "internalization_minutes": 48.8,
+        "memory_minutes": 324,
+        "review_minutes": 95.4,
+        "total_minutes": 492.6,
+        "total_hours": 8.2
+      },
+      "phase": "全真模拟",
+      "topic": "第6套全真模拟题"
+    },
+    {
+      "day": 22,
+      "day_name": "Day 22",
+      "date": "2026-04-09",
+      "video_tasks": [
+        {
+          "video_id": "UP020",
+          "title": "第7套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "20.第7套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\20.第7套全真模拟题.mp4",
+          "duration_minutes": 26.9,
+          "description": "第7套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I020",
+          "video_id": "UP020",
+          "title": "第7套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 53.8,
+          "description": "内化改造：第7套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L11-Q006",
+          "title": "以人民为中心",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q007",
+          "title": "我们",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q008",
+          "title": "乡村美好",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q009",
+          "title": "思想解放",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q010",
+          "title": "初心使命",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q011",
+          "title": "默默坚守",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q012",
+          "title": "精神照耀",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q013",
+          "title": "革命理想",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q014",
+          "title": "冬奥精神",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q015",
+          "title": "我眼中的未来",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q016",
+          "title": "乐观",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q017",
+          "title": "勤俭节约",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q018",
+          "title": "乔老爷",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q019",
+          "title": "鸟儿摔不下来",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q020",
+          "title": "人类命运共同体",
+          "type": "演讲发言类上类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q001",
+          "title": "钉子精神",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q002",
+          "title": "外卖小哥",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q003",
+          "title": "红色基因",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q004",
+          "title": "党徽",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q005",
+          "title": "品牌",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q006",
+          "title": "以人民为中心",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q007",
+          "title": "我们",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q008",
+          "title": "乡村美好",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q009",
+          "title": "思想解放",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q010",
+          "title": "初心使命",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q011",
+          "title": "默默坚守",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q012",
+          "title": "精神照耀",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP008",
+          "title": "复习：态度观点题",
+          "review_node": "15天后",
+          "original_day": 7,
+          "estimated_minutes": 29.9
+        },
+        {
+          "video_id": "UP013",
+          "title": "复习：特殊问法答法类题",
+          "review_node": "7天后",
+          "original_day": 15,
+          "estimated_minutes": 62.1
+        },
+        {
+          "video_id": "UP017",
+          "title": "复习：第4套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 19,
+          "estimated_minutes": 12.1
+        },
+        {
+          "video_id": "UP019",
+          "title": "复习：第6套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 21,
+          "estimated_minutes": 12.2
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 26.9,
+        "internalization_minutes": 53.8,
+        "memory_minutes": 324,
+        "review_minutes": 116.3,
+        "total_minutes": 521.0,
+        "total_hours": 8.7
+      },
+      "phase": "全真模拟",
+      "topic": "第7套全真模拟题"
+    },
+    {
+      "day": 23,
+      "day_name": "Day 23",
+      "date": "2026-04-10",
+      "video_tasks": [
+        {
+          "video_id": "UP021",
+          "title": "第8套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "21.第8套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\21.第8套全真模拟题.mp4",
+          "duration_minutes": 27.9,
+          "description": "第8套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I021",
+          "video_id": "UP021",
+          "title": "第8套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 55.8,
+          "description": "内化改造：第8套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L11-Q013",
+          "title": "革命理想",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q014",
+          "title": "冬奥精神",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q015",
+          "title": "我眼中的未来",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q016",
+          "title": "乐观",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q017",
+          "title": "勤俭节约",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q018",
+          "title": "乔老爷",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q019",
+          "title": "鸟儿摔不下来",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L11-Q020",
+          "title": "人类命运共同体",
+          "type": "演讲发言类下类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q001",
+          "title": "青蛙鸿鹄",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q002",
+          "title": "锯腿",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q003",
+          "title": "网",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q004",
+          "title": "墙上画靶",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q005",
+          "title": "蜗牛",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q006",
+          "title": "水管",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q007",
+          "title": "空中指路",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q008",
+          "title": "宴无好宴",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q009",
+          "title": "精准施策",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q010",
+          "title": "阳光阴影",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q011",
+          "title": "基层干部改造",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q001",
+          "title": "雕塑自我",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q002",
+          "title": "打开心门",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q003",
+          "title": "想象中的大鱼",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q004",
+          "title": "蜗牛去壳",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q005",
+          "title": "木桶",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q006",
+          "title": "扫帚",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q007",
+          "title": "婴儿",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题下",
+          "review_node": "15天后",
+          "original_day": 8,
+          "estimated_minutes": 27.2
+        },
+        {
+          "video_id": "UP014",
+          "title": "复习：第1套全真模拟题",
+          "review_node": "7天后",
+          "original_day": 16,
+          "estimated_minutes": 10.7
+        },
+        {
+          "video_id": "UP018",
+          "title": "复习：第5套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 20,
+          "estimated_minutes": 9.0
+        },
+        {
+          "video_id": "UP020",
+          "title": "复习：第7套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 22,
+          "estimated_minutes": 13.4
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 27.9,
+        "internalization_minutes": 55.8,
+        "memory_minutes": 312,
+        "review_minutes": 60.3,
+        "total_minutes": 456.0,
+        "total_hours": 7.6
+      },
+      "phase": "全真模拟",
+      "topic": "第8套全真模拟题"
+    },
+    {
+      "day": 24,
+      "day_name": "Day 24",
+      "date": "2026-04-11",
+      "video_tasks": [
+        {
+          "video_id": "UP022",
+          "title": "第9套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "22.第9套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\22.第9套全真模拟题.mp4",
+          "duration_minutes": 33.0,
+          "description": "第9套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I022",
+          "video_id": "UP022",
+          "title": "第9套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 66.0,
+          "description": "内化改造：第9套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "L12-Q008",
+          "title": "手指头",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q009",
+          "title": "筷子",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L12-Q010",
+          "title": "工作总结",
+          "type": "漫画类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q001",
+          "title": "处理四个问题",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q002",
+          "title": "介绍经历",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q003",
+          "title": "运用技术创新",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q004",
+          "title": "做好服务",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q005",
+          "title": "评价自己和他人",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q006",
+          "title": "重要紧急的事情",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q007",
+          "title": "事情没办好",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q008",
+          "title": "党建指导员素质",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q009",
+          "title": "四句歌词",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q010",
+          "title": "讲话稿重点",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q011",
+          "title": "基层问题",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q001",
+          "title": "字",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q002",
+          "title": "词",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q003",
+          "title": "句",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q004",
+          "title": "比",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q005",
+          "title": "加",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "L13-Q006",
+          "title": "油",
+          "type": "特殊问法答法类类",
+          "source": "26升级讲义",
+          "word_count": 500,
+          "estimated_minutes": 12
+        },
+        {
+          "question_id": "M014",
+          "title": "背诵：第1套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 21.4
+        },
+        {
+          "question_id": "M015",
+          "title": "背诵：第2套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 15.1
+        },
+        {
+          "question_id": "M016",
+          "title": "背诵：第3套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 25.4
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP009",
+          "title": "复习：社会现象题",
+          "review_node": "15天后",
+          "original_day": 9,
+          "estimated_minutes": 27.8
+        },
+        {
+          "video_id": "UP015",
+          "title": "复习：第2套全真模拟题",
+          "review_node": "7天后",
+          "original_day": 17,
+          "estimated_minutes": 7.5
+        },
+        {
+          "video_id": "UP019",
+          "title": "复习：第6套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 21,
+          "estimated_minutes": 12.2
+        },
+        {
+          "video_id": "UP021",
+          "title": "复习：第8套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 23,
+          "estimated_minutes": 13.9
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 33.0,
+        "internalization_minutes": 66.0,
+        "memory_minutes": 301.9,
+        "review_minutes": 61.4,
+        "total_minutes": 462.3,
+        "total_hours": 7.7
+      },
+      "phase": "全真模拟",
+      "topic": "第9套全真模拟题"
+    },
+    {
+      "day": 25,
+      "day_name": "Day 25",
+      "date": "2026-04-12",
+      "video_tasks": [
+        {
+          "video_id": "UP023",
+          "title": "第10套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "file_name": "23.第10套全真模拟题.mp4",
+          "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\23.第10套全真模拟题.mp4",
+          "duration_minutes": 26.4,
+          "description": "第10套全真模拟题"
+        }
+      ],
+      "internalization_tasks": [
+        {
+          "task_id": "I023",
+          "video_id": "UP023",
+          "title": "第10套全真模拟题",
+          "part": null,
+          "type": "全真模拟",
+          "estimated_minutes": 52.8,
+          "description": "内化改造：第10套全真模拟题"
+        }
+      ],
+      "memory_tasks": [
+        {
+          "question_id": "M017",
+          "title": "背诵：第4套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 24.1
+        },
+        {
+          "question_id": "M018",
+          "title": "背诵：第5套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 18.0
+        },
+        {
+          "question_id": "M019",
+          "title": "背诵：第6套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 24.4
+        },
+        {
+          "question_id": "M020",
+          "title": "背诵：第7套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 26.9
+        },
+        {
+          "question_id": "M021",
+          "title": "背诵：第8套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 27.9
+        },
+        {
+          "question_id": "M022",
+          "title": "背诵：第9套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 33.0
+        },
+        {
+          "question_id": "M023",
+          "title": "背诵：第10套全真模拟题",
+          "type": "全真模拟",
+          "source": "26升级讲义",
+          "estimated_minutes": 26.4
+        }
+      ],
+      "review_tasks": [
+        {
+          "video_id": "UP010",
+          "title": "复习：调查研究类题上",
+          "review_node": "15天后",
+          "original_day": 10,
+          "estimated_minutes": 30.4
+        },
+        {
+          "video_id": "UP016",
+          "title": "复习：第3套全真模拟题",
+          "review_node": "7天后",
+          "original_day": 18,
+          "estimated_minutes": 12.7
+        },
+        {
+          "video_id": "UP020",
+          "title": "复习：第7套全真模拟题",
+          "review_node": "3天后",
+          "original_day": 22,
+          "estimated_minutes": 13.4
+        },
+        {
+          "video_id": "UP022",
+          "title": "复习：第9套全真模拟题",
+          "review_node": "1天后",
+          "original_day": 24,
+          "estimated_minutes": 16.5
+        }
+      ],
+      "estimated_time": {
+        "video_minutes": 26.4,
+        "internalization_minutes": 52.8,
+        "memory_minutes": 180.70000000000002,
+        "review_minutes": 73.0,
+        "total_minutes": 332.9,
+        "total_hours": 5.5
+      },
+      "phase": "全真模拟",
+      "topic": "第10套全真模拟题"
+    }
+  ],
+  "video_reference": {
+    "UP001": {
+      "video_id": "UP001",
+      "num": 1,
+      "title": "情景模拟讲解",
+      "part": null,
+      "type": "系统课程",
+      "filename": "01.情景模拟讲解.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\01.情景模拟讲解.mp4",
+      "duration_seconds": 4071,
+      "duration_minutes": 67.8
+    },
+    "UP002": {
+      "video_id": "UP002",
+      "num": 2,
+      "title": "人际关系讲解",
+      "part": null,
+      "type": "系统课程",
+      "filename": "02.人际关系讲解.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\02.人际关系讲解.mp4",
+      "duration_seconds": 2985,
+      "duration_minutes": 49.8
+    },
+    "UP003": {
+      "video_id": "UP003",
+      "num": 3,
+      "title": "应急应变题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "03.应急应变题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\03.应急应变题.mp4",
+      "duration_seconds": 3464,
+      "duration_minutes": 57.7
+    },
+    "UP004": {
+      "video_id": "UP004",
+      "num": 4,
+      "title": "组织管理题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "04.组织管理题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\04.组织管理题.mp4",
+      "duration_seconds": 3778,
+      "duration_minutes": 63.0
+    },
+    "UP005": {
+      "video_id": "UP005",
+      "num": 5,
+      "title": "启示做法题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "05.启示做法题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\05.启示做法题.mp4",
+      "duration_seconds": 3294,
+      "duration_minutes": 54.9
+    },
+    "UP006": {
+      "video_id": "UP006",
+      "num": 6,
+      "title": "名言警句题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "06.名言警句题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\06.名言警句题.mp4",
+      "duration_seconds": 2757,
+      "duration_minutes": 46.0
+    },
+    "UP007": {
+      "video_id": "UP007",
+      "num": 7,
+      "title": "领导讲话（宏观政策）题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "07.领导讲话（宏观政策）题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\07.领导讲话（宏观政策）题.mp4",
+      "duration_seconds": 2965,
+      "duration_minutes": 49.4
+    },
+    "UP008": {
+      "video_id": "UP008",
+      "num": 8,
+      "title": "态度观点题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "08.态度观点题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\08.态度观点题.mp4",
+      "duration_seconds": 3587,
+      "duration_minutes": 59.8
+    },
+    "UP009": {
+      "video_id": "UP009",
+      "num": 9,
+      "title": "社会现象题",
+      "part": "上",
+      "type": "系统课程",
+      "filename": "09.社会现象题上.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\09.社会现象题上.mp4",
+      "duration_seconds": 3339,
+      "duration_minutes": 55.6
+    },
+    "UP010": {
+      "video_id": "UP010",
+      "num": 10,
+      "title": "调查研究类题下",
+      "part": " ",
+      "type": "系统课程",
+      "filename": "10.调查研究类题 下.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\10.调查研究类题 下.mp4",
+      "duration_seconds": 3542,
+      "duration_minutes": 59.0
+    },
+    "UP011": {
+      "video_id": "UP011",
+      "num": 11,
+      "title": "演讲发言类题下",
+      "part": " ",
+      "type": "系统课程",
+      "filename": "11.演讲发言类题 下.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\11.演讲发言类题 下.mp4",
+      "duration_seconds": 2221,
+      "duration_minutes": 37.0
+    },
+    "UP012": {
+      "video_id": "UP012",
+      "num": 12,
+      "title": "漫画类题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "12.漫画类题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\12.漫画类题.mp4",
+      "duration_seconds": 5887,
+      "duration_minutes": 98.1
+    },
+    "UP013": {
+      "video_id": "UP013",
+      "num": 13,
+      "title": "特殊问法答法类题",
+      "part": null,
+      "type": "系统课程",
+      "filename": "13.特殊问法答法类题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\13.特殊问法答法类题.mp4",
+      "duration_seconds": 7459,
+      "duration_minutes": 124.3
+    },
+    "UP014": {
+      "video_id": "UP014",
+      "num": 14,
+      "title": "第1套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "14.第1套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\14.第1套全真模拟题.mp4",
+      "duration_seconds": 1284,
+      "duration_minutes": 21.4
+    },
+    "UP015": {
+      "video_id": "UP015",
+      "num": 15,
+      "title": "第2套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "15.第2套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\15.第2套全真模拟题.mp4",
+      "duration_seconds": 903,
+      "duration_minutes": 15.1
+    },
+    "UP016": {
+      "video_id": "UP016",
+      "num": 16,
+      "title": "第3套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "16.第3套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\16.第3套全真模拟题.mp4",
+      "duration_seconds": 1526,
+      "duration_minutes": 25.4
+    },
+    "UP017": {
+      "video_id": "UP017",
+      "num": 17,
+      "title": "第4套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "17.第4套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\17.第4套全真模拟题.mp4",
+      "duration_seconds": 1444,
+      "duration_minutes": 24.1
+    },
+    "UP018": {
+      "video_id": "UP018",
+      "num": 18,
+      "title": "第5套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "18.第5套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\18.第5套全真模拟题.mp4",
+      "duration_seconds": 1079,
+      "duration_minutes": 18.0
+    },
+    "UP019": {
+      "video_id": "UP019",
+      "num": 19,
+      "title": "第6套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "19.第6套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\19.第6套全真模拟题.mp4",
+      "duration_seconds": 1466,
+      "duration_minutes": 24.4
+    },
+    "UP020": {
+      "video_id": "UP020",
+      "num": 20,
+      "title": "第7套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "20.第7套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\20.第7套全真模拟题.mp4",
+      "duration_seconds": 1615,
+      "duration_minutes": 26.9
+    },
+    "UP021": {
+      "video_id": "UP021",
+      "num": 21,
+      "title": "第8套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "21.第8套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\21.第8套全真模拟题.mp4",
+      "duration_seconds": 1671,
+      "duration_minutes": 27.9
+    },
+    "UP022": {
+      "video_id": "UP022",
+      "num": 22,
+      "title": "第9套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "22.第9套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\22.第9套全真模拟题.mp4",
+      "duration_seconds": 1982,
+      "duration_minutes": 33.0
+    },
+    "UP023": {
+      "video_id": "UP023",
+      "num": 23,
+      "title": "第10套全真模拟题",
+      "part": null,
+      "type": "全真模拟",
+      "filename": "23.第10套全真模拟题.mp4",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\23.第10套全真模拟题.mp4",
+      "duration_seconds": 1586,
+      "duration_minutes": 26.4
+    }
+  },
+  "lecture_reference": {
+    "L001": {
+      "lecture_id": "L001",
+      "num": 1,
+      "title": "情景模拟讲解",
+      "filename": "01.情景模拟讲解.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\01.情景模拟讲解.md",
+      "char_count": 7440,
+      "char_count_no_space": 7088,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q2774",
+          "title": "与不满的同事沟通",
+          "word_count": 761
+        },
+        {
+          "question_id": "Q4990",
+          "title": "劝群众严防电诈",
+          "word_count": 1314
+        },
+        {
+          "question_id": "Q0155",
+          "title": "劝人接活儿",
+          "word_count": 1408
+        },
+        {
+          "question_id": "Q2911",
+          "title": "说服持反对意见的领导",
+          "word_count": 1110
+        },
+        {
+          "question_id": "Q8180",
+          "title": "座谈会发言",
+          "word_count": 1027
+        },
+        {
+          "question_id": "Q1119",
+          "title": "开导负能量同事",
+          "word_count": 982
+        }
+      ]
+    },
+    "L002": {
+      "lecture_id": "L002",
+      "num": 2,
+      "title": "人际关系讲解",
+      "filename": "02.人际关系讲解.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\02.人际关系讲解.md",
+      "char_count": 7955,
+      "char_count_no_space": 7700,
+      "question_count": 8,
+      "questions": [
+        {
+          "question_id": "Q9535",
+          "title": "性格各异的领导同事",
+          "word_count": 831
+        },
+        {
+          "question_id": "Q0968",
+          "title": "同事抢你功劳",
+          "word_count": 1033
+        },
+        {
+          "question_id": "Q2501",
+          "title": "当好工作组长",
+          "word_count": 954
+        },
+        {
+          "question_id": "Q1873",
+          "title": "同事指手画脚",
+          "word_count": 1010
+        },
+        {
+          "question_id": "Q8249",
+          "title": "向领导推辞工作",
+          "word_count": 714
+        },
+        {
+          "question_id": "Q6337",
+          "title": "新人意志消沉",
+          "word_count": 1225
+        },
+        {
+          "question_id": "Q6236",
+          "title": "领导冒用稿子",
+          "word_count": 516
+        },
+        {
+          "question_id": "Q5998",
+          "title": "下级不配合工作",
+          "word_count": 781
+        }
+      ]
+    },
+    "L003": {
+      "lecture_id": "L003",
+      "num": 3,
+      "title": "应急应变题",
+      "filename": "03.应急应变题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\03.应急应变题.md",
+      "char_count": 7832,
+      "char_count_no_space": 7542,
+      "question_count": 8,
+      "questions": [
+        {
+          "question_id": "Q0583",
+          "title": "处理犯错同事",
+          "word_count": 881
+        },
+        {
+          "question_id": "Q8320",
+          "title": "处理下跪老人",
+          "word_count": 1019
+        },
+        {
+          "question_id": "Q5177",
+          "title": "发布会被质疑",
+          "word_count": 853
+        },
+        {
+          "question_id": "Q0295",
+          "title": "群众阻拦施工",
+          "word_count": 714
+        },
+        {
+          "question_id": "Q6359",
+          "title": "极端天气应对",
+          "word_count": 946
+        },
+        {
+          "question_id": "Q6497",
+          "title": "会场临时停电",
+          "word_count": 660
+        },
+        {
+          "question_id": "Q1337",
+          "title": "汇报出错",
+          "word_count": 859
+        },
+        {
+          "question_id": "Q3123",
+          "title": "樱桃滞销",
+          "word_count": 921
+        }
+      ]
+    },
+    "L004": {
+      "lecture_id": "L004",
+      "num": 4,
+      "title": "组织管理题",
+      "filename": "04.组织管理题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\04.组织管理题.md",
+      "char_count": 14575,
+      "char_count_no_space": 14053,
+      "question_count": 11,
+      "questions": [
+        {
+          "question_id": "Q6333",
+          "title": "组织人员培训",
+          "word_count": 1397
+        },
+        {
+          "question_id": "Q6527",
+          "title": "组织招募活动",
+          "word_count": 1406
+        },
+        {
+          "question_id": "Q5175",
+          "title": "组织改开活动",
+          "word_count": 1257
+        },
+        {
+          "question_id": "Q5640",
+          "title": "组织特色会议",
+          "word_count": 1200
+        },
+        {
+          "question_id": "Q0036",
+          "title": "组织开园活动",
+          "word_count": 1323
+        },
+        {
+          "question_id": "Q8579",
+          "title": "组织敬老活动",
+          "word_count": 1077
+        },
+        {
+          "question_id": "Q0596",
+          "title": "组织专项整治",
+          "word_count": 1079
+        },
+        {
+          "question_id": "Q7817",
+          "title": "组织防火活动",
+          "word_count": 1392
+        },
+        {
+          "question_id": "Q9747",
+          "title": "组织帮扶活动",
+          "word_count": 1203
+        },
+        {
+          "question_id": "Q2628",
+          "title": "组织宣传活动",
+          "word_count": 1103
+        },
+        {
+          "question_id": "Q0209",
+          "title": "创建联络站点",
+          "word_count": 998
+        }
+      ]
+    },
+    "L005": {
+      "lecture_id": "L005",
+      "num": 5,
+      "title": "启示做法题",
+      "filename": "05.启示做法题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\05.启示做法题.md",
+      "char_count": 11516,
+      "char_count_no_space": 10695,
+      "question_count": 7,
+      "questions": [
+        {
+          "question_id": "Q3007",
+          "title": "领异标新",
+          "word_count": 1038
+        },
+        {
+          "question_id": "Q2215",
+          "title": "青蛙鸿鹄",
+          "word_count": 1461
+        },
+        {
+          "question_id": "Q7894",
+          "title": "道德定力",
+          "word_count": 1125
+        },
+        {
+          "question_id": "Q5755",
+          "title": "服务群众",
+          "word_count": 1028
+        },
+        {
+          "question_id": "Q6729",
+          "title": "嘀嘀打车",
+          "word_count": 1721
+        },
+        {
+          "question_id": "Q1708",
+          "title": "胖东来",
+          "word_count": 1112
+        },
+        {
+          "question_id": "Q3246",
+          "title": "枫桥经验",
+          "word_count": 2584
+        }
+      ]
+    },
+    "L006": {
+      "lecture_id": "L006",
+      "num": 6,
+      "title": "名言警句题",
+      "filename": "06.名言警句题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\06.名言警句题.md",
+      "char_count": 7963,
+      "char_count_no_space": 7226,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q0080",
+          "title": "冲劲韧劲",
+          "word_count": 839
+        },
+        {
+          "question_id": "Q6141",
+          "title": "道阻且长",
+          "word_count": 1209
+        },
+        {
+          "question_id": "Q5477",
+          "title": "圣人不积",
+          "word_count": 1185
+        },
+        {
+          "question_id": "Q5314",
+          "title": "我是谁",
+          "word_count": 1034
+        },
+        {
+          "question_id": "Q7431",
+          "title": "大路石子",
+          "word_count": 1090
+        },
+        {
+          "question_id": "Q7103",
+          "title": "从善如登",
+          "word_count": 1287
+        }
+      ]
+    },
+    "L007": {
+      "lecture_id": "L007",
+      "num": 7,
+      "title": "领导讲话（宏观政策）题",
+      "filename": "07.领导讲话（宏观政策）题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\07.领导讲话（宏观政策）题.md",
+      "char_count": 8830,
+      "char_count_no_space": 8401,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q7840",
+          "title": "人民中心",
+          "word_count": 1252
+        },
+        {
+          "question_id": "Q4890",
+          "title": "奋进懈怠",
+          "word_count": 1134
+        },
+        {
+          "question_id": "Q6381",
+          "title": "新质生产力",
+          "word_count": 1601
+        },
+        {
+          "question_id": "Q3585",
+          "title": "意识形态",
+          "word_count": 1367
+        },
+        {
+          "question_id": "Q9670",
+          "title": "自信自立",
+          "word_count": 1089
+        },
+        {
+          "question_id": "Q4904",
+          "title": "先立后破",
+          "word_count": 1140
+        }
+      ]
+    },
+    "L008": {
+      "lecture_id": "L008",
+      "num": 8,
+      "title": "态度观点题",
+      "filename": "08.态度观点题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\08.态度观点题.md",
+      "char_count": 11149,
+      "char_count_no_space": 10700,
+      "question_count": 9,
+      "questions": [
+        {
+          "question_id": "Q3660",
+          "title": "自身环境",
+          "word_count": 1091
+        },
+        {
+          "question_id": "Q4028",
+          "title": "业缘趣缘",
+          "word_count": 1265
+        },
+        {
+          "question_id": "Q8624",
+          "title": "城市乡村",
+          "word_count": 1099
+        },
+        {
+          "question_id": "Q0269",
+          "title": "宏伟朴素",
+          "word_count": 1219
+        },
+        {
+          "question_id": "Q5513",
+          "title": "信息化下基层",
+          "word_count": 1212
+        },
+        {
+          "question_id": "Q2738",
+          "title": "导航干部",
+          "word_count": 990
+        },
+        {
+          "question_id": "Q7761",
+          "title": "做得多错得多",
+          "word_count": 882
+        },
+        {
+          "question_id": "Q6055",
+          "title": "隐藏实力",
+          "word_count": 999
+        },
+        {
+          "question_id": "Q8676",
+          "title": "工作能力",
+          "word_count": 1116
+        }
+      ]
+    },
+    "L009": {
+      "lecture_id": "L009",
+      "num": 9,
+      "title": "社会现象题",
+      "filename": "09.社会现象题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\09.社会现象题.md",
+      "char_count": 21951,
+      "char_count_no_space": 21113,
+      "question_count": 17,
+      "questions": [
+        {
+          "question_id": "Q9000",
+          "title": "大学生就业难",
+          "word_count": 1053
+        },
+        {
+          "question_id": "Q2312",
+          "title": "黑话热梗",
+          "word_count": 1251
+        },
+        {
+          "question_id": "Q8821",
+          "title": "社交恐惧",
+          "word_count": 65
+        },
+        {
+          "question_id": "Q2694",
+          "title": "网络暴力",
+          "word_count": 1777
+        },
+        {
+          "question_id": "Q8373",
+          "title": "青年发展环境",
+          "word_count": 1207
+        },
+        {
+          "question_id": "Q9245",
+          "title": "低价旅游",
+          "word_count": 1113
+        },
+        {
+          "question_id": "Q6657",
+          "title": "小高改稿子",
+          "word_count": 1313
+        },
+        {
+          "question_id": "Q9964",
+          "title": "村超爆火",
+          "word_count": 1017
+        },
+        {
+          "question_id": "Q7076",
+          "title": "deepseek",
+          "word_count": 1257
+        },
+        {
+          "question_id": "Q5651",
+          "title": "图书馆直播",
+          "word_count": 1358
+        },
+        {
+          "question_id": "Q4487",
+          "title": "器材弃材",
+          "word_count": 1489
+        },
+        {
+          "question_id": "Q4896",
+          "title": "食品安全",
+          "word_count": 1159
+        },
+        {
+          "question_id": "Q7244",
+          "title": "官员带货",
+          "word_count": 1053
+        },
+        {
+          "question_id": "Q0234",
+          "title": "线上审批",
+          "word_count": 1410
+        },
+        {
+          "question_id": "Q0250",
+          "title": "承诺政策",
+          "word_count": 1199
+        },
+        {
+          "question_id": "Q3236",
+          "title": "无会月",
+          "word_count": 1217
+        },
+        {
+          "question_id": "Q0525",
+          "title": "三呼三应",
+          "word_count": 1139
+        }
+      ]
+    },
+    "L010": {
+      "lecture_id": "L010",
+      "num": 10,
+      "title": "调查研究类题目",
+      "filename": "10.调查研究类题目.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\10.调查研究类题目.md",
+      "char_count": 14411,
+      "char_count_no_space": 13524,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_id": "Q3253",
+          "title": "博物馆建设调研",
+          "word_count": 1101
+        },
+        {
+          "question_id": "Q6140",
+          "title": "阅读之城调研",
+          "word_count": 1328
+        },
+        {
+          "question_id": "Q4796",
+          "title": "滨河公园信息获取",
+          "word_count": 1306
+        },
+        {
+          "question_id": "Q2655",
+          "title": "不可行性调研",
+          "word_count": 1189
+        },
+        {
+          "question_id": "Q4196",
+          "title": "汇报调研成果",
+          "word_count": 956
+        },
+        {
+          "question_id": "Q1165",
+          "title": "应急预案前期调研",
+          "word_count": 997
+        },
+        {
+          "question_id": "Q3444",
+          "title": "保障调研有效性",
+          "word_count": 1101
+        },
+        {
+          "question_id": "Q1834",
+          "title": "制定电池回收补贴标准",
+          "word_count": 1452
+        },
+        {
+          "question_id": "Q9940",
+          "title": "扶贫调研",
+          "word_count": 944
+        },
+        {
+          "question_id": "Q0028",
+          "title": "用工难调研",
+          "word_count": 282
+        },
+        {
+          "question_id": "Q7821",
+          "title": "临时调研任务",
+          "word_count": 159
+        },
+        {
+          "question_id": "Q4829",
+          "title": "留守儿童活动调研",
+          "word_count": 281
+        },
+        {
+          "question_id": "Q2027",
+          "title": "微信群调研",
+          "word_count": 295
+        },
+        {
+          "question_id": "Q9982",
+          "title": "两难学校选址",
+          "word_count": 250
+        },
+        {
+          "question_id": "Q3484",
+          "title": "便民服务圈建设",
+          "word_count": 147
+        },
+        {
+          "question_id": "Q6965",
+          "title": "老年人食堂调研",
+          "word_count": 120
+        },
+        {
+          "question_id": "Q8400",
+          "title": "五个消费调研",
+          "word_count": 145
+        },
+        {
+          "question_id": "Q8579",
+          "title": "解决快递人手不足",
+          "word_count": 174
+        },
+        {
+          "question_id": "Q3397",
+          "title": "就业问题调研",
+          "word_count": 99
+        },
+        {
+          "question_id": "Q8091",
+          "title": "旅游业调研",
+          "word_count": 328
+        }
+      ]
+    },
+    "L011": {
+      "lecture_id": "L011",
+      "num": 11,
+      "title": "演讲发言类题目",
+      "filename": "11.演讲发言类题目.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\11.演讲发言类题目.md",
+      "char_count": 20097,
+      "char_count_no_space": 18196,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_id": "Q3218",
+          "title": "钉子精神",
+          "word_count": 1452
+        },
+        {
+          "question_id": "Q3933",
+          "title": "外卖小哥",
+          "word_count": 1413
+        },
+        {
+          "question_id": "Q2590",
+          "title": "红色基因",
+          "word_count": 1486
+        },
+        {
+          "question_id": "Q0159",
+          "title": "党徽",
+          "word_count": 1293
+        },
+        {
+          "question_id": "Q4591",
+          "title": "品牌",
+          "word_count": 1300
+        },
+        {
+          "question_id": "Q0019",
+          "title": "以人民为中心",
+          "word_count": 1420
+        },
+        {
+          "question_id": "Q7861",
+          "title": "我们",
+          "word_count": 1286
+        },
+        {
+          "question_id": "Q9658",
+          "title": "乡村美好",
+          "word_count": 1435
+        },
+        {
+          "question_id": "Q3478",
+          "title": "思想解放",
+          "word_count": 1709
+        },
+        {
+          "question_id": "Q1817",
+          "title": "初心使命",
+          "word_count": 1353
+        },
+        {
+          "question_id": "Q0439",
+          "title": "默默坚守",
+          "word_count": 265
+        },
+        {
+          "question_id": "Q7576",
+          "title": "精神照耀",
+          "word_count": 258
+        },
+        {
+          "question_id": "Q5686",
+          "title": "革命理想",
+          "word_count": 281
+        },
+        {
+          "question_id": "Q2427",
+          "title": "冬奥精神",
+          "word_count": 232
+        },
+        {
+          "question_id": "Q1604",
+          "title": "我眼中的未来",
+          "word_count": 248
+        },
+        {
+          "question_id": "Q6574",
+          "title": "乐观",
+          "word_count": 192
+        },
+        {
+          "question_id": "Q0439",
+          "title": "勤俭节约",
+          "word_count": 182
+        },
+        {
+          "question_id": "Q9961",
+          "title": "乔老爷",
+          "word_count": 185
+        },
+        {
+          "question_id": "Q3782",
+          "title": "鸟儿摔不下来",
+          "word_count": 210
+        },
+        {
+          "question_id": "Q5587",
+          "title": "人类命运共同体",
+          "word_count": 586
+        }
+      ]
+    },
+    "L012": {
+      "lecture_id": "L012",
+      "num": 12,
+      "title": "漫画类题目",
+      "filename": "12.漫画类题目.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\12.漫画类题目.md",
+      "char_count": 17489,
+      "char_count_no_space": 16531,
+      "question_count": 21,
+      "questions": [
+        {
+          "question_id": "Q2215",
+          "title": "青蛙鸿鹄",
+          "word_count": 1327
+        },
+        {
+          "question_id": "Q7959",
+          "title": "锯腿",
+          "word_count": 1337
+        },
+        {
+          "question_id": "Q1875",
+          "title": "网",
+          "word_count": 1181
+        },
+        {
+          "question_id": "Q7700",
+          "title": "墙上画靶",
+          "word_count": 1348
+        },
+        {
+          "question_id": "Q3770",
+          "title": "蜗牛",
+          "word_count": 1348
+        },
+        {
+          "question_id": "Q5247",
+          "title": "水管",
+          "word_count": 1416
+        },
+        {
+          "question_id": "Q6356",
+          "title": "空中指路",
+          "word_count": 1485
+        },
+        {
+          "question_id": "Q0851",
+          "title": "宴无好宴",
+          "word_count": 963
+        },
+        {
+          "question_id": "Q5553",
+          "title": "精准施策",
+          "word_count": 1312
+        },
+        {
+          "question_id": "Q9872",
+          "title": "阳光阴影",
+          "word_count": 1271
+        },
+        {
+          "question_id": "Q9449",
+          "title": "基层干部改造",
+          "word_count": 1295
+        },
+        {
+          "question_id": "Q3335",
+          "title": "雕塑自我",
+          "word_count": 98
+        },
+        {
+          "question_id": "Q0560",
+          "title": "打开心门",
+          "word_count": 232
+        },
+        {
+          "question_id": "Q9125",
+          "title": "想象中的大鱼",
+          "word_count": 229
+        },
+        {
+          "question_id": "Q6746",
+          "title": "蜗牛去壳",
+          "word_count": 102
+        },
+        {
+          "question_id": "Q3141",
+          "title": "木桶",
+          "word_count": 93
+        },
+        {
+          "question_id": "Q5007",
+          "title": "扫帚",
+          "word_count": 70
+        },
+        {
+          "question_id": "Q3541",
+          "title": "婴儿",
+          "word_count": 86
+        },
+        {
+          "question_id": "Q4733",
+          "title": "手指头",
+          "word_count": 116
+        },
+        {
+          "question_id": "Q5760",
+          "title": "筷子",
+          "word_count": 83
+        },
+        {
+          "question_id": "Q0287",
+          "title": "工作总结",
+          "word_count": 396
+        }
+      ]
+    },
+    "L013": {
+      "lecture_id": "L013",
+      "num": 13,
+      "title": "特殊问法答法类题目",
+      "filename": "13.特殊问法答法类题目.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\13.特殊问法答法类题目.md",
+      "char_count": 16773,
+      "char_count_no_space": 15692,
+      "question_count": 17,
+      "questions": [
+        {
+          "question_id": "Q5704",
+          "title": "处理四个问题",
+          "word_count": 1394
+        },
+        {
+          "question_id": "Q4444",
+          "title": "介绍经历",
+          "word_count": 1370
+        },
+        {
+          "question_id": "Q8654",
+          "title": "运用技术创新",
+          "word_count": 198
+        },
+        {
+          "question_id": "Q4744",
+          "title": "做好服务",
+          "word_count": 906
+        },
+        {
+          "question_id": "Q7402",
+          "title": "评价自己和他人",
+          "word_count": 1763
+        },
+        {
+          "question_id": "Q9176",
+          "title": "重要紧急的事情",
+          "word_count": 228
+        },
+        {
+          "question_id": "Q0499",
+          "title": "事情没办好",
+          "word_count": 261
+        },
+        {
+          "question_id": "Q5532",
+          "title": "党建指导员素质",
+          "word_count": 275
+        },
+        {
+          "question_id": "Q7290",
+          "title": "四句歌词",
+          "word_count": 247
+        },
+        {
+          "question_id": "Q1632",
+          "title": "讲话稿重点",
+          "word_count": 411
+        },
+        {
+          "question_id": "Q5365",
+          "title": "基层问题",
+          "word_count": 401
+        },
+        {
+          "question_id": "Q2630",
+          "title": "字",
+          "word_count": 875
+        },
+        {
+          "question_id": "Q2617",
+          "title": "词",
+          "word_count": 1371
+        },
+        {
+          "question_id": "Q9449",
+          "title": "句",
+          "word_count": 1336
+        },
+        {
+          "question_id": "Q5982",
+          "title": "比",
+          "word_count": 1637
+        },
+        {
+          "question_id": "Q7091",
+          "title": "加",
+          "word_count": 1109
+        },
+        {
+          "question_id": "Q5601",
+          "title": "油",
+          "word_count": 1679
+        }
+      ]
+    },
+    "L014": {
+      "lecture_id": "L014",
+      "num": 14,
+      "title": "第1套全真模拟题",
+      "filename": "14.第1套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\14.第1套全真模拟题.md",
+      "char_count": 3374,
+      "char_count_no_space": 3288,
+      "question_count": 3,
+      "questions": [
+        {
+          "question_id": "Q1935",
+          "title": "冰雪经济",
+          "word_count": 952
+        },
+        {
+          "question_id": "Q0143",
+          "title": "组织农村合作社",
+          "word_count": 1201
+        },
+        {
+          "question_id": "Q3617",
+          "title": "给小张提意见",
+          "word_count": 812
+        }
+      ]
+    },
+    "L015": {
+      "lecture_id": "L015",
+      "num": 15,
+      "title": "第2套全真模拟题",
+      "filename": "15.第2套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\15.第2套全真模拟题.md",
+      "char_count": 2844,
+      "char_count_no_space": 2759,
+      "question_count": 3,
+      "questions": [
+        {
+          "question_id": "Q3104",
+          "title": "志向本事",
+          "word_count": 1089
+        },
+        {
+          "question_id": "Q2258",
+          "title": "雨季抢收",
+          "word_count": 606
+        },
+        {
+          "question_id": "Q5317",
+          "title": "乡村采风",
+          "word_count": 796
+        }
+      ]
+    },
+    "L016": {
+      "lecture_id": "L016",
+      "num": 16,
+      "title": "第3套全真模拟题",
+      "filename": "16.第3套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\16.第3套全真模拟题.md",
+      "char_count": 4720,
+      "char_count_no_space": 4561,
+      "question_count": 3,
+      "questions": [
+        {
+          "question_id": "Q8866",
+          "title": "AI 公务员",
+          "word_count": 1288
+        },
+        {
+          "question_id": "Q6947",
+          "title": "放弃考公",
+          "word_count": 1492
+        },
+        {
+          "question_id": "Q9449",
+          "title": "街头涂鸦治理",
+          "word_count": 1379
+        }
+      ]
+    },
+    "L017": {
+      "lecture_id": "L017",
+      "num": 17,
+      "title": "第4套全真模拟题",
+      "filename": "17.第4套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\17.第4套全真模拟题.md",
+      "char_count": 3711,
+      "char_count_no_space": 3611,
+      "question_count": 3,
+      "questions": [
+        {
+          "question_id": "Q9711",
+          "title": "家国情怀",
+          "word_count": 1311
+        },
+        {
+          "question_id": "Q0230",
+          "title": "砍伐大树事件",
+          "word_count": 1105
+        },
+        {
+          "question_id": "Q7973",
+          "title": "步行街调研",
+          "word_count": 886
+        }
+      ]
+    },
+    "L018": {
+      "lecture_id": "L018",
+      "num": 18,
+      "title": "第5套全真模拟题",
+      "filename": "18.第5套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\18.第5套全真模拟题.md",
+      "char_count": 4806,
+      "char_count_no_space": 4675,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q7787",
+          "title": "六尺巷",
+          "word_count": 1641
+        },
+        {
+          "question_id": "Q4358",
+          "title": "保障市民安全",
+          "word_count": 881
+        },
+        {
+          "question_id": "Q1498",
+          "title": "有效性调研",
+          "word_count": 1073
+        },
+        {
+          "question_id": "Q5732",
+          "title": "同事抢功劳",
+          "word_count": 624
+        }
+      ]
+    },
+    "L019": {
+      "lecture_id": "L019",
+      "num": 19,
+      "title": "第6套全真模拟题",
+      "filename": "19.第6套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\19.第6套全真模拟题.md",
+      "char_count": 5519,
+      "char_count_no_space": 5417,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q1143",
+          "title": "干部早退",
+          "word_count": 1238
+        },
+        {
+          "question_id": "Q4274",
+          "title": "组织志愿队伍",
+          "word_count": 1716
+        },
+        {
+          "question_id": "Q3761",
+          "title": "文稿冲突",
+          "word_count": 1151
+        },
+        {
+          "question_id": "Q3227",
+          "title": "四面皆敌",
+          "word_count": 842
+        }
+      ]
+    },
+    "L020": {
+      "lecture_id": "L020",
+      "num": 20,
+      "title": "第7套全真模拟题",
+      "filename": "20.第7套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\20.第7套全真模拟题.md",
+      "char_count": 4538,
+      "char_count_no_space": 4415,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q3659",
+          "title": "银发经济",
+          "word_count": 1068
+        },
+        {
+          "question_id": "Q7789",
+          "title": "夜间公交信息",
+          "word_count": 981
+        },
+        {
+          "question_id": "Q1184",
+          "title": "文艺汇演难题",
+          "word_count": 1096
+        },
+        {
+          "question_id": "Q4087",
+          "title": "开导胡警官",
+          "word_count": 833
+        }
+      ]
+    },
+    "L021": {
+      "lecture_id": "L021",
+      "num": 21,
+      "title": "第8套全真模拟题",
+      "filename": "21.第8套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\21.第8套全真模拟题.md",
+      "char_count": 4092,
+      "char_count_no_space": 3995,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q6151",
+          "title": "实现梦想",
+          "word_count": 1019
+        },
+        {
+          "question_id": "Q0336",
+          "title": "锦旗宣传",
+          "word_count": 880
+        },
+        {
+          "question_id": "Q4868",
+          "title": "朋友圈舆情",
+          "word_count": 923
+        },
+        {
+          "question_id": "Q6137",
+          "title": "犟种同事",
+          "word_count": 807
+        }
+      ]
+    },
+    "L022": {
+      "lecture_id": "L022",
+      "num": 22,
+      "title": "第9套全真模拟题",
+      "filename": "22.第9套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\22.第9套全真模拟题.md",
+      "char_count": 4749,
+      "char_count_no_space": 4628,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q1748",
+          "title": "情绪价值",
+          "word_count": 1352
+        },
+        {
+          "question_id": "Q6926",
+          "title": "体验式调研",
+          "word_count": 1120
+        },
+        {
+          "question_id": "Q8385",
+          "title": "水域污染",
+          "word_count": 883
+        },
+        {
+          "question_id": "Q1046",
+          "title": "错印传单",
+          "word_count": 778
+        }
+      ]
+    },
+    "L023": {
+      "lecture_id": "L023",
+      "num": 23,
+      "title": "第10套全真模拟题",
+      "filename": "23.第10套全真模拟题.md",
+      "file_path": "e:\\Applications\\SelfmadeTools\\面试课程\\2026年升级课程\\讲义\\26课程讲义\\23.第10套全真模拟题.md",
+      "char_count": 4863,
+      "char_count_no_space": 4771,
+      "question_count": 4,
+      "questions": [
+        {
+          "question_id": "Q0677",
+          "title": "短剧爆火",
+          "word_count": 1085
+        },
+        {
+          "question_id": "Q5394",
+          "title": "思想工作",
+          "word_count": 1234
+        },
+        {
+          "question_id": "Q0499",
+          "title": "丰收节问题",
+          "word_count": 1117
+        },
+        {
+          "question_id": "Q4122",
+          "title": "不要委屈",
+          "word_count": 935
+        }
+      ]
+    }
+  }
+}

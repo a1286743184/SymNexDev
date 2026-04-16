@@ -1,0 +1,46 @@
+/* Global table styles (applies across all documents)
+   Based on profile-table.css timeline styles, with table font size set to 0.75em */
+
+/* Markdown-rendered tables and Dataview tables */
+.markdown-rendered table,
+.table-view-table {
+  border: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: transparent !important;
+  width: 100%;
+  font-size: 0.88em !important; /* base font size for table content (fix: no space between number and unit) */
+}
+
+.markdown-rendered table th,
+.markdown-rendered table td,
+.table-view-table th,
+.table-view-table td {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 8px 0 !important;
+  font-size: inherit !important; /* inherit the 0.75em from table */
+}
+
+/* Header style matches reference (purple, bold) */
+.markdown-rendered table thead th,
+.table-view-table thead th {
+  color: #76448A !important;
+  font-weight: 600 !important;
+}
+
+/* Subtle spacing between rows without borders */
+.markdown-rendered table tr + tr td,
+.table-view-table tr + tr td {
+  padding-top: 4px !important;
+}
+
+/* Ensure nested elements inside cells also inherit table font size */
+.markdown-rendered table th > *,
+.markdown-rendered table td > *,
+.table-view-table th > *,
+.table-view-table td > * {
+  font-size: inherit !important;
+}

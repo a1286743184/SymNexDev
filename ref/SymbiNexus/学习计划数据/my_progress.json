@@ -1,0 +1,49 @@
+{
+  "start_date": "2026-03-25",
+  "current_day": 1,
+  "completed_tasks": {},
+  "completed_scripts": [],
+  "completed_outlines": [],
+  "completed_modules": [],
+  "completed_internalizations": [],
+  "completed_reviews": {},
+  "review_records": {},
+  "daily_logs": {},
+  "time_records": {
+    "UP001": {
+      "sessions": [
+        {
+          "start": "2026-03-19T23:47:25.514804",
+          "end": "2026-03-19T23:47:42.812036",
+          "seconds": 17
+        },
+        {
+          "start": "2026-03-21T18:13:41.371281",
+          "end": "2026-03-21T18:13:47.130642",
+          "seconds": 5
+        },
+        {
+          "start": "2026-03-21T18:13:53.008854",
+          "end": "2026-03-21T18:13:55.504796",
+          "seconds": 2
+        }
+      ],
+      "avg_seconds": 8,
+      "count": 3
+    },
+    "IN-L01-Q001": {
+      "sessions": [
+        {
+          "start": "2026-03-21T18:30:46.852623",
+          "end": "2026-03-21T18:31:22.143045",
+          "seconds": 35
+        }
+      ],
+      "avg_seconds": 35,
+      "count": 1
+    }
+  },
+  "active_plan_file": "daily_tasks_adjusted.json",
+  "completion_history": [],
+  "marked_review_tasks": {}
+}

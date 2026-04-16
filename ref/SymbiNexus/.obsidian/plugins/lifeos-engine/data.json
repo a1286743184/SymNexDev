@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "initialized": true,
+  "global": {
+    "shells": {
+      "enabled": true,
+      "rebindStrategy": "marker_then_filename",
+      "directories": {
+        "taskConsoleDir": "01-经纬矩阵系统/01-看板模块",
+        "financeConsoleDir": "06-财务系统/02-统计分析",
+        "taskDashboardsDir": "01-经纬矩阵系统/01-看板模块",
+        "financeDashboardsDir": "06-财务系统/02-统计分析",
+        "configPagesDir": "08-科技树系统/01-OB_LifeOS_Build/99-文档"
+      }
+    }
+  },
+  "task": {
+    "version": 1,
+    "sources": [
+      {
+        "id": "roles",
+        "type": "folder",
+        "path": "05-生活坐标系统/01-角色档案",
+        "name": "角色档案",
+        "enabled": true
+      },
+      {
+        "id": "weekly",
+        "type": "folder",
+        "path": "01-经纬矩阵系统/02-周委托模块",
+        "name": "周计划",
+        "enabled": true
+      },
+      {
+        "id": "routines",
+        "type": "file",
+        "path": "01-经纬矩阵系统/04-规律性事项模块/规律性事项列表.md",
+        "name": "规律事项",
+        "enabled": true
+      },
+      {
+        "id": "memos",
+        "type": "file",
+        "path": "01-经纬矩阵系统/03-备忘提醒模块/备忘录.md",
+        "name": "备忘",
+        "enabled": true
+      },
+      {
+        "id": "inbox",
+        "type": "file",
+        "path": "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md",
+        "name": "INBOX",
+        "enabled": true
+      },
+      {
+        "id": "require",
+        "type": "file",
+        "path": "01-经纬矩阵系统/08-智能录入模块/02-Require.md",
+        "name": "开发需求",
+        "enabled": true
+      },
+      {
+        "id": "s-1769265144346-0e017406e92978",
+        "type": "file",
+        "path": "07-项目系统/01-公务员考试/学习计划/公考学习计划.md",
+        "name": "公考计划",
+        "enabled": true
+      }
+    ],
+    "excludePathIncludes": [
+      "99-周委托归档",
+      "99-附件"
+    ],
+    "ui": {
+      "forecastDays": 1,
+      "showCompleted": true,
+      "showUndated": true,
+      "showSource": true,
+      "sourceDisplayMode": "group",
+      "hiddenTags": [
+        "备忘",
+        "SIP插件",
+        "sip-plugin",
+        "sip_plugin"
+      ]
+    },
+    "weekly": {
+      "enabled": true,
+      "weekStart": "monday",
+      "prefix": "01-经纬矩阵系统/02-周委托模块/周度委托列表",
+      "archiveFolder": "01-经纬矩阵系统/99-任务归档/99-周委托归档",
+      "migrateUndone": true,
+      "lastWeekKey": "edWundefined"
+    }
+  },
+  "finance": {
+    "version": 1,
+    "sources": [
+      {
+        "id": "bills",
+        "type": "folder",
+        "path": "06-财务系统/01-账单数据",
+        "name": "账单数据",
+        "enabled": true
+      }
+    ],
+    "excludePathIncludes": [
+      "99-",
+      "99-附件"
+    ],
+    "schema": {
+      "fields": {
+        "type": "type",
+        "category": "category",
+        "subcategory": "subcategory",
+        "amount": "amount",
+        "channel": "channel",
+        "date": "date",
+        "descriptionFallback": "description"
+      },
+      "dateFallback": {
+        "fromFilename": true
+      },
+      "amountSign": {
+        "mode": "byType"
+      },
+      "ledger": {
+        "enabled": false,
+        "regex": ""
+      },
+      "csv": {
+        "enabled": false,
+        "delimiter": ",",
+        "hasHeader": true,
+        "columns": {
+          "date": "date",
+          "type": "type",
+          "category": "category",
+          "subcategory": "subcategory",
+          "amount": "amount",
+          "channel": "channel",
+          "description": "description"
+        }
+      }
+    },
+    "ui": {
+      "fontScale": "12px",
+      "columnWidths": {
+        "DATE": "15%",
+        "CATEGORY": "19%",
+        "CONTENT": "25%",
+        "CHANNEL": "19%",
+        "AMOUNT": "22%"
+      }
+    },
+    "normalization": {
+      "channelAlias": {
+        "微信支付": "微信",
+        "微信": "微信",
+        "支付宝": "支付宝",
+        "现金": "现金",
+        "现金支付": "现金",
+        "云闪付": "云闪付",
+        "多多支付": "多多",
+        "美团支付": "美团",
+        "京东支付": "京东",
+        "抖音支付": "抖音",
+        "滴滴支付": "滴滴",
+        "数字人民币": "数币"
+      },
+      "categoryAlias": {},
+      "accountAlias": {}
+    },
+    "views": {
+      "month": {
+        "cards": {
+          "enabled": true,
+          "showBudget": true
+        },
+        "charts": {
+          "pie": true,
+          "heatmap": true,
+          "trend": true,
+          "topN": true
+        },
+        "table": {
+          "enabled": true,
+          "contentMode": "subcategory",
+          "defaultSort": "date_desc"
+        }
+      },
+      "year": {
+        "cards": {
+          "enabled": true,
+          "showBudget": false
+        },
+        "charts": {
+          "pie": true,
+          "heatmap": true,
+          "trend": true,
+          "topN": true
+        },
+        "table": {
+          "enabled": true,
+          "contentMode": "subcategory",
+          "defaultSort": "date_desc"
+        }
+      }
+    },
+    "filters": {
+      "excluded": {
+        "categories": [],
+        "subcategories": [],
+        "channels": []
+      },
+      "applyTo": {
+        "trend": true,
+        "heatmap": true,
+        "pie": true,
+        "topN": true,
+        "table": false,
+        "cards": false
+      }
+    },
+    "budgets": {
+      "monthlyTotal": 0,
+      "categoryMonthly": {},
+      "savingsRateTarget": 0,
+      "debtPaymentTarget": 0
+    },
+    "performance": {
+      "cacheEnabled": true,
+      "cacheFile": "财务看板.index.json",
+      "maxFiles": 5000
+    }
+  },
+  "links": {
+    "shells": {},
+    "dashboards": {}
+  }
+}

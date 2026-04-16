@@ -13,8 +13,9 @@ pub-cache/
 # Scrcpy
 scrcpy/
 
-# Obsidian notes (personal)
-ref/
+# Obsidian notes (keep config and plugins)
+ref/SymbiNexus/.trash/
+ref/SymbiNexus/.obsidian/workspace.json
 
 # Flutter binaries and caches (keep source)
 flutter/bin/

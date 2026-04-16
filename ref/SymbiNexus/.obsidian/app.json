@@ -1,0 +1,29 @@
+{
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "note-composer:split-file",
+    "editor:configure-toolbar",
+    "editor:attach-file",
+    "obsidian-copy-block-link:copy-link-to-block",
+    "editor:open-search-replace",
+    "markdown:toggle-preview"
+  ],
+  "propertiesInDocument": "hidden",
+  "mobilePullAction": "homepage:open-homepage",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "98_稿纸",
+  "attachmentFolderPath": "99-附件",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": true,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "showInlineTitle": false
+}

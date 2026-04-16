@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 4,
+  "resources": {
+    "zhipu": {
+      "name": "智谱AI",
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "models": [
+        "glm-4.5-flash",
+        "glm-4-flash",
+        "GLM-4.5-X",
+        "GLM-4.5-AirX",
+        "glm-4.7-flash"
+      ],
+      "accounts": [
+        {
+          "label": "Default",
+          "apiKey": "",
+          "apiKeyPath": "08-科技树系统/01-OB_LifeOS_Build/03-密钥/GLM4_API_KEY.md"
+        }
+      ]
+    },
+    "minimax": {
+      "name": "MiniMax",
+      "baseUrl": "https://api.minimaxi.com/anthropic",
+      "models": [
+        "MiniMax-M2",
+        "abab6.5s-chat",
+        "abab6.5-chat",
+        "MiniMax-V2"
+      ],
+      "accounts": [
+        {
+          "label": "Default",
+          "apiKey": "",
+          "apiKeyPath": "08-科技树系统/01-OB_LifeOS_Build/03-密钥/Minimax_M2_key.md"
+        }
+      ]
+    },
+    "qwen": {
+      "name": "Qwen",
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "models": [
+        "qwen-flash",
+        "qwen-turbo",
+        "qwen-flash-2025-07-28",
+        "qwen3-max",
+        "qwen-plus"
+      ],
+      "accounts": [
+        {
+          "label": "Default",
+          "apiKey": "",
+          "apiKeyPath": "08-科技树系统/01-OB_LifeOS_Build/03-密钥/QwenAPIKey.md"
+        }
+      ]
+    },
+    "mimo": {
+      "name": "MiMo",
+      "baseUrl": "https://api.xiaomimimo.com/anthropic",
+      "models": [
+        "mimo-v2-flash"
+      ],
+      "accounts": [
+        {
+          "label": "Default",
+          "apiKey": "",
+          "apiKeyPath": "08-科技树系统/01-OB_LifeOS_Build/03-密钥/MiMo-V2-Flash.md"
+        }
+      ]
+    }
+  },
+  "strategy": {
+    "primary": {
+      "provider": "qwen",
+      "model": "qwen-flash-2025-07-28",
+      "accountLabel": "Default"
+    },
+    "backup": {
+      "enabled": true,
+      "provider": "zhipu",
+      "model": "glm-4.5-flash",
+      "accountLabel": "Default"
+    },
+    "quotaBlockDate": ""
+  },
+  "pipeline": {},
+  "modules": {
+    "bill": {
+      "enabled": true,
+      "enableOptimization": false,
+      "targetPath": "06-财务系统/01-账单数据",
+      "templatePath": "04-模板系统/09-专用模板/记账模板.md"
+    },
+    "task": {
+      "enabled": true,
+      "enableOptimization": true
+    },
+    "memo": {
+      "enabled": true,
+      "enableOptimization": true
+    },
+    "contact": {
+      "enabled": true,
+      "enableOptimization": true
+    },
+    "question_entry": {
+      "enabled": true,
+      "enableOptimization": false,
+      "targetPath": "07-项目系统/01-公务员考试/01-行测/01-刷题复盘",
+      "templatePath": "04-模板系统/01-复盘模板/行测复盘.md"
+    },
+    "code_dev": {
+      "enabled": true,
+      "enableOptimization": true,
+      "targetPath": "01-经纬矩阵系统/08-智能录入模块/02-Require.md"
+    },
+    "food_wishlist": {
+      "enabled": true,
+      "enableOptimization": true,
+      "targetPath": "05-生活坐标系统/04-美食档案/待尝清单.md"
+    },
+    "price_tracker": {
+      "enabled": true,
+      "enableOptimization": false,
+      "targetPath": "05-生活坐标系统/05-消费决策"
+    },
+    "study_record": {
+      "enabled": true,
+      "enableOptimization": false,
+      "targetPath": "07-项目系统/01-公务员考试/01-行测/01-刷题复盘/06-刷题记录"
+    },
+    "pet_growth": {
+      "enabled": true,
+      "enableOptimization": true,
+      "targetPath": "05-生活坐标系统/01-角色档案/月饼家族"
+    },
+    "other": {
+      "enabled": true,
+      "enableOptimization": true,
+      "targetPath": "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md"
+    }
+  },
+  "ui": {
+    "moduleDisplayName": {
+      "bill": "账务收支",
+      "task": "任务事项",
+      "memo": "快捷备忘",
+      "contact": "联系信息",
+      "food_wishlist": "美食清单",
+      "code_dev": "代码开发",
+      "question_entry": "题目录入",
+      "study_record": "刷题记录",
+      "price_tracker": "价格追踪",
+      "pet_growth": "崽子成长",
+      "other": "杂项记录",
+      "unknown": "未知记录"
+    },
+    "fieldLabel": {
+      "module.enabled": "启用模块",
+      "module.enableOptimization": "启用语义优化",
+      "module.targetPath": "文件保存路径",
+      "module.templatePath": "模板路径",
+      "module.extractionPrompt": "核心提取提示词",
+      "bill.asset_log_prompt": "资产信息提取（可选）"
+    }
+  },
+  "autoClassify": true,
+  "voiceEnabled": true,
+  "enableTokenCostTracking": true,
+  "tokenCostFilePath": "01-经纬矩阵系统/08-智能录入模块/03-智能录入日志.md",
+  "billPath": "06-财务系统/01-账单数据",
+  "capturePath": "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md",
+  "templatePath": "04-模板系统/09-专用模板/记账模板.md",
+  "foodWishlistPath": "05-生活坐标系统/04-美食档案/待尝清单.md",
+  "weeklyDelegationPrefix": "01-经纬矩阵系统/02-周委托模块/周度委托列表",
+  "priceTrackPath": "05-生活坐标系统/05-消费决策",
+  "petFamilyPath": "05-生活坐标系统/01-角色档案/月饼家族"
+}

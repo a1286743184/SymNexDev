@@ -1,0 +1,333 @@
+/**
+ * SIP-UI Design System v2.0 - Mobile Adaptation
+ * ==============================================
+ * 移动端适配规则 - 响应式设计的降维策略
+ * 
+ * 设计原则：
+ * 1. 桌面优先，极限降维 (Desktop-first with aggressive mobile degradation)
+ *    - 基础样式为桌面端，通过 max-width 媒体查询向下适配
+ * 2. 触控优化 - 按钮最小 44px，间距充足
+ * 
+ * 断点定义：
+ * - sm: 480px (手机)
+ * - md: 768px (平板)
+ * - lg: 1024px (小桌面)
+ * - xl: 1280px (大桌面)
+ * 
+ * 版本: 2.0.0
+ */
+
+/* ========================================
+   1. 基础移动端优化 (Base Mobile)
+   ======================================== */
+
+/* 触控区域优化 */
+@media (pointer: coarse) {
+  .sip-btn,
+  .sip-list-item,
+  .sip-sidebar__item,
+  .sip-nav-banner__arrow {
+    min-height: 44px;
+  }
+  
+  .sip-input,
+  .sip-select {
+    font-size: 16px; /* 防止 iOS 缩放 */
+  }
+}
+
+/* ========================================
+   2. 小屏幕适配 (<= 480px)
+   ======================================== */
+@media (max-width: 480px) {
+  /* --- 容器调整 --- */
+  .sip-container {
+    padding: var(--sip-space-4);
+  }
+  
+  /* --- 网格降维 --- */
+  .sip-grid--2,
+  .sip-grid--3,
+  .sip-grid--4 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* --- KPI 网格调整 --- */
+  .sip-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--sip-gap-md);
+  }
+  
+  .sip-kpi {
+    padding: var(--sip-space-4);
+  }
+  
+  .sip-kpi__value {
+    font-size: var(--sip-text-2xl);
+  }
+  
+  /* --- 卡片紧凑化 --- */
+  .sip-card__header {
+    padding: var(--sip-space-4);
+  }
+  
+  .sip-card__body {
+    padding: var(--sip-space-4);
+  }
+  
+  .sip-card__title {
+    font-size: var(--sip-text-md);
+  }
+  
+  /* --- 导航 Banner 调整 --- */
+  .sip-nav-banner {
+    padding: var(--sip-space-5);
+    margin-bottom: var(--sip-space-6);
+  }
+  
+  .sip-nav-banner__title {
+    font-size: var(--sip-text-xl);
+  }
+  
+  .sip-nav-banner__desc {
+    font-size: var(--sip-text-base);
+  }
+  
+  .sip-nav-banner__arrow {
+    display: none; /* 小屏幕隐藏导航箭头 */
+  }
+  
+  /* --- 模态框全屏化 --- */
+  .sip-modal {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+    height: 100vh;
+  }
+  
+  .sip-modal__header,
+  .sip-modal__body,
+  .sip-modal__footer {
+    padding: var(--sip-space-4);
+  }
+  
+  /* --- 按钮全宽化 --- */
+  .sip-btn:not(.sip-btn--icon):not(.sip-btn--icon-sm) {
+    width: 100%;
+  }
+  
+  .sip-modal__footer {
+    flex-direction: column-reverse;
+    gap: var(--sip-gap-sm);
+  }
+  
+  .sip-modal__footer .sip-btn {
+    width: 100%;
+  }
+  
+  /* --- 列表项紧凑化 --- */
+  .sip-list-item {
+    padding: var(--sip-space-3);
+  }
+  
+  .sip-list-item__icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* --- 侧边栏转胶囊 --- */
+  .sip-sidebar {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: var(--sip-gap-sm);
+    padding-bottom: var(--sip-space-2);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .sip-sidebar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sip-sidebar__item {
+    flex-shrink: 0;
+    padding: var(--sip-space-2) var(--sip-space-3);
+    border-radius: var(--sip-radius-full);
+    font-size: var(--sip-text-sm);
+  }
+  
+  .sip-sidebar__item::before {
+    display: none;
+  }
+  
+  .sip-sidebar__item--active {
+    background: var(--sip-primary);
+    color: white;
+  }
+  
+  /* --- 表单紧凑化 --- */
+  .sip-form-group {
+    margin-bottom: var(--sip-space-3);
+  }
+  
+  .sip-input,
+  .sip-select,
+  .sip-textarea {
+    padding: var(--sip-space-3);
+  }
+}
+
+/* ========================================
+   3. 平板适配 (481px - 768px)
+   ======================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* --- 网格调整 --- */
+  .sip-grid--3,
+  .sip-grid--4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  /* --- KPI 网格 --- */
+  .sip-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  /* --- 模态框调整 --- */
+  .sip-modal {
+    max-width: 90%;
+    border-radius: var(--sip-radius-2xl);
+  }
+  
+  /* --- 侧边栏调整 --- */
+  .sip-sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .sip-sidebar__item {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+  
+  .sip-sidebar__item::before {
+    display: none;
+  }
+}
+
+/* ========================================
+   4. 桌面端增强 (>= 769px)
+   ======================================== */
+@media (min-width: 769px) {
+  /* --- 模态框动画 --- */
+  .sip-modal {
+    animation: sip-modal-in 0.25s var(--sip-ease-spring);
+  }
+  
+  /* --- 卡片悬停效果 --- */
+  .sip-card--interactive:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* --- 列表项悬停 --- */
+  .sip-list-item:hover {
+    transform: translateX(4px);
+  }
+  
+  /* --- 按钮悬停增强 --- */
+  .sip-btn:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* ========================================
+   5. 大桌面端 (>= 1280px)
+   ======================================== */
+@media (min-width: 1280px) {
+  .sip-container {
+    max-width: 1400px;
+  }
+  
+  .sip-grid--auto {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+/* ========================================
+   6. Obsidian 特定适配
+   ======================================== */
+
+/* --- 移动端 Obsidian 侧边栏折叠时的优化 --- */
+.is-mobile .sip-container {
+  padding: var(--sip-space-3);
+}
+
+.is-mobile .sip-card {
+  border-radius: var(--sip-radius-lg);
+}
+
+/* --- 工作区标签页内的适配 --- */
+.workspace-tab-content .sip-container {
+  padding: var(--sip-space-4);
+}
+
+/* --- 设置页面的特殊处理 --- */
+.setting-item .sip-btn {
+  min-height: auto;
+}
+
+/* ========================================
+   7. 横屏模式优化
+   ======================================== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .sip-modal {
+    max-height: 95vh;
+  }
+  
+  .sip-modal__body {
+    max-height: 60vh;
+  }
+  
+  .sip-nav-banner {
+    padding: var(--sip-space-4);
+  }
+  
+  .sip-nav-banner__icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: var(--sip-space-2);
+  }
+}
+
+/* ========================================
+   8. 深色模式移动端微调
+   ======================================== */
+@media (max-width: 480px) {
+  .theme-dark .sip-card {
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+  
+  .theme-dark .sip-list-item {
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+  
+  .theme-dark .sip-input,
+  .theme-dark .sip-select,
+  .theme-dark .sip-textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ========================================
+   9. 安全区域适配 (刘海屏)
+   ======================================== */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .sip-modal {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}

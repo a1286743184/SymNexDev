@@ -1,0 +1,62 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "04-模板系统",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "02-复盘系统/01-日复盘",
+      "template": "04-模板系统/01-复盘模板/日复盘.md"
+    },
+    {
+      "folder": "05_生活坐标系统/0501_角色档案",
+      "template": "04-模板系统/03-生活坐标模板/角色档案/角色档案.md"
+    },
+    {
+      "folder": "05-生活坐标系统/02-事件记录",
+      "template": "04-模板系统/03-生活坐标模板/事件记录/事件记录.md"
+    },
+    {
+      "folder": "02-复盘系统/02-周复盘",
+      "template": "04-模板系统/01-复盘模板/周复盘.md"
+    },
+    {
+      "folder": "01-经纬矩阵系统/02-周委托模块",
+      "template": "04-模板系统/02-计划模板/周计划.md"
+    },
+    {
+      "folder": "07-项目系统/01-公务员考试/01-行测/01-刷题复盘",
+      "template": "04-模板系统/01-复盘模板/行测复盘.md"
+    },
+    {
+      "folder": "07-项目系统/01-公务员考试/01-行测/02-知识系统",
+      "template": "04-模板系统/01-复盘模板/知识点.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

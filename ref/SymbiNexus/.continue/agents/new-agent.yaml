@@ -1,0 +1,36 @@
+# This is an example agent configuration file
+# It is used to define custom AI agents within Continue
+# Each agent file can be accessed by selecting it from the agent dropdown
+
+# To learn more, see the full config.yaml reference: https://docs.continue.dev/reference
+
+name: Example Agent
+version: 1.0.0
+schema: v1
+
+# Models define which AI models this agent can use
+# https://docs.continue.dev/customization/models
+models:
+  - name: GLM-4.6
+    provider: openai
+    model: glm-4.6
+    apiBase: https://open.bigmodel.cn/api/coding/paas/v4
+    apiKey: "37e6d0018b5843ba925fea0d628622ce.ifjw8G2ydBIbhfvw"
+    roles:
+      - chat
+      - edit
+      - apply
+      - summarize
+    defaultCompletionOptions:
+      temperature: 0.6
+      maxTokens: 10000
+    capabilities:
+      - tool_use
+
+
+
+
+# MCP Servers the agent can use
+# https://docs.continue.dev/customization/mcp-tools
+mcpServers:
+  - uses: anthropic/memory-mcp

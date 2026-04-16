@@ -1,0 +1,12 @@
+{
+  "id": "lifeos-engine",
+  "name": "LifeOS Engine",
+  "version": "1.0.3",
+  "minAppVersion": "1.4.0",
+  "description": "LifeOS 引擎：任务与财务两大板块的统一渲染与配置中枢。",
+  "author": "OB Vault User",
+  "authorUrl": "",
+  "isDesktopOnly": false,
+  "main": "main.js",
+  "css": "styles.css"
+}

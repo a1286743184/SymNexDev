@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Code 快速上手</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ============================================
+     SIP Design Tokens
+     ============================================ */
+  :root {
+    /* --- 基础柔和紫主题 (Soft Purple Theme) --- */
+    --sip-primary: #8b5cf6;
+    --sip-primary-hover: #7c3aed;
+    --sip-primary-muted: rgba(139, 92, 246, 0.12);
+    --sip-primary-subtle: rgba(139, 92, 246, 0.2);
+    --sip-primary-tint-1: rgba(139, 92, 246, 0.04);
+    --sip-primary-tint-2: rgba(139, 92, 246, 0.08);
+
+    /* --- 高级交互面与发光效果 --- */
+    --sip-primary-surface: #f5f3ff;
+    --sip-primary-surface-hover: #ede9fe;
+    --sip-primary-text: #6d28d9;
+    --sip-primary-glow: rgba(139, 92, 246, 0.15);
+    --sip-primary-glow-focus: rgba(139, 92, 246, 0.4);
+
+    /* --- 功能色 --- */
+    --sip-success: #10b981;
+    --sip-warning: #f59e0b;
+    --sip-danger: #ef4444;
+    --sip-info: #3b82f6;
+
+    /* --- 文本色 - 加深对比度 --- */
+    --sip-text-primary: #111827;
+    --sip-text-secondary: #374151;
+    --sip-text-muted: #6b7280;
+
+    /* --- 背景色 --- */
+    --sip-bg-primary: #ffffff;
+    --sip-bg-secondary: #f8f6fa;
+    --sip-bg-elevated: #ffffff;
+
+    /* --- 间距（4px 基准） --- */
+    --sip-space-1: 4px;
+    --sip-space-2: 8px;
+    --sip-space-3: 12px;
+    --sip-space-4: 16px;
+    --sip-space-5: 20px;
+    --sip-space-6: 24px;
+    --sip-space-8: 32px;
+
+    /* --- 圆角 --- */
+    --sip-radius-sm: 6px;
+    --sip-radius-md: 8px;
+    --sip-radius-lg: 12px;
+    --sip-radius-xl: 16px;
+    --sip-radius-3xl: 24px;
+
+    /* --- 阴影 --- */
+    --sip-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+    --sip-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --sip-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --sip-shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+    /* --- 字体 --- */
+    --sip-font-sans: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+    --sip-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    /* --- 动画 --- */
+    --sip-transition-fast: 150ms ease;
+    --sip-transition-base: 200ms ease;
+    --sip-transition-slow: 300ms ease;
+    --sip-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* ============================================
+     Base Styles
+     ============================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--sip-bg-secondary);
+    color: var(--sip-text-primary);
+    font-family: var(--sip-font-sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  /* ============================================
+     Layout
+     ============================================ */
+  .sip-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--sip-space-8) var(--sip-space-5) 60px;
+  }
+
+  /* ============================================
+     Banner / Header
+     ============================================ */
+  .sip-nav-banner {
+    text-align: center;
+    margin-bottom: var(--sip-space-8);
+    animation: fadeDown 0.6s ease both;
+  }
+
+  .sip-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sip-space-2);
+    background: var(--sip-primary-muted);
+    border: 1px solid var(--sip-primary-subtle);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-family: var(--sip-font-mono);
+    font-size: 12px;
+    color: var(--sip-primary-text);
+    letter-spacing: 0.08em;
+    margin-bottom: var(--sip-space-4);
+  }
+
+  .sip-badge::before {
+    content: '';
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--sip-primary);
+    box-shadow: 0 0 8px var(--sip-primary);
+    animation: pulse 2s infinite;
+  }
+
+  .sip-title {
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    background: linear-gradient(135deg, var(--sip-text-primary) 0%, var(--sip-primary-text) 50%, var(--sip-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--sip-space-2);
+  }
+
+  .sip-subtitle {
+    color: var(--sip-text-secondary);
+    font-size: 14px;
+    font-family: var(--sip-font-mono);
+    letter-spacing: 0.05em;
+  }
+
+  /* ============================================
+     Section Title
+     ============================================ */
+  .sip-section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--sip-text-secondary);
+    margin-bottom: var(--sip-space-4);
+    font-family: var(--sip-font-mono);
+  }
+
+  .sip-section-title::before {
+    content: '';
+    width: 4px;
+    height: 14px;
+    background: var(--sip-primary);
+    border-radius: 2px;
+  }
+
+  .sip-section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: color-mix(in srgb, var(--sip-text-secondary) 15%, transparent);
+  }
+
+  /* ============================================
+     Card Component
+     ============================================ */
+  .sip-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--sip-radius-xl);
+    overflow: hidden;
+    transition: border-color var(--sip-transition-base), transform var(--sip-transition-base), box-shadow var(--sip-transition-base);
+    margin-bottom: var(--sip-space-5);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(0, 0, 0, 0.04);
+  }
+
+  .sip-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--sip-primary-subtle);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 12px 32px rgba(139, 92, 246, 0.08);
+  }
+
+  .sip-card__header {
+    padding: var(--sip-space-5) var(--sip-space-5) 0;
+  }
+
+  .sip-card__body {
+    padding: var(--sip-space-4) var(--sip-space-5) var(--sip-space-5);
+  }
+
+  .sip-card--primary {
+    background: linear-gradient(135deg, var(--sip-primary-tint-1) 0%, rgba(186, 168, 254, 0.05) 100%);
+    border-color: var(--sip-primary-subtle);
+  }
+
+  /* ============================================
+     Grid Layouts
+     ============================================ */
+  .sip-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sip-space-4);
+  }
+
+  .sip-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sip-space-4);
+  }
+
+  .sip-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sip-space-4);
+  }
+
+  .sip-grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--sip-space-4);
+  }
+
+  /* ============================================
+     Command Block
+     ============================================ */
+  .sip-cmd-block {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--sip-radius-lg);
+    padding: 12px 16px;
+    font-family: var(--sip-font-mono);
+    font-size: 13px;
+    margin-bottom: var(--sip-space-3);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    transition: all var(--sip-transition-fast);
+  }
+
+  .sip-cmd-block:last-child {
+    margin-bottom: 0;
+  }
+
+  .sip-cmd-block:hover {
+    border-color: var(--sip-primary-subtle);
+    background: #eef2ff;
+  }
+
+  .sip-prompt {
+    color: var(--sip-primary-text);
+    flex-shrink: 0;
+    margin-top: 1px;
+    font-weight: 700;
+  }
+
+  .sip-cmd-content {
+    flex: 1;
+  }
+
+  .sip-cmd-main {
+    color: #1f2937;
+    font-weight: 600;
+    display: block;
+    line-height: 1.5;
+    font-family: var(--sip-font-mono);
+  }
+
+  .sip-cmd-comment {
+    color: #4b5563;
+    font-size: 12px;
+    display: block;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  .sip-highlight {
+    color: var(--sip-primary-text);
+    font-weight: 700;
+  }
+
+  /* ============================================
+     Shortcut List
+     ============================================ */
+  .sip-shortcut-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sip-space-3);
+  }
+
+  .sip-shortcut-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sip-space-2);
+    padding: var(--sip-space-2) 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--sip-text-secondary) 5%, transparent);
+  }
+
+  .sip-shortcut-item:last-child {
+    border-bottom: none;
+  }
+
+  .sip-shortcut-desc {
+    font-size: 13px;
+    color: var(--sip-text-primary);
+  }
+
+  .sip-keys {
+    display: flex;
+    gap: var(--sip-space-1);
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .sip-kbd {
+    background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+    border: 1px solid #d1d5db;
+    border-bottom: 2px solid #9ca3af;
+    border-radius: var(--sip-radius-sm);
+    padding: 4px 8px;
+    font-family: var(--sip-font-mono);
+    font-size: 11px;
+    color: #374151;
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .sip-key-plus {
+    color: var(--sip-text-muted);
+    font-size: 11px;
+  }
+
+  /* ============================================
+     Slash Commands Grid
+     ============================================ */
+  .sip-slash-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--sip-space-3);
+  }
+
+  .sip-slash-item {
+    background: var(--sip-bg-secondary);
+    border: 1px solid color-mix(in srgb, var(--sip-text-secondary) 8%, transparent);
+    border-radius: var(--sip-radius-lg);
+    padding: 14px;
+    transition: all var(--sip-transition-fast);
+  }
+
+  .sip-slash-item:hover {
+    border-color: var(--sip-primary-subtle);
+    background: var(--sip-primary-tint-1);
+    transform: translateY(-1px);
+  }
+
+  .sip-slash-name {
+    font-family: var(--sip-font-mono);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--sip-primary-text);
+    margin-bottom: 6px;
+  }
+
+  .sip-slash-desc {
+    font-size: 12px;
+    color: var(--sip-text-secondary);
+    line-height: 1.4;
+  }
+
+  /* ============================================
+     Hero Card (Quick Start)
+     ============================================ */
+  .sip-hero-card {
+    background: linear-gradient(135deg, var(--sip-primary-tint-1) 0%, rgba(186, 168, 254, 0.08) 100%);
+    border: 1px solid var(--sip-primary-subtle);
+    border-radius: var(--sip-radius-xl);
+    padding: var(--sip-space-6);
+    margin-bottom: var(--sip-space-6);
+    position: relative;
+    overflow: hidden;
+    animation: fadeUp 0.4s ease both;
+  }
+
+  .sip-hero-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--sip-space-5);
+    position: relative;
+    z-index: 1;
+  }
+
+  .sip-hero-step {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sip-space-3);
+  }
+
+  .sip-step-num {
+    font-family: var(--sip-font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--sip-primary-text);
+    letter-spacing: 0.1em;
+  }
+
+  .sip-step-cmd {
+    background: var(--sip-bg-elevated);
+    border: 1px solid var(--sip-primary-subtle);
+    border-radius: var(--sip-radius-lg);
+    padding: 12px 14px;
+    font-family: var(--sip-font-mono);
+    font-size: 13px;
+    color: var(--sip-text-primary);
+    font-weight: 600;
+    box-shadow: var(--sip-shadow-sm);
+  }
+
+  .sip-step-desc {
+    font-size: 12px;
+    color: var(--sip-text-secondary);
+    line-height: 1.5;
+  }
+
+  /* ============================================
+     Tip Bar
+     ============================================ */
+  .sip-tip-bar {
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-radius: var(--sip-radius-lg);
+    padding: var(--sip-space-4) var(--sip-space-5);
+    margin-bottom: var(--sip-space-6);
+    font-size: 13px;
+    color: #92400e;
+    line-height: 1.6;
+    font-family: var(--sip-font-mono);
+    animation: fadeUp 0.35s ease both;
+  }
+
+  .sip-tip-bar strong {
+    color: #78350f;
+    font-weight: 700;
+  }
+
+  /* ============================================
+     Footer
+     ============================================ */
+  .sip-footer {
+    margin-top: var(--sip-space-8);
+    padding-top: var(--sip-space-6);
+    border-top: 1px solid color-mix(in srgb, var(--sip-text-secondary) 10%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sip-space-4);
+    font-family: var(--sip-font-mono);
+    font-size: 12px;
+    color: var(--sip-text-muted);
+    flex-wrap: wrap;
+  }
+
+  .sip-footer-brand {
+    color: var(--sip-primary-text);
+    font-weight: 700;
+  }
+
+  /* ============================================
+     Animations
+     ============================================ */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  /* Staggered animation delays */
+  .sip-card:nth-child(1) { animation-delay: 0.05s; }
+  .sip-card:nth-child(2) { animation-delay: 0.10s; }
+  .sip-card:nth-child(3) { animation-delay: 0.15s; }
+  .sip-card:nth-child(4) { animation-delay: 0.20s; }
+  .sip-card:nth-child(5) { animation-delay: 0.25s; }
+  .sip-card:nth-child(6) { animation-delay: 0.30s; }
+
+  /* ============================================
+     Mobile Adaptation
+     ============================================ */
+  @media (max-width: 768px) {
+    .sip-container {
+      padding: var(--sip-space-5) var(--sip-space-4) 40px;
+    }
+
+    .sip-grid-2,
+    .sip-grid-3,
+    .sip-grid-4,
+    .sip-grid-auto {
+      grid-template-columns: 1fr !important;
+    }
+
+    .sip-hero-steps {
+      grid-template-columns: 1fr;
+    }
+
+    .sip-slash-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sip-title {
+      font-size: 28px;
+    }
+
+    .sip-footer {
+      flex-direction: column;
+      text-align: center;
+      gap: var(--sip-space-2);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .sip-slash-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .sip-cmd-block {
+      padding: 10px 12px;
+      font-size: 12px;
+    }
+
+    .sip-step-cmd {
+      font-size: 12px;
+      padding: 10px 12px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="sip-container">
+
+  <!-- Header / Banner -->
+  <div class="sip-nav-banner">
+    <div class="sip-badge">⚡ CLAUDE CODE · 命令行工具速查</div>
+    <div class="sip-title">Claude Code 一图流</div>
+    <div class="sip-subtitle">$ claude --help &nbsp;·&nbsp; 快速上手 · 常用命令 · 快捷键大全</div>
+  </div>
+
+  <!-- Quick Start Hero -->
+  <div class="sip-hero-card">
+    <div class="sip-section-title" style="margin-bottom:var(--sip-space-5);">
+      三步快速上手
+    </div>
+    <div class="sip-hero-steps">
+      <div class="sip-hero-step">
+        <div class="sip-step-num">STEP 01 · 安装</div>
+        <div class="sip-step-cmd">npm i -g @anthropic-ai/claude-code</div>
+        <div class="sip-step-desc">全局安装，需要 Node.js 18+</div>
+      </div>
+      <div class="sip-hero-step">
+        <div class="sip-step-num">STEP 02 · 进入项目</div>
+        <div class="sip-step-cmd">cd your-project && claude</div>
+        <div class="sip-step-desc">在项目目录启动，自动读取上下文</div>
+      </div>
+      <div class="sip-hero-step">
+        <div class="sip-step-num">STEP 03 · 开始对话</div>
+        <div class="sip-step-cmd">&gt; 帮我重构 auth.ts 的登录逻辑</div>
+        <div class="sip-step-desc">用自然语言描述任务，直接开干</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sip-tip-bar">
+    <strong>💡 核心理念：</strong>Claude Code 直接读取你的代码库，理解整个项目结构后再执行任务。无需粘贴代码片段 —— 直接说「帮我找所有用了 deprecated API 的地方并修复」即可。
+  </div>
+
+  <!-- CLI 启动参数 -->
+  <div class="sip-card sip-card--primary">
+    <div class="sip-card__header">
+      <div class="sip-section-title">启动参数 / CLI Flags</div>
+    </div>
+    <div class="sip-card__body">
+      <div class="sip-grid-2">
+        <div>
+          <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--sip-primary-text); margin-bottom:var(--sip-space-3); font-family:var(--sip-font-mono);">会话模式</div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude</span></span>
+              <span class="sip-cmd-comment">交互式 REPL 模式（默认）</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude --continue</span></span>
+              <span class="sip-cmd-comment">继续上一次会话</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude --resume</span></span>
+              <span class="sip-cmd-comment">打开历史会话选择器</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude --from-pr 123</span></span>
+              <span class="sip-cmd-comment">从指定 PR 恢复会话</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--sip-primary-text); margin-bottom:var(--sip-space-3); font-family:var(--sip-font-mono);">非交互 / 管道模式</div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude -p</span> "修复所有 TS 类型错误"</span>
+              <span class="sip-cmd-comment">单次执行后退出（适合脚本/CI）</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main">cat error.log | <span class="sip-highlight">claude -p</span> "分析这个错误"</span>
+              <span class="sip-cmd-comment">通过管道传入上下文</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude -p</span> "..." <span class="sip-highlight">--output-format json</span></span>
+              <span class="sip-cmd-comment">输出 JSON（方便脚本解析）</span>
+            </div>
+          </div>
+          <div class="sip-cmd-block">
+            <span class="sip-prompt">$</span>
+            <div class="sip-cmd-content">
+              <span class="sip-cmd-main"><span class="sip-highlight">claude --headless</span></span>
+              <span class="sip-cmd-comment">无头模式，适合服务器环境</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slash Commands -->
+  <div class="sip-card">
+    <div class="sip-card__header">
+      <div class="sip-section-title">会话内斜杠命令 / Slash Commands</div>
+    </div>
+    <div class="sip-card__body">
+      <div class="sip-slash-grid">
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/help</div>
+          <div class="sip-slash-desc">查看所有可用命令</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/clear</div>
+          <div class="sip-slash-desc">清空对话历史，释放上下文</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/rewind</div>
+          <div class="sip-slash-desc">时间回溯，还原代码/对话</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/resume</div>
+          <div class="sip-slash-desc">切换到另一个历史会话</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/compact</div>
+          <div class="sip-slash-desc">压缩历史，减少 token 占用</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/context</div>
+          <div class="sip-slash-desc">查看当前 token 使用情况</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/vim</div>
+          <div class="sip-slash-desc">切换为 vim 键位输入模式</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/config</div>
+          <div class="sip-slash-desc">查看或修改配置项</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/model</div>
+          <div class="sip-slash-desc">切换使用的 Claude 模型</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/mcp</div>
+          <div class="sip-slash-desc">管理 MCP 服务器连接</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/init</div>
+          <div class="sip-slash-desc">生成 CLAUDE.md 项目说明文件</div>
+        </div>
+        <div class="sip-slash-item">
+          <div class="sip-slash-name">/exit</div>
+          <div class="sip-slash-desc">退出 Claude Code</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keyboard Shortcuts -->
+  <div class="sip-card">
+    <div class="sip-card__header">
+      <div class="sip-section-title">快捷键 / Keyboard Shortcuts</div>
+    </div>
+    <div class="sip-card__body">
+      <div class="sip-grid-3">
+        <div>
+          <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--sip-primary-text); margin-bottom:var(--sip-space-3); font-family:var(--sip-font-mono);">输入控制</div>
+          <div class="sip-shortcut-list">
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">多行输入换行</span>
+              <div class="sip-keys"><span class="sip-kbd">Shift</span><span class="sip-key-plus">+</span><span class="sip-kbd">Enter</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">提交消息</span>
+              <div class="sip-keys"><span class="sip-kbd">Enter</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">取消当前输入</span>
+              <div class="sip-keys"><span class="sip-kbd">Ctrl</span><span class="sip-key-plus">+</span><span class="sip-kbd">C</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">退出 Claude Code</span>
+              <div class="sip-keys"><span class="sip-kbd">Ctrl</span><span class="sip-key-plus">+</span><span class="sip-kbd">D</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--sip-primary-text); margin-bottom:var(--sip-space-3); font-family:var(--sip-font-mono);">历史 & 回溯</div>
+          <div class="sip-shortcut-list">
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">上一条输入</span>
+              <div class="sip-keys"><span class="sip-kbd">↑</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">下一条输入</span>
+              <div class="sip-keys"><span class="sip-kbd">↓</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">时间回溯菜单</span>
+              <div class="sip-keys"><span class="sip-kbd">Esc</span><span class="sip-key-plus">×2</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">中断当前执行</span>
+              <div class="sip-keys"><span class="sip-kbd">Esc</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--sip-primary-text); margin-bottom:var(--sip-space-3); font-family:var(--sip-font-mono);">工具 & 导航</div>
+          <div class="sip-shortcut-list">
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">打开文件选择器</span>
+              <div class="sip-keys"><span class="sip-kbd">Ctrl</span><span class="sip-key-plus">+</span><span class="sip-kbd">P</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">搜索代码</span>
+              <div class="sip-keys"><span class="sip-kbd">Ctrl</span><span class="sip-key-plus">+</span><span class="sip-kbd">Shift</span><span class="sip-key-plus">+</span><span class="sip-kbd">F</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">查看 diff</span>
+              <div class="sip-keys"><span class="sip-kbd">Ctrl</span><span class="sip-key-plus">+</span><span class="sip-kbd">D</span></div>
+            </div>
+            <div class="sip-shortcut-item">
+              <span class="sip-shortcut-desc">接受建议</span>
+              <div class="sip-keys"><span class="sip-kbd">Tab</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="sip-footer">
+    <span><span class="sip-footer-brand">Claude Code</span> 快速参考</span>
+    <span>2026 · Anthropic</span>
+  </div>
+
+</div>
+</body>
+</html>

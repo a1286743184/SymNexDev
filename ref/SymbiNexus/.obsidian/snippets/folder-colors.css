@@ -1,0 +1,33 @@
+/*
+ * 功能：为文件夹名称添加颜色和加粗样式
+ * 版本：1.5
+ * 更新：使用CSS变量统一颜色设置，便于一次性修改
+ */
+
+/* 定义颜色变量 */
+:root {
+    --folder-color: #AF7AC5; /* 紫色 - 修改这里即可更改所有文件夹颜色 */
+}
+
+/* 根目录一级文件夹：紫色加粗 */
+.nav-folder-title[data-path="01-经纬矩阵系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="02-复盘系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="03-成就系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="04-模板系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="05-生活坐标系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="06-财务系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="07-项目系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="08-科技树系统"] .nav-folder-title-content,
+.nav-folder-title[data-path="98-稿纸"] .nav-folder-title-content,
+.nav-folder-title[data-path="99-附件"] .nav-folder-title-content {
+    color: var(--folder-color) !important;
+    font-weight: bold !important;
+}
+
+/* 子目录文件夹：紫色不加粗 */
+.nav-folder-title:not([data-path="01-经纬矩阵系统"]):not([data-path="02-复盘系统"]):not([data-path="03-成就系统"]):not([data-path="04-模板系统"]):not([data-path="05-生活坐标系统"]):not([data-path="06-财务系统"]):not([data-path="07-项目系统"]):not([data-path="08-科技树系统"]):not([data-path="98-稿纸"]):not([data-path="99-附件"]) .nav-folder-title-content {
+    color: var(--folder-color) !important;
+    font-weight: normal !important;
+}
+
+

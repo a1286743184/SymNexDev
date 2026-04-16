@@ -1,0 +1,150 @@
+/* ==========================================================
+   SIP-UI: Settings Standard (High Density Edition)
+   ========================================================== */
+
+.sip-settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--sip-text-normal);
+}
+
+/* 选项卡 (Tabs) */
+.sip-tabs-header {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid var(--sip-border);
+  overflow-x: auto;
+  scrollbar-width: none; /* 隐藏滚动条但保留滚动 */
+}
+.sip-tabs-header::-webkit-scrollbar { display: none; }
+
+.sip-tab-btn {
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sip-text-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: var(--sip-transition-fast);
+  white-space: nowrap;
+}
+.sip-tab-btn:hover { color: var(--sip-text-normal); }
+.sip-tab-btn.is-active {
+  color: var(--sip-primary);
+  border-bottom-color: var(--sip-primary);
+}
+
+.sip-tab-content { display: none; animation: fadeIn var(--sip-transition-fast); }
+.sip-tab-content.is-active { display: block; }
+
+/* 卡片容器 (Cards) */
+.sip-card {
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: var(--sip-radius-lg);
+  border: 1px solid var(--sip-border);
+  background: var(--sip-bg-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.sip-card-header {
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--sip-border);
+}
+
+.sip-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+/* 纯净的左侧强调线，替代 Emoji */
+.sip-card-title::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 14px;
+  background: var(--sip-primary);
+  border-radius: 2px;
+}
+
+.sip-card-subtitle {
+  font-size: 11px;
+  color: var(--sip-text-muted);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* Obsidian 原生 Setting 覆盖 */
+.sip-card .setting-item {
+  padding: 8px 0;
+  border: none; /* 移除原生底边框，依靠间距区分 */
+}
+.sip-card .setting-item-name { font-size: 13px; font-weight: 500; }
+.sip-card .setting-item-description { font-size: 11px; color: var(--sip-text-muted); }
+
+/* 无 Emoji 状态指示器 (纯净 SVG/CSS 方案) */
+.sip-status-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--sip-radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--sip-bg-secondary);
+}
+.sip-status-dot { width: 8px; height: 8px; border-radius: 50%; }
+.sip-status-dot.success { background: var(--sip-success); box-shadow: 0 0 4px var(--sip-success); }
+.sip-status-dot.error { background: var(--sip-danger); box-shadow: 0 0 4px var(--sip-danger); }
+.sip-status-dot.warning { background: var(--sip-warning); }
+
+/* ==========================================================
+   移动端高密度适配 (Mobile High-Density)
+   ========================================================== */
+@media (max-width: 600px) {
+  .sip-tabs-header { margin-bottom: 8px; }
+  .sip-tab-btn { padding: 6px 12px; font-size: 12px; }
+  
+  .sip-card {
+    padding: 8px 10px; /* 极度压缩卡片内边距 */
+    margin-bottom: 8px;
+    border-radius: var(--sip-radius-md);
+  }
+  
+  .sip-card-header { margin-bottom: 4px; padding-bottom: 4px; }
+  .sip-card-title { font-size: 13px; }
+  
+  /* 强制 Setting 紧凑排版，取消过度展开 */
+  .sip-card .setting-item {
+    padding: 6px 0;
+    flex-direction: row; /* 强制保持左右同行，除非极其拥挤 */
+    align-items: center;
+  }
+  
+  .sip-card .setting-item-info { flex: 1 1 auto; min-width: 0; padding-right: 8px; }
+  .sip-card .setting-item-name { font-size: 12px; }
+  .sip-card .setting-item-description { font-size: 10px; margin-top: 2px; line-height: 1.2; }
+  
+  /* 控件高度控制，避免过度撑大 */
+  .sip-card .setting-item-control { flex: 0 0 auto; }
+  .sip-card .setting-item-control input[type="text"],
+  .sip-card .setting-item-control select {
+    font-size: 11px;
+    padding: 2px 6px;
+    height: 26px; /* 保持原生高度，不过度拉伸 */
+    min-width: 100px;
+    max-width: 140px;
+  }
+  .sip-card .setting-item-control button {
+    padding: 2px 10px;
+    height: 26px;
+    font-size: 11px;
+  }
+}

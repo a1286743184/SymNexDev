@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "created_at": "2026-02-21",
+  "updated_at": "2026-02-22",
+  "source": "smart-input-pro",
+  "skill_name": "SIP-UI Expert",
+  "skill_type": "sip-ui-expert",
+  "preferences": [
+    "重构 CSS 时应先检查是否存在重复的选择器定义，优先删除冲突的重复代码而非逐个修复"
+  ],
+  "fixes": [
+    "多字段资源列表项（如包含多个输入框的槽位行）严禁设置固定高度，必须使用 min-height: auto 或 height: auto 让 flex 内容自适应撑开，否则会导致后续字段被截断不可见",
+    "CSS 样式应集中管理，避免在文件多处重复定义相同选择器。后定义的样式会覆盖前面的，可能导致预期外的布局问题。移动端样式应统一放在移动端适配章节中",
+    "多字段网格布局严禁使用 nth-of-type 选择器，必须使用 data-field 语义化属性选择器",
+    "输入框容器严禁使用 height + line-height 组合实现垂直居中，必须使用 display: flex; align-items: center 让内容自适应",
+    "网格字段容器必须显式设置 min-width: 0 以允许在 flex/grid 布局中正确收缩",
+    "动态表单中所有可交互字段必须添加 data-field 属性以便精确选择，禁止依赖 DOM 顺序"
+  ],
+  "contexts": [
+    "【输入框组件 .sip-input-wrapper / .sip-input】.sip-input-wrapper { position: relative; border-radius: 12px; box-shadow: 0 0 0 2px var(--sip-primary-glow); transition: box-shadow 0.2s ease; background: var(--background-primary); height: 40px; display: flex; align-items: center; } .sip-input-wrapper:focus-within { box-shadow: 0 0 0 3px var(--sip-primary-glow-focus); } .sip-input { width: 100%; min-width: 0; height: 100%; padding: 0 14px; border: none; border-radius: 12px; background: transparent; color: var(--text-normal); font-size: 13px; outline: none; box-sizing: border-box; }",
+    "【下拉选择器 .sip-select】.sip-select { width: 100%; min-width: 0; height: 40px; padding: 0 28px 0 14px; border: 1px solid color-mix(in srgb, var(--text-normal) 15%, transparent); border-radius: 12px; background-color: var(--background-primary); color: var(--text-normal); font-size: 13px; cursor: pointer; outline: none; transition: all 0.2s ease; appearance: none; -webkit-appearance: none; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239f7aea' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\"); background-repeat: no-repeat; background-position: right 10px center; box-sizing: border-box; } .sip-select:focus { border-color: var(--sip-primary); box-shadow: 0 0 0 3px var(--sip-primary-glow-focus); }",
+    "【资源列表组件 .sip-resource-list / .sip-resource-item / .sip-resource-grid】.sip-resource-list { display: flex; flex-direction: column; gap: 12px; } .sip-resource-item { border: 1px solid var(--sip-primary-muted); border-radius: 12px; padding: 16px; background: var(--background-primary); transition: all 0.2s ease; } .sip-resource-item:hover { border-color: var(--sip-primary); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(186, 168, 254, 0.15); } .sip-resource-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; } .sip-resource-index { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; background: var(--sip-primary-muted); color: var(--sip-primary-text); font-size: 12px; font-weight: 600; border-radius: 8px; } .sip-resource-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 12px; align-items: start; } .sip-resource-field { min-width: 0; } .sip-field-label { font-size: 11px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; display: block; }",
+    "【按钮组件 .sip-btn-primary / .sip-btn-secondary / .sip-btn-icon】.sip-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; background: var(--sip-primary); color: white; font-size: 14px; font-weight: 500; border: none; border-radius: 12px; cursor: pointer; transition: all 0.2s ease; } .sip-btn-primary:hover { background: var(--sip-primary-hover); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(159, 122, 234, 0.3); } .sip-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; background: transparent; color: var(--text-normal); font-size: 14px; font-weight: 500; border: 1px solid color-mix(in srgb, var(--text-normal) 15%, transparent); border-radius: 12px; cursor: pointer; transition: all 0.2s ease; } .sip-btn-secondary:hover { background: var(--sip-primary-tint-1); border-color: var(--sip-primary); } .sip-btn-icon { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; color: var(--text-muted); border: none; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; } .sip-btn-icon:hover { background: var(--background-modifier-hover); color: var(--text-error); }",
+    "【卡片组件 .sip-card / .sip-card-header / .sip-card-body】.sip-card { background: var(--background-primary); border: 1px solid color-mix(in srgb, var(--text-normal) 8%, transparent); border-radius: 16px; margin-bottom: 20px; overflow: hidden; } .sip-card-header { padding: 20px 20px 0 20px; } .sip-card-body { padding: 16px 20px 20px 20px; }",
+    "【边框表单组 .sip-bordered-group】.sip-bordered-group { border: 1px solid color-mix(in srgb, var(--text-normal) 10%, transparent); border-radius: 12px; padding: 16px; } .sip-bordered-group .setting-item { border: none !important; padding: 0 !important; background: transparent !important; } .sip-bordered-group .setting-item-info { display: none; } .sip-bordered-group .setting-item-control { padding-right: 0 !important; justify-content: space-between; width: 100%; }",
+    "【空状态组件 .sip-empty-state / .sip-empty-svg】.sip-empty-state { text-align: center; padding: 40px 20px; color: var(--text-muted); } .sip-empty-svg { width: 48px; height: 48px; margin-bottom: 12px; opacity: 0.5; stroke: currentColor; }"
+  ],
+  "custom_prompts": "",
+  "component_variations": {},
+  "mobile_adaptations": [],
+  "design_token_overrides": {},
+  "notes": [],
+  "last_updated": "2026-02-22T10:00:00.000000"
+}

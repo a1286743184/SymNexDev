@@ -1,0 +1,12 @@
+{
+  "id": "command-orb",
+  "name": "CommandOrb",
+  "version": "0.3.2",
+  "main": "main.js",
+  "css": "styles.css",
+  "minAppVersion": "1.4.0",
+  "description": "悬浮指令球：支持移动端与桌面端分别设置位置；轻点显示/隐藏、长按滑选执行；快捷栏命令数量不设上限，首项为设置快捷入口。",
+  "author": "OB Vault User",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

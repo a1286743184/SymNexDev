@@ -1,0 +1,17 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":closed_lock_with_key:",
+    ":ballot_box_with_check:",
+    ":calendar:",
+    ":cherry_blossom:",
+    ":blue_book:",
+    ":arrows_clockwise:",
+    ":beers:",
+    ":couch_and_lamp:",
+    ":bar_chart:"
+  ]
+}

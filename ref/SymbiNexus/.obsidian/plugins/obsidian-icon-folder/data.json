@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiRocket",
+      "LiSlack",
+      "LiPin",
+      "LiPenLine",
+      "LiListTodo"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "02-复盘系统": {
+    "iconName": "LiPenLine",
+    "iconColor": "#AF7AC5"
+  },
+  "03-成就系统": {
+    "iconName": "LiAward",
+    "iconColor": "#AF7AC5"
+  },
+  "04-模板系统": {
+    "iconName": "LiBoxGlyph",
+    "iconColor": "#AF7AC5"
+  },
+  "05-生活坐标系统": {
+    "iconName": "LiCoffee",
+    "iconColor": "#AF7AC5"
+  },
+  "06-财务系统": {
+    "iconName": "LiCircleDollarSign",
+    "iconColor": "#AF7AC5"
+  },
+  "07-项目系统": {
+    "iconName": "LiPackage",
+    "iconColor": "#AF7AC5"
+  },
+  "08-科技树系统": {
+    "iconName": "LiRocket",
+    "iconColor": "#AF7AC5"
+  },
+  "98-稿纸": {
+    "iconName": "LiBookOpenText",
+    "iconColor": "#AF7AC5"
+  },
+  "99-附件": {
+    "iconName": "LiPaperclip",
+    "iconColor": "#AF7AC5"
+  },
+  "01-经纬矩阵系统": {
+    "iconName": "LiSlack",
+    "iconColor": "#AF7AC5"
+  }
+}

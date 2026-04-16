@@ -1,0 +1,10 @@
+{
+	"id": "view-controller",
+	"name": "View Controller",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically switch view mode and jump to specific position when opening files based on path rules.",
+	"author": "Trae Assistant",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}

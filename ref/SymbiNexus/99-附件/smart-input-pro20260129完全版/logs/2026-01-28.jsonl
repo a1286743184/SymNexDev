@@ -1,0 +1,72 @@
+{"timestamp":"2026/1/29 00:55:38","event":"stage1_start","data":{"original_text":"云腿体重1.8kg","mode":"classify_only"}}
+{"timestamp":"2026/1/29 00:55:38","event":"stage1_prompt","data":{}}
+{"timestamp":"2026/1/29 00:55:38","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:55:39","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"category\": \"pet_growth\"\n}"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage1_response","data":{}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage1_result","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage1_opt_prompt","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:55:39","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:55:39","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"optimized_text\": \"云腿体重1.8kg\"\n}"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage1_opt_response","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage1_opt_result","data":{"optimized_text":"云腿体重1.8kg","category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage2_dispatch","data":{"module":"pet_growth","text_used":"云腿体重1.8kg","original_text":"云腿体重1.8kg"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage2_start","data":{"module":"pet_growth","optimized_text":"云腿体重1.8kg"}}
+{"timestamp":"2026/1/29 00:55:39","event":"stage2_prompt","data":{"module":"pet_growth"}}
+{"timestamp":"2026/1/29 00:55:39","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:55:40","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"name\": \"云腿\",\n  \"weight_g\": 1800,\n  \"date\": \"2026-01-29\",\n  \"note\": null\n}"}}
+{"timestamp":"2026/1/29 00:55:40","event":"token_cost_record","data":{"id":"2601290055","s1":1648,"s2":1577,"total":3225,"category":"pet_growth","file":"01-经纬矩阵系统/08-智能录入模块/智能录入日志/SIPLog_2026-01.md"}}
+
+{"timestamp":"2026/1/29 00:57:29","event":"stage1_start","data":{"original_text":"月饼体重9.35kg","mode":"classify_only"}}
+{"timestamp":"2026/1/29 00:57:29","event":"stage1_prompt","data":{}}
+{"timestamp":"2026/1/29 00:57:29","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:57:29","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"category\": \"pet_growth\"\n}"}}
+{"timestamp":"2026/1/29 00:57:29","event":"stage1_response","data":{}}
+{"timestamp":"2026/1/29 00:57:29","event":"stage1_result","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:57:29","event":"stage1_opt_prompt","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:57:29","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:57:30","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"optimized_text\": \"月饼体重9.35kg\"\n}"}}
+{"timestamp":"2026/1/29 00:57:30","event":"stage1_opt_response","data":{"category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:57:30","event":"stage1_opt_result","data":{"optimized_text":"月饼体重9.35kg","category":"pet_growth"}}
+{"timestamp":"2026/1/29 00:57:30","event":"stage2_dispatch","data":{"module":"pet_growth","text_used":"月饼体重9.35kg","original_text":"月饼体重9.35kg"}}
+{"timestamp":"2026/1/29 00:57:30","event":"stage2_start","data":{"module":"pet_growth","optimized_text":"月饼体重9.35kg"}}
+{"timestamp":"2026/1/29 00:57:30","event":"stage2_prompt","data":{"module":"pet_growth"}}
+{"timestamp":"2026/1/29 00:57:30","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 00:57:30","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"name\": \"月饼\",\n  \"weight_g\": 9350,\n  \"date\": \"2026-01-29\",\n  \"note\": null\n}"}}
+{"timestamp":"2026/1/29 00:57:31","event":"token_cost_record","data":{"id":"2601290057","s1":1648,"s2":1576,"total":3224,"category":"pet_growth","file":"01-经纬矩阵系统/08-智能录入模块/智能录入日志/SIPLog_2026-01.md"}}
+
+{"timestamp":"2026/1/29 02:14:23","event":"stage1_start","data":{"original_text":"今天完成崽子成长看板的深度优化，包括 折线图时间轴连续化 、 月饼体重曲线独立展示 以及 列表仅显示今日打卡崽子 的逻辑调整。","mode":"classify_only"}}
+{"timestamp":"2026/1/29 02:14:23","event":"stage1_prompt","data":{}}
+{"timestamp":"2026/1/29 02:14:23","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 02:14:23","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"category\": \"sip_plugin\"\n}"}}
+{"timestamp":"2026/1/29 02:14:23","event":"stage1_response","data":{}}
+{"timestamp":"2026/1/29 02:14:23","event":"stage1_result","data":{"category":"other"}}
+{"timestamp":"2026/1/29 02:14:23","event":"error","data":{"error_message":"分类为杂项","error_stack":"Error: 分类为杂项\n    at SmartInputProPlugin.logError (plugin:smart-input-pro:1440:25)\n    at SmartInputProPlugin.classifyCategoryOnly (plugin:smart-input-pro:2538:14)\n    at async SmartInputProPlugin.classifyAndSave (plugin:smart-input-pro:1698:42)\n    at async SmartInput.saveContent (plugin:smart-input-pro:2433:13)"}}
+{"timestamp":"2026/1/29 02:14:23","event":"stage1_opt_prompt","data":{"category":"other"}}
+{"timestamp":"2026/1/29 02:14:23","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 02:14:24","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"optimized_text\": \"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。\"\n}"}}
+{"timestamp":"2026/1/29 02:14:24","event":"stage1_opt_response","data":{"category":"other"}}
+{"timestamp":"2026/1/29 02:14:24","event":"stage1_opt_result","data":{"optimized_text":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。","category":"other"}}
+{"timestamp":"2026/1/29 02:14:24","event":"stage2_dispatch","data":{"module":"other","text_used":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。","original_text":"今天完成崽子成长看板的深度优化，包括 折线图时间轴连续化 、 月饼体重曲线独立展示 以及 列表仅显示今日打卡崽子 的逻辑调整。","optimized_text":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。"}}
+{"timestamp":"2026/1/29 02:14:24","event":"append_to_file","data":{"target_file":"01-经纬矩阵系统/08-智能录入模块/01-INBOX.md","appended_line":"- 今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。"}}
+{"timestamp":"2026/1/29 02:14:24","event":"append_to_inbox","data":{"saved_to":"01-经纬矩阵系统/08-智能录入模块/01-INBOX.md","line":"- 今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。"}}
+{"timestamp":"2026/1/29 02:14:24","event":"token_cost_record","data":{"id":"2601290214","s1":1683,"s2":1030,"total":2713,"category":"other","file":"01-经纬矩阵系统/08-智能录入模块/智能录入日志/SIPLog_2026-01.md"}}
+
+{"timestamp":"2026/1/29 02:23:32","event":"stage1_start","data":{"original_text":"今天完成崽子成长看板的深度优化，包括 折线图时间轴连续化 、 月饼体重曲线独立展示 以及 列表仅显示今日打卡崽子 的逻辑调整。","mode":"classify_only"}}
+{"timestamp":"2026/1/29 02:23:32","event":"stage1_prompt","data":{}}
+{"timestamp":"2026/1/29 02:23:32","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 02:23:32","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"category\": \"code_dev\"\n}"}}
+{"timestamp":"2026/1/29 02:23:32","event":"stage1_response","data":{}}
+{"timestamp":"2026/1/29 02:23:32","event":"stage1_result","data":{"category":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:32","event":"stage1_opt_prompt","data":{"category":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:32","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 02:23:33","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"optimized_text\": \"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。\"\n}"}}
+{"timestamp":"2026/1/29 02:23:33","event":"stage1_opt_response","data":{"category":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:33","event":"stage1_opt_result","data":{"optimized_text":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。","category":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:33","event":"stage2_dispatch","data":{"module":"code_dev","text_used":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。","original_text":"今天完成崽子成长看板的深度优化，包括 折线图时间轴连续化 、 月饼体重曲线独立展示 以及 列表仅显示今日打卡崽子 的逻辑调整。","optimized_text":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。"}}
+{"timestamp":"2026/1/29 02:23:33","event":"stage2_start","data":{"module":"code_dev","optimized_text":"今天完成崽子成长看板的深度优化，包括折线图时间轴连续化、月饼体重曲线独立展示，以及列表仅显示今日打卡崽子的逻辑调整。"}}
+{"timestamp":"2026/1/29 02:23:33","event":"stage2_prompt","data":{"module":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:33","event":"ai_request","data":{"provider":"qwen","protocol":"openai","model":"qwen-flash-2025-07-28"}}
+{"timestamp":"2026/1/29 02:23:34","event":"ai_response","data":{"provider":"qwen","model":"qwen-flash-2025-07-28","status":200,"content_preview":"{\n  \"task_title\": \"完成崽子成长看板的深度优化，实现折线图时间轴连续化、月饼体重曲线独立展示及仅显示今日打卡崽子的列表逻辑\",\n  \"task_context\": null,\n  \"due_date\": \"2026-01-28\",\n  \"time_info\": null\n}"}}
+{"timestamp":"2026/1/29 02:23:34","event":"stage2_response","data":{"module":"code_dev"}}
+{"timestamp":"2026/1/29 02:23:34","event":"stage2_result","data":{"module":"code_dev","parsed":{"task_title":"完成崽子成长看板的深度优化，实现折线图时间轴连续化、月饼体重曲线独立展示及仅显示今日打卡崽子的列表逻辑","task_context":null,"due_date":"2026-01-28","time_info":null},"saved_to":"01-经纬矩阵系统/08-智能录入模块/02-Require.md"}}
+{"timestamp":"2026/1/29 02:23:34","event":"token_cost_record","data":{"id":"2601290223","s1":1692,"s2":2489,"total":4181,"category":"code_dev","file":"01-经纬矩阵系统/08-智能录入模块/智能录入日志/SIPLog_2026-01.md"}}

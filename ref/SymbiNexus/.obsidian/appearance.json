@@ -1,0 +1,15 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "task-dates",
+    "profile-card-clean",
+    "achievements",
+    "profile-table",
+    "table",
+    "Tag Fonts",
+    "folder-colors"
+  ],
+  "accentColor": "#ab96ff",
+  "baseFontSize": 16
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "roles",
+      "type": "folder",
+      "path": "05-生活坐标系统/01-角色档案",
+      "name": "角色档案",
+      "enabled": true
+    },
+    {
+      "id": "weekly",
+      "type": "folder",
+      "path": "01-经纬矩阵系统/02-周委托模块",
+      "name": "周计划",
+      "enabled": true
+    },
+    {
+      "id": "routines",
+      "type": "file",
+      "path": "01-经纬矩阵系统/04-规律性事项模块/规律性事项列表.md",
+      "name": "规律事项",
+      "enabled": true
+    },
+    {
+      "id": "memos",
+      "type": "file",
+      "path": "01-经纬矩阵系统/03-备忘提醒模块/备忘录.md",
+      "name": "备忘",
+      "enabled": true
+    },
+    {
+      "id": "inbox",
+      "type": "file",
+      "path": "01-经纬矩阵系统/08-智能录入模块/01-INBOX.md",
+      "name": "INBOX",
+      "enabled": true
+    },
+    {
+      "id": "require",
+      "type": "file",
+      "path": "01-经纬矩阵系统/08-智能录入模块/02-Require.md",
+      "name": "开发需求",
+      "enabled": true
+    },
+    {
+      "id": "s-1769265144346-0e017406e92978",
+      "type": "file",
+      "path": "07-项目系统/01-公务员考试/学习计划/公考学习计划.md",
+      "name": "公考计划",
+      "enabled": true
+    }
+  ],
+  "excludePathIncludes": [
+    "99-周委托归档",
+    "99-附件"
+  ],
+  "ui": {
+    "forecastDays": 1,
+    "showCompleted": true,
+    "showUndated": true,
+    "groupBySource": true,
+    "hiddenTags": [
+      "备忘",
+      "SIP插件",
+      "sip-plugin",
+      "sip_plugin"
+    ]
+  },
+  "weekly": {
+    "enabled": true,
+    "weekStart": "monday",
+    "prefix": "01-经纬矩阵系统/02-周委托模块/周度委托列表",
+    "archiveFolder": "01-经纬矩阵系统/02-周委托模块/99-周委托归档",
+    "migrateUndone": true,
+    "lastWeekKey": "26W04"
+  }
+}

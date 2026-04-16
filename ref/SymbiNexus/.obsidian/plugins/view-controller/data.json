@@ -1,0 +1,39 @@
+{
+  "debugMode": false,
+  "rules": [
+    {
+      "path": "05-生活坐标系统/01-角色档案/月饼家族",
+      "mode": "source",
+      "jumpTarget": "heading",
+      "jumpParams": "%%",
+      "matchIndex": 1
+    },
+    {
+      "path": "01-经纬矩阵系统/08-智能录入模块/智能录入日志",
+      "mode": "reading",
+      "jumpTarget": "bottom",
+      "jumpParams": ""
+    },
+    {
+      "path": "05-生活坐标系统/01-角色档案/月饼家族/崽子成长监控面板",
+      "mode": "reading",
+      "jumpTarget": "none",
+      "jumpParams": "趋势"
+    },
+    {
+      "path": "01-经纬矩阵系统/08-智能录入模块/02-Require.md",
+      "mode": "live",
+      "jumpTarget": "bottom",
+      "jumpParams": "",
+      "matchIndex": 0
+    },
+    {
+      "path": "01-经纬矩阵系统/08-智能录入模块/03-智能录入看板.md",
+      "mode": "reading",
+      "jumpTarget": "none",
+      "jumpParams": "",
+      "matchIndex": 0
+    }
+  ],
+  "maxFileSizeForRegex": 100000
+}

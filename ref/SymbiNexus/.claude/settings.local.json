@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "WebSearch",
+      "WebFetch(domain:resources.anthropic.com)",
+      "Bash(cd D:\\\\Docements\\\\Obsidian Vault\\\\SymbiNexus:*)",
+      "Bash(claude mcp:*)"
+    ]
+  }
+}

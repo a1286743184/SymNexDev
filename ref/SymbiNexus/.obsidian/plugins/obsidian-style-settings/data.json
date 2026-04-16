@@ -1,0 +1,13 @@
+{
+  "things-style@@tag-background-color-d": "#81A295",
+  "things-style@@strong-color": "#998CC4",
+  "things-style@@em-color": "#56494E",
+  "things-style@@quote-color": "#373F40",
+  "things-style@@h1-color": "#512E5F",
+  "things-style@@h2-color": "#76448A",
+  "things-style@@h4-color": "#AF7AC5",
+  "things-style@@h3-color": "#9B59B6",
+  "things-style@@h5-color": "#998CC4",
+  "things-style@@code-normal": "#000000",
+  "things-style@@floating-button-off": true
+}

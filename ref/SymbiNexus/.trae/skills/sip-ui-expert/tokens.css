@@ -1,0 +1,241 @@
+/**
+ * SIP-UI Design System v2.0 - Design Tokens
+ * ==========================================
+ * 设计令牌是 SIP-UI 的视觉语言基础。
+ * 
+ * 使用规范：
+ * 1. 所有颜色必须使用变量，禁止硬编码
+ * 2. 间距使用 4px 基准的倍数系统
+ * 3. 圆角遵循语义化命名 (sm/md/lg/xl)
+ * 4. 阴影使用 CSS 变量便于主题切换
+ * 
+ * 版本: 2.0.0
+ * 主题: Soft Purple (柔和紫)
+ */
+
+:root {
+  /* ========================================
+     1. 色彩系统 (Color System)
+     ======================================== */
+  
+  /* --- 主色板 (Primary Palette) --- */
+  --sip-primary-50: #f5f3ff;
+  --sip-primary-100: #ede9fe;
+  --sip-primary-200: #ddd6fe;
+  --sip-primary-300: #c4b5fd;
+  --sip-primary-400: #baa8fe;  /* 主色 */
+  --sip-primary-500: #a894fc;
+  --sip-primary-600: #8b5cf6;  /* 强调色 */
+  --sip-primary-700: #7c3aed;
+  --sip-primary-800: #6d28d9;
+  --sip-primary-900: #5b21b6;
+  
+  /* --- 语义化主色 (Semantic Primary) --- */
+  --sip-primary: var(--sip-primary-400);
+  --sip-primary-hover: var(--sip-primary-500);
+  --sip-primary-active: var(--sip-primary-600);
+  --sip-primary-text: var(--sip-primary-600);
+  --sip-primary-muted: rgba(186, 168, 254, 0.15);
+  --sip-primary-subtle: rgba(186, 168, 254, 0.25);
+  --sip-primary-tint-1: rgba(186, 168, 254, 0.05);
+  --sip-primary-tint-2: rgba(186, 168, 254, 0.1);
+  
+  /* --- 表面色 (Surface Colors) --- */
+  --sip-surface: #f5f3ff;
+  --sip-surface-hover: #ede9fe;
+  --sip-surface-elevated: #ffffff;
+  
+  /* --- 发光效果 (Glow Effects) --- */
+  --sip-glow: rgba(186, 168, 254, 0.12);
+  --sip-glow-focus: rgba(186, 168, 254, 0.35);
+  --sip-glow-strong: rgba(186, 168, 254, 0.5);
+  
+  /* --- 功能色 (Functional Colors) --- */
+  --sip-success: #10b981;
+  --sip-success-light: #34d399;
+  --sip-success-muted: rgba(16, 185, 129, 0.15);
+  
+  --sip-warning: #f59e0b;
+  --sip-warning-light: #fbbf24;
+  --sip-warning-muted: rgba(245, 158, 11, 0.15);
+  
+  --sip-danger: #ef4444;
+  --sip-danger-light: #f87171;
+  --sip-danger-muted: rgba(239, 68, 68, 0.15);
+  
+  --sip-info: #3b82f6;
+  --sip-info-light: #60a5fa;
+  --sip-info-muted: rgba(59, 130, 246, 0.15);
+  
+  /* --- 文本色 (Text Colors) --- */
+  --sip-text-primary: var(--text-normal, #111827);
+  --sip-text-secondary: var(--text-muted, #64748b);
+  --sip-text-tertiary: var(--text-faint, #94a3b8);
+  --sip-text-inverse: #ffffff;
+  --sip-text-disabled: #cbd5e1;
+  
+  /* --- 背景色 (Background Colors) --- */
+  --sip-bg-primary: var(--background-primary, #ffffff);
+  --sip-bg-secondary: var(--background-secondary, #f8fafc);
+  --sip-bg-tertiary: var(--background-tertiary, #f1f5f9);
+  --sip-bg-hover: var(--background-modifier-hover, rgba(0, 0, 0, 0.05));
+  --sip-bg-active: var(--background-modifier-active, rgba(0, 0, 0, 0.08));
+  --sip-bg-input: var(--background-modifier-form-field, #ffffff);
+  
+  /* --- 边框色 (Border Colors) --- */
+  --sip-border: var(--background-modifier-border, rgba(0, 0, 0, 0.08));
+  --sip-border-hover: var(--background-modifier-border-hover, rgba(0, 0, 0, 0.12));
+  --sip-border-focus: var(--sip-primary-400);
+  
+  /* ========================================
+     2. 间距系统 (Spacing System)
+     基于 4px 基准的倍数系统
+     ======================================== */
+  --sip-space-0: 0;
+  --sip-space-1: 4px;
+  --sip-space-2: 8px;
+  --sip-space-3: 12px;
+  --sip-space-4: 16px;
+  --sip-space-5: 20px;
+  --sip-space-6: 24px;
+  --sip-space-8: 32px;
+  --sip-space-10: 40px;
+  --sip-space-12: 48px;
+  --sip-space-16: 64px;
+  
+  /* 语义化间距 */
+  --sip-gap-xs: var(--sip-space-1);
+  --sip-gap-sm: var(--sip-space-2);
+  --sip-gap-md: var(--sip-space-3);
+  --sip-gap-lg: var(--sip-space-4);
+  --sip-gap-xl: var(--sip-space-6);
+  
+  /* ========================================
+     3. 排版系统 (Typography System)
+     ======================================== */
+  --sip-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sip-font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+  
+  /* 字号 */
+  --sip-text-xs: 11px;
+  --sip-text-sm: 12px;
+  --sip-text-base: 13px;
+  --sip-text-md: 14px;
+  --sip-text-lg: 16px;
+  --sip-text-xl: 18px;
+  --sip-text-2xl: 20px;
+  --sip-text-3xl: 24px;
+  --sip-text-4xl: 30px;
+  
+  /* 字重 */
+  --sip-font-normal: 400;
+  --sip-font-medium: 500;
+  --sip-font-semibold: 600;
+  --sip-font-bold: 700;
+  --sip-font-extrabold: 800;
+  
+  /* 行高 */
+  --sip-leading-tight: 1.2;
+  --sip-leading-normal: 1.5;
+  --sip-leading-relaxed: 1.6;
+  
+  /* 标题规范 */
+  --sip-title-1-size: var(--sip-text-3xl);
+  --sip-title-1-weight: var(--sip-font-extrabold);
+  --sip-title-1-letter: -0.02em;
+  --sip-title-1-line: var(--sip-leading-tight);
+  
+  --sip-title-2-size: var(--sip-text-base);
+  --sip-title-2-weight: var(--sip-font-bold);
+  --sip-title-2-letter: 0;
+  --sip-title-2-line: var(--sip-leading-tight);
+  --sip-title-2-marker-w: 4px;
+  --sip-title-2-marker-h: 14px;
+  --sip-title-2-marker-radius: 3px;
+  
+  --sip-title-3-size: var(--sip-text-sm);
+  --sip-title-3-weight: var(--sip-font-semibold);
+  
+  /* ========================================
+     4. 圆角系统 (Border Radius)
+     ======================================== */
+  --sip-radius-sm: 6px;
+  --sip-radius-md: 8px;
+  --sip-radius-lg: 12px;
+  --sip-radius-xl: 16px;
+  --sip-radius-2xl: 20px;
+  --sip-radius-3xl: 24px;
+  --sip-radius-full: 9999px;
+  
+  /* ========================================
+     5. 阴影系统 (Shadow System)
+     ======================================== */
+  --sip-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --sip-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --sip-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --sip-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --sip-shadow-focus: 0 0 0 3px var(--sip-glow-focus);
+  --sip-shadow-primary: 0 4px 14px rgba(139, 92, 246, 0.25);
+  
+  /* ========================================
+     6. 过渡动画 (Transitions)
+     ======================================== */
+  --sip-duration-fast: 150ms;
+  --sip-duration-normal: 220ms;
+  --sip-duration-slow: 350ms;
+  
+  --sip-ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --sip-ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --sip-ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  
+  --sip-transition-fast: var(--sip-duration-fast) var(--sip-ease-default);
+  --sip-transition-normal: var(--sip-duration-normal) var(--sip-ease-default);
+  --sip-transition-spring: var(--sip-duration-normal) var(--sip-ease-spring);
+  
+  /* ========================================
+     7. Z-Index 层级
+     ======================================== */
+  --sip-z-base: 0;
+  --sip-z-dropdown: 100;
+  --sip-z-sticky: 200;
+  --sip-z-modal-backdrop: 500;
+  --sip-z-modal: 600;
+  --sip-z-popover: 700;
+  --sip-z-toast: 9999;
+}
+
+/* ========================================
+   深色模式适配 (Dark Mode)
+   ======================================== */
+.theme-dark {
+  /* 文本色反转 */
+  --sip-text-primary: var(--text-normal, #f1f5f9);
+  --sip-text-secondary: var(--text-muted, #cbd5e1);
+  --sip-text-tertiary: var(--text-faint, #94a3b8);
+  --sip-text-inverse: #111827;
+  
+  /* 背景色反转 */
+  --sip-bg-primary: var(--background-primary, #1e1e1e);
+  --sip-bg-secondary: var(--background-secondary, #252525);
+  --sip-bg-tertiary: var(--background-tertiary, #2a2a2a);
+  
+  /* 边框色调整 */
+  --sip-border: var(--background-modifier-border, rgba(255, 255, 255, 0.08));
+  --sip-border-hover: var(--background-modifier-border-hover, rgba(255, 255, 255, 0.12));
+  
+  /* 阴影调整 */
+  --sip-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --sip-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+  --sip-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================
+   无障碍支持
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sip-duration-fast: 0ms;
+    --sip-duration-normal: 0ms;
+    --sip-duration-slow: 0ms;
+  }
+}

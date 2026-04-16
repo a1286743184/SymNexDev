@@ -1,0 +1,53 @@
+{
+  "enabled": true,
+  "color": "#8B5CF6",
+  "desktopPosition": {
+    "bottom": 209.80639839172363,
+    "right": 259.0791893005371
+  },
+  "mobilePosition": {
+    "bottom": 199.51135063171387,
+    "right": 10.507810592651367
+  },
+  "quickbarDesktopOffset": {
+    "left": 0,
+    "down": 55
+  },
+  "quickbarMobileOffset": {
+    "left": 60,
+    "down": 108
+  },
+  "quickbarCommands": [
+    "app:reload",
+    "properties:open-local",
+    "command-orb:orb-script-048d6f01",
+    "command-orb:orb-script-af5a8548",
+    "command-orb:orb-script-15e1453b",
+    "smart-input-pro:smart-input"
+  ],
+  "quickbarLabels": [
+    "重加载",
+    "显示属性",
+    "图片转换开关",
+    "任务重排",
+    "学习计划更新",
+    "智能录入"
+  ],
+  "quickbarStarred": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    true
+  ],
+  "longPressMs": 400,
+  "clickMoveThreshold": 10,
+  "mobileOnly": false,
+  "settingsButtonAction": "obsidian",
+  "scriptFolder": "08-科技树系统/01-OB_LifeOS_Build/00-通用模块库/orb-scripts",
+  "position": {
+    "bottom": 300,
+    "right": 300
+  }
+}
